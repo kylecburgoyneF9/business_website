@@ -1,4 +1,7 @@
 import './assets/main.css'
+import './assets/main-consulting.css'
+import './assets/main-coaching.css'
+
 
 import { createApp } from 'vue'
 import { createPinia } from 'pinia'

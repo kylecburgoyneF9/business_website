@@ -7,7 +7,7 @@
         <nav class="navbar" :class="{ 'active': isMenuOpen }">
             <router-link to="/consulting">Consulting</router-link>
             <router-link to="/coaching">Coaching</router-link>
-            <router-link to="/partners">Partners</router-link>
+            <router-link to="/partners">Portfolio</router-link>
             <router-link to="#about">Reviews</router-link>
             <router-link to="/contact">Contact</router-link>
         </nav>

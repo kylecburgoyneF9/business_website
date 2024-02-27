@@ -34,7 +34,7 @@
     <h2 class="heading">My <span>Journey</span></h2>
 
     <div class="about-img">
-      <img src="../assets/Home/about.jpg" alt="">
+      <img src="../assets/Home/Self.jpeg" alt="">
       <span class="circle-spin"></span>
     </div>
 
@@ -147,8 +147,58 @@
     </div>
   </section>
 
-  <!-- 'experience' section design and elements -->
+  <!-- 'portfolio' section design and elements -->
+  <section class="portfolio" id="portfolio">
+    <div class="portfolio-header">
+      <h2 class="heading">Digital <span>Portfolio</span></h2>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium dolorum recusandae saepe magni
+        eveniet provident voluptate cupiditate sapiente vero numquam soluta non amet voluptatem ipsam eius quam
+        molestias pariatur, eaque a! Minus repudiandae sapiente asperiores aliquid magnam iste vel quis officiis
+        odio laudantium numquam minima, dolorem officia esse, quidem ipsa.
+      </p>
+    </div>
+    <div class="portfolio-contents">
+      <a href="https://www.youtube.com/channel/UCKlKCP8OuQVRArpZrzTd-xA" target="_blank"
+        class="portfolio-contents-consulting">Consulting</a>
+      <a href="https://www.youtube.com/channel/UCKlKCP8OuQVRArpZrzTd-xA" target="_blank"
+        class="portfolio-contents-coaching">Coaching</a>
+    </div>
+    <a href="#" class="universal-btn">Work Together</a>
+  </section>
 
+  <!-- 'reviews' section design and elements -->
+  <section class="reviews" id="reviews">
+    <h2 class="heading">My <span>Reviews</span></h2>
+    <div class="review-cards-container">
+      <div class="review-card-contents">
+        <div class="review-card-img">
+          <img src="../assets/Home/Self.jpeg" alt="">
+        </div>
+        <div class="review-card-text">
+          <h3>Name and Title</h3>
+          <p>Quote</p>
+        </div>
+      </div>
+      <div class="review-card-contents">
+        <div class="review-card-img">
+          <img src="../assets/Home/Self.jpeg" alt="">
+        </div>
+        <div class="review-card-text">
+          <h3>Name and Title</h3>
+          <p>Quote</p>
+        </div>
+      </div>
+      <div class="review-card-contents">
+        <div class="review-card-img">
+          <img src="../assets/Home/Self.jpeg" alt="">
+        </div>
+        <div class="review-card-text">
+          <h3>Name and Title</h3>
+          <p>Quote</p>
+        </div>
+      </div>
+    </div>
+  </section>
 
   <!-- 'contact' section design and elements -->
   <section class="contact" id="contact">

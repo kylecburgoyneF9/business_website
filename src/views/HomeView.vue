@@ -94,42 +94,48 @@
       Childhood Trauma</p>
 
     <div class="coaching-container">
-      <router-link to="/" class="coaching-box">
+      <router-link :to="{ path: '/coaching', hash: '#coaching-fitness' }" scroll="{ behavior: 'smooth' }"
+        class="coaching-box">
         <img src="../assets/Home/Fitness.webp" alt="">
         <div class="coaching-layer">
           <h4>Fitness & Health</h4>
           <p>Accomplish your fitness goals through discipline and consistency</p>
         </div>
       </router-link>
-      <router-link to="/" class="coaching-box">
+      <router-link :to="{ path: '/coaching', hash: '#coaching-masculinity' }" scroll="{ behavior: 'smooth' }"
+        class="coaching-box">
         <img src="../assets/Home/Masculinity.webp" alt="">
         <div class="coaching-layer">
           <h4>Masculinity & Confidence</h4>
           <p>Build the strongest and most confident version of yourself</p>
         </div>
       </router-link>
-      <router-link to="/" class="coaching-box">
+      <router-link :to="{ path: '/coaching', hash: '#coaching-relationships' }" scroll="{ behavior: 'smooth' }"
+        class="coaching-box">
         <img src="../assets/Home/Relationships.webp" alt="">
         <div class="coaching-layer">
           <h4>Relationships & Heartbreak</h4>
           <p>Improve your current relationship or rebuild yourself stronger than ever</p>
         </div>
       </router-link>
-      <router-link to="/" class="coaching-box">
+      <router-link :to="{ path: '/coaching', hash: '#coaching-career' }" scroll="{ behavior: 'smooth' }"
+        class="coaching-box">
         <img src="../assets/Home/Career.webp" alt="">
         <div class="coaching-layer">
           <h4>Career Development</h4>
           <p>Develop technical skills and improve your earnings potential</p>
         </div>
       </router-link>
-      <router-link to="/" class="coaching-box">
+      <router-link :to="{ path: '/coaching', hash: '#coaching-accountability' }" scroll="{ behavior: 'smooth' }"
+        class="coaching-box">
         <img src="../assets/Home/Accountability.webp" alt="">
         <div class="coaching-layer">
           <h4>Accountability</h4>
           <p>Find more discipline and self-control than you've ever known</p>
         </div>
       </router-link>
-      <router-link to="/" class="coaching-box">
+      <router-link :to="{ path: '/coaching', hash: '#coaching-childhood' }" scroll="{ behavior: 'smooth' }"
+        class="coaching-box">
         <img src="../assets/Home/Childhood.webp" alt="">
         <div class="coaching-layer">
           <h4>Childhood Trauma</h4>

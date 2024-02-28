@@ -1,4 +1,8 @@
 import './assets/main.css'
+import './assets/main-consulting.css'
+import './assets/main-coaching.css'
+import '../node_modules/boxicons'
+
 
 import { createApp } from 'vue'
 import { createPinia } from 'pinia'

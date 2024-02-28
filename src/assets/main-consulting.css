@@ -6,12 +6,15 @@
     --dk-blue: #081B29;
 }
 
+.consulting-services-section {
+    background: var(--second-bg-color);
+}
+
 .consulting-header {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 0 9%;
-    /*background: url('./Home/home.jpg') no-repeat;*/
     background-color: var(--dk-blue);
     background-size: cover;
     background-position: center;
@@ -127,15 +130,6 @@
     object-fit: cover;
 }
 
-/* Add a hover effect to scale the images */
-.consulting-services-img img:hover {
-    transform: scale(1.1);
-    /* Increase the scale factor as desired */
-    transition: transform 0.3s ease;
-    /* Add a smooth transition effect */
-}
-
-
 .consulting-services-content {
     display: flex;
     flex-direction: column;
@@ -213,7 +207,7 @@
 }
 
 .border-div {
-    border: 3px solid var(--main-color);
+    border: 3px solid var(--dk-blue);
     padding: 0rem;
 }
 

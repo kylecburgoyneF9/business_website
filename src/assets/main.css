@@ -88,7 +88,6 @@ section {
   display: flex;
   align-items: center;
   padding: 0 9%;
-  /*background: url('./Home/home.jpg') no-repeat;*/
   background-color: var(--dk-blue);
   background-size: cover;
   background-position: center;
@@ -434,6 +433,7 @@ span {
   margin-bottom: 4rem;
   font-size: 1.5rem;
   text-align: center;
+  font-weight: 600;
 }
 
 .coaching-container {
@@ -556,7 +556,17 @@ span {
   background: var(--second-bg-color);
 }
 
-.review-cards-container {}
+.review-cards-container {
+  display: flex;
+  flex-direction: column;
+  /* Ensure cards stack vertically */
+  align-items: center;
+  /* Center cards horizontally */
+}
+
+.reviews h2 {
+  margin-bottom: 4rem;
+}
 
 .review-cards-container .review-card-contents {
   display: flex;
@@ -592,6 +602,7 @@ span {
 
 .portfolio>.universal-btn {
   max-width: 250px;
+  margin-bottom: 5rem;
 }
 
 .btn-box.btns {

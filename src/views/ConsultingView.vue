@@ -8,61 +8,65 @@
                 debitis ipsam quasi, natus quibusdam officiis fugit repellat veniam totam asperiores doloremque nobis.
             </p>
             <div class="consulting-header-content-btns">
-                <a href="#" class="btn">Fractional CFO Services</a>
-                <a href="#" class="btn">Automations Solution</a>
-                <a href="#" class="btn">Integrations Solutions</a>
-                <a href="#" class="btn">Web Development Services</a>
+                <router-link to="#consulting-fractional-cfo" scroll="{ behavior: 'smooth' }" class="btn">Fractional CFO
+                    Services</router-link>
+                <router-link to="#consulting-automation-solutions" scroll="{ behavior: 'smooth' }" class="btn">Automations
+                    Solution</router-link>
+                <router-link to="#consulting-integration-services" scroll="{ behavior: 'smooth' }" class="btn">Integrations
+                    Solutions</router-link>
+                <router-link to="#consulting-web-development" scroll="{ behavior: 'smooth' }" class="btn">Web Development
+                    Services</router-link>
             </div>
         </div>
     </section>
-    <section>
-        <div class="border-div">
+    <section class="consulting-services-section">
+        <div class="border-div" style="margin-bottom: 6rem;">
             <div class="consulting-services">
-                <div class="consulting-services-img">
-                    <img src="../assets/Home/portfolio1.jpg" alt="">
+                <div class="consulting-services-img" id="consulting-fractional-cfo">
+                    <img src="../assets/Home/Finance.jpg" alt="">
                 </div>
                 <div class="consulting-services-content">
-                    <h3>Header Testing</h3>
+                    <h3>Fractional CFO Services</h3>
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa necessitatibus, minima quod nemo
                         deserunt nam in praesentium voluptatibus amet distinctio enim dolores excepturi accusamus ad
                         expedita numquam sunt est a tenetur eligendi. Voluptatibus, architecto quia.</p>
-                    <a href="#" class="universal-btn">Work Together</a>
+                    <a href="#contact" class="universal-btn">Work Together</a>
                 </div>
             </div>
             <div class="consulting-services">
-                <div class="consulting-services-content">
-                    <h3>Header Testing</h3>
+                <div class="consulting-services-content" id="consulting-automation-solutions">
+                    <h3>Automation Solutions</h3>
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa necessitatibus, minima quod nemo
                         deserunt nam in praesentium voluptatibus amet distinctio enim dolores excepturi accusamus ad
                         expedita numquam sunt est a tenetur eligendi. Voluptatibus, architecto quia.</p>
-                    <a href="#" class="universal-btn">Work Together</a>
+                    <a href="#contact" class="universal-btn">Work Together</a>
                 </div>
                 <div class="consulting-services-img">
-                    <img src="../assets/Home/portfolio2.jpg" alt="">
+                    <img src="../assets/Home/Computer1.jpg" alt="">
                 </div>
             </div>
             <div class="consulting-services">
                 <div class="consulting-services-img">
-                    <img src="../assets/Home/portfolio3.jpg" alt="">
+                    <img src="../assets/Home/Computer4.jpg" alt="">
                 </div>
-                <div class="consulting-services-content">
-                    <h3>Header Testing</h3>
+                <div class="consulting-services-content" id="consulting-integration-services">
+                    <h3>Integration Solutions</h3>
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa necessitatibus, minima quod nemo
                         deserunt nam in praesentium voluptatibus amet distinctio enim dolores excepturi accusamus ad
                         expedita numquam sunt est a tenetur eligendi. Voluptatibus, architecto quia.</p>
-                    <a href="#" class="universal-btn">Work Together</a>
+                    <a href="#contact" class="universal-btn">Work Together</a>
                 </div>
             </div>
             <div class="consulting-services">
-                <div class="consulting-services-content">
-                    <h3>Header Testing</h3>
+                <div class="consulting-services-content" id="consulting-web-development">
+                    <h3>Web & Application Development</h3>
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa necessitatibus, minima quod nemo
                         deserunt nam in praesentium voluptatibus amet distinctio enim dolores excepturi accusamus ad
                         expedita numquam sunt est a tenetur eligendi. Voluptatibus, architecto quia.</p>
-                    <a href="#" class="universal-btn">Work Together</a>
+                    <a href="#contact" class="universal-btn">Work Together</a>
                 </div>
                 <div class="consulting-services-img">
-                    <img src="../assets/Home/portfolio4.jpg" alt="">
+                    <img src="../assets/Home/Computer2.jpg" alt="">
                 </div>
             </div>
         </div>
@@ -94,6 +98,9 @@
                 <button type="submit" class="btn">Submit</button>
             </div>
         </form>
-</section></template>
-<script setup></script>
+    </section>
+</template>
+<script setup>
+import { RouterLink } from 'vue-router';
+</script>
 <style scoped></style>

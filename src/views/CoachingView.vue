@@ -8,55 +8,101 @@
                 debitis ipsam quasi, natus quibusdam officiis fugit repellat veniam totam asperiores doloremque nobis.
             </p>
             <div class="coaching-header-content-btns">
-                <a href="#" class="btn">Fitness & Health</a>
-                <a href="#" class="btn">Masculinity & Confidence</a>
-                <a href="#" class="btn">Relationships & Heartbreak</a>
-                <a href="#" class="btn">Career Development</a>
-                <a href="#" class="btn">Accountability Coaching</a>
-                <a href="#" class="btn">Childhood Trauma</a>
+                <router-link to="#coaching-fitness" scroll="{ behavior: 'smooth' }" class="btn">Fitness &
+                    Health</router-link>
+                <router-link to="#coaching-masculinity" scroll="{ behavior: 'smooth' }" class="btn">Masculinity &
+                    Confidence</router-link>
+                <router-link to="#coaching-relationships" scroll="{ behavior: 'smooth' }" class="btn">Relationships &
+                    Heartbreak</router-link>
+                <router-link to="#coaching-career" scroll="{ behavior: 'smooth' }" class="btn">Career
+                    Development</router-link>
+                <router-link to="#coaching-accountability" scroll="{ behavior: 'smooth' }" class="btn">Accountability
+                    Coaching</router-link>
+                <router-link to="#coaching-childhood" scroll="{ behavior: 'smooth' }" class="btn">Childhood
+                    Trauma</router-link>
             </div>
         </div>
     </section>
-    <section>
-        <div class="coaching-services">
-            <div class="coaching-services-img"></div>
-            <div class="coaching-services-content">
-                <h3>Header Testing</h3>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa necessitatibus, minima quod nemo deserunt
-                    nam in praesentium voluptatibus amet distinctio enim dolores excepturi accusamus ad expedita numquam
-                    sunt est a tenetur eligendi. Voluptatibus, architecto quia.</p>
-                <a href="#" class="universal-btn">Work Together</a>
+    <section class="coaching-services-section">
+        <div class="border-div" style="margin-bottom: 6rem;">
+            <div class="coaching-services">
+                <div class="coaching-services-img" id="coaching-fitness">
+                    <img src="../assets/Home/Fitness.webp" alt="">
+                </div>
+                <div class="coaching-services-content">
+                    <h3>Fitness &
+                        Health</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa necessitatibus, minima quod nemo
+                        deserunt nam in praesentium voluptatibus amet distinctio enim dolores excepturi accusamus ad
+                        expedita numquam sunt est a tenetur eligendi. Voluptatibus, architecto quia.</p>
+                    <a href="#contact" class="universal-btn">Work Together</a>
+                </div>
             </div>
-        </div>
-        <div class="coaching-services">
-            <div class="coaching-services-content">
-                <h3>Header Testing</h3>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa necessitatibus, minima quod nemo deserunt
-                    nam in praesentium voluptatibus amet distinctio enim dolores excepturi accusamus ad expedita numquam
-                    sunt est a tenetur eligendi. Voluptatibus, architecto quia.</p>
-                <a href="#" class="universal-btn">Work Together</a>
+            <div class="coaching-services">
+                <div class="coaching-services-content" id="coaching-masculinity">
+                    <h3>Masculinity &
+                        Confidence</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa necessitatibus, minima quod nemo
+                        deserunt nam in praesentium voluptatibus amet distinctio enim dolores excepturi accusamus ad
+                        expedita numquam sunt est a tenetur eligendi. Voluptatibus, architecto quia.</p>
+                    <a href="#contact" class="universal-btn">Work Together</a>
+                </div>
+                <div class="coaching-services-img">
+                    <img src="../assets/Home/Masculinity.webp" alt="">
+                </div>
             </div>
-            <div class="coaching-services-img"></div>
-        </div>
-        <div class="coaching-services">
-            <div class="coaching-services-img"></div>
-            <div class="coaching-services-content">
-                <h3>Header Testing</h3>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa necessitatibus, minima quod nemo deserunt
-                    nam in praesentium voluptatibus amet distinctio enim dolores excepturi accusamus ad expedita numquam
-                    sunt est a tenetur eligendi. Voluptatibus, architecto quia.</p>
-                <a href="#" class="universal-btn">Work Together</a>
+            <div class="coaching-services">
+                <div class="coaching-services-img">
+                    <img src="../assets/Home/Relationships.webp" alt="" id="coaching-relationships">
+                </div>
+                <div class="coaching-services-content">
+                    <h3>Relationships &
+                        Heartbreak</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa necessitatibus, minima quod nemo
+                        deserunt nam in praesentium voluptatibus amet distinctio enim dolores excepturi accusamus ad
+                        expedita numquam sunt est a tenetur eligendi. Voluptatibus, architecto quia.</p>
+                    <a href="#contact" class="universal-btn">Work Together</a>
+                </div>
             </div>
-        </div>
-        <div class="coaching-services">
-            <div class="coaching-services-content">
-                <h3>Header Testing</h3>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa necessitatibus, minima quod nemo deserunt
-                    nam in praesentium voluptatibus amet distinctio enim dolores excepturi accusamus ad expedita numquam
-                    sunt est a tenetur eligendi. Voluptatibus, architecto quia.</p>
-                <a href="#" class="universal-btn">Work Together</a>
+            <div class="coaching-services">
+                <div class="coaching-services-content" id="coaching-career">
+                    <h3>Career
+                        Development</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa necessitatibus, minima quod nemo
+                        deserunt nam in praesentium voluptatibus amet distinctio enim dolores excepturi accusamus ad
+                        expedita numquam sunt est a tenetur eligendi. Voluptatibus, architecto quia.</p>
+                    <a href="#contact" class="universal-btn">Work Together</a>
+                </div>
+                <div class="coaching-services-img">
+                    <img src="../assets/Home/Career.webp" alt="">
+                </div>
             </div>
-            <div class="coaching-services-img"></div>
+            <div class="coaching-services">
+                <div class="coaching-services-img">
+                    <img src="../assets/Home/Accountability.webp" alt="" id="coaching-accountability">
+                </div>
+                <div class="coaching-services-content">
+                    <h3>Accountability
+                        Coaching</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa necessitatibus, minima quod nemo
+                        deserunt nam in praesentium voluptatibus amet distinctio enim dolores excepturi accusamus ad
+                        expedita numquam sunt est a tenetur eligendi. Voluptatibus, architecto quia.</p>
+                    <a href="#contact" class="universal-btn">Work Together</a>
+                </div>
+            </div>
+            <div class="coaching-services">
+                <div class="coaching-services-content" id="coaching-childhood">
+                    <h3>Childhood
+                        Trauma</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa necessitatibus, minima quod nemo
+                        deserunt nam in praesentium voluptatibus amet distinctio enim dolores excepturi accusamus ad
+                        expedita numquam sunt est a tenetur eligendi. Voluptatibus, architecto quia.</p>
+                    <a href="#contact" class="universal-btn">Work Together</a>
+                </div>
+                <div class="coaching-services-img">
+                    <img src="../assets/Home/Childhood.webp" alt="">
+                </div>
+            </div>
         </div>
     </section>
     <!-- 'contact' section design and elements -->
@@ -86,6 +132,9 @@
                 <button type="submit" class="btn">Submit</button>
             </div>
         </form>
-</section></template>
-<script setup></script>
+    </section>
+</template>
+<script setup>
+import { RouterLink } from 'vue-router';
+</script>
 <style scoped></style>

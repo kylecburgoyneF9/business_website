@@ -7,9 +7,9 @@
         <nav class="navbar" :class="{ 'active': isMenuOpen }">
             <router-link to="/consulting">Consulting</router-link>
             <router-link to="/coaching">Coaching</router-link>
-            <router-link to="/partners">Portfolio</router-link>
-            <router-link to="#about">Reviews</router-link>
-            <router-link to="/contact">Contact</router-link>
+            <router-link :to="{ path: '/', hash: '#portfolio' }" scroll="{ behavior: 'smooth' }">Portfolio</router-link>
+            <router-link :to="{ path: '/', hash: '#reviews' }" scroll="{ behavior: 'smooth' }">Reviews</router-link>
+            <router-link to="#contact">Contact</router-link>
         </nav>
     </header>
 </template>

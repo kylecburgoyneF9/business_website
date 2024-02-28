@@ -11,8 +11,8 @@
       </p>
 
       <div class="btn-box">
-        <a href="#" class="btn">Let's Talk</a>
-        <a href="#" class="btn">Minnect</a>
+        <a href="#contact" class="btn">Let's Talk</a>
+        <a href="https://minnect.com/become-an-expert/#download" target="_blank" class="btn">Minnect</a>
         <a href="../assets/Kyle_Burgoyne_CV_2024.pdf" class="btn" download="../assets/Kyle_Burgoyne_CV_2024.pdf">Download
           CV</a>
       </div>
@@ -56,25 +56,29 @@
     <h2 class="heading">Consulting <span>Services</span></h2>
 
     <div class="services-container">
-      <router-link to="/" class="services-box">
+      <router-link :to="{ path: '/consulting', hash: '#consulting-fractional-cfo' }" scroll="{ behavior: 'smooth' }"
+        class="services-box">
         <box-icon name='line-chart'></box-icon>
         <h3>Fractional CFO Services</h3>
         <p>Leverage my financial modeling, accounting, and data analysis expertise to unlock strategic insights for your
           business.</p>
       </router-link>
-      <router-link to="/" class="services-box">
+      <router-link :to="{ path: '/consulting', hash: '#consulting-automation-solutions' }" scroll="{ behavior: 'smooth' }"
+        class="services-box">
         <box-icon name='cog' type='solid'></box-icon>
         <h3>Automation Solutions</h3>
         <p>Upgrade your workflows with the latest AI and automation solutions available. (VBA Macros, MS Power Automate,
           APIs)</p>
       </router-link>
-      <router-link to="/" class="services-box">
+      <router-link :to="{ path: '/consulting', hash: '#consulting-integration-solutions' }"
+        scroll="{ behavior: 'smooth' }" class="services-box">
         <box-icon name='intersect'></box-icon>
         <h3>Integration Solutions</h3>
         <p>Unlock your organization's potential by bridging the gap between disparate IT systems with integration
           solutions.</p>
       </router-link>
-      <router-link to="/" class="services-box">
+      <router-link :to="{ path: '/consulting', hash: '#consulting-web-development' }" scroll="{ behavior: 'smooth' }"
+        class="services-box">
         <box-icon name='line-chart'></box-icon>
         <h3>Web & Application Development</h3>
         <p>Leverage my financial modeling, accounting, and data analysis expertise to unlock strategic insights for your
@@ -151,7 +155,7 @@
       <a href="https://www.youtube.com/channel/UCKlKCP8OuQVRArpZrzTd-xA" target="_blank"
         class="portfolio-contents-coaching">Coaching</a>
     </div>
-    <a href="#" class="universal-btn">Work Together</a>
+    <a href="#contact" class="universal-btn">Work Together</a>
   </section>
 
   <!-- 'reviews' section design and elements -->
@@ -226,26 +230,31 @@ import { RouterLink } from 'vue-router';
 import { onMounted } from 'vue';
 
 onMounted(() => {
-  // Get all the h3 elements
-  const h3Elements = document.querySelectorAll('.services-container .services-box h3');
+  const servicesBoxes = document.querySelectorAll('.services-container .services-box');
 
-  // Initialize a variable to keep track of the tallest height
-  let tallestHeight = 0;
+  // Initialize variables to keep track of the tallest heights for h3 and p tags
+  let tallestH3Height = 0;
+  let tallestPHeight = 0;
 
-  // Loop through each h3 element to find the tallest one
-  h3Elements.forEach(h3Element => {
-    // Get the height of the current h3 element
-    const height = h3Element.offsetHeight;
+  // Loop through each services box
+  servicesBoxes.forEach(box => {
+    // Get the height of the h3 and p elements within the current box
+    const h3Height = box.querySelector('h3').offsetHeight;
+    const pHeight = box.querySelector('p').offsetHeight;
 
-    // Update the tallestHeight if the current height is taller
-    if (height > tallestHeight) {
-      tallestHeight = height;
+    // Update the tallest heights if the current heights are taller
+    if (h3Height > tallestH3Height) {
+      tallestH3Height = h3Height;
+    }
+    if (pHeight > tallestPHeight) {
+      tallestPHeight = pHeight;
     }
   });
 
-  // Set the min-height of all h3 elements to the tallest height found
-  h3Elements.forEach(h3Element => {
-    h3Element.style.minHeight = tallestHeight + 'px';
+  // Set the min-height of all h3 and p elements within each box to the tallest heights found
+  servicesBoxes.forEach(box => {
+    box.querySelector('h3').style.minHeight = tallestH3Height + 'px';
+    box.querySelector('p').style.minHeight = tallestPHeight + 'px';
   });
 });
 </script>

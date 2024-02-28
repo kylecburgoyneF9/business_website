@@ -1,9 +1,20 @@
+:root {
+    --bg-color: #f5f5dc;
+    --second-bg-color: #b7a7a5;
+    --text-color: #545454;
+    --main-color: #ff6b6b;
+    --dk-blue: #081B29;
+}
+
+.coaching-services-section {
+    background: var(--second-bg-color);
+}
+
 .coaching-header {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 0 9%;
-    /*background: url('./Home/home.jpg') no-repeat;*/
     background-color: var(--dk-blue);
     background-size: cover;
     background-position: center;
@@ -104,8 +115,6 @@
 }
 
 .coaching-services-img {
-    background-image: url('../assets/Home/portfolio1.jpg');
-    /* Replace 'path_to_your_image.jpg' with the actual path to your image */
     background-size: cover;
     background-position: center;
     height: 200px;
@@ -114,21 +123,30 @@
     /* Adjust the width as needed */
 }
 
+/* Adjust the sizing of the images */
+.coaching-services-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
 .coaching-services-content {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: justify;
-    padding-left: 2rem;
-    padding-right: 2rem;
+    width: 50%;
+    /*background: #b7a7a5;*/
+    background: lightgray;
 }
 
 .coaching-services-content h3 {
     font-size: 2.6rem;
     font-weight: 600;
     line-height: 1.3;
-    color: var(--main-color);
+    color: #545454;
+    ;
     margin-bottom: 10px;
     /* Add spacing between h3 and p */
 }
@@ -139,6 +157,8 @@
     /* Adjust line height as needed */
     margin-bottom: 30px;
     /* Add spacing between paragraphs */
+    padding-left: 2rem;
+    padding-right: 2rem;
 }
 
 /* Universal button styles */
@@ -184,4 +204,42 @@
     color: var(--main-color);
     scale: 1.02;
     box-shadow: none;
+}
+
+.border-div {
+    border: 3px solid var(--dk-blue);
+    padding: 0rem;
+}
+
+@media only screen and (max-width: 600px) {
+    .coaching-services {
+        flex-direction: column;
+    }
+
+    .coaching-services>div {
+        width: 100%;
+        /* Each div takes full width */
+        height: auto;
+        /* Auto height */
+    }
+
+    .coaching-services-img,
+    .coaching-services-content {
+        width: 100%;
+        /* Set width to 100% */
+        height: auto;
+        /* Auto height */
+    }
+
+    .coaching-services-content {
+        padding: 20px;
+        /* Add padding for better spacing */
+    }
+
+    .universal-btn {
+        width: 100%;
+        /* Make button full width */
+        margin-top: 20px;
+        /* Add margin at the top for spacing */
+    }
 }

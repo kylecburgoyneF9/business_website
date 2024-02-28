@@ -76,21 +76,9 @@
       </router-link>
       <router-link to="/" class="services-box">
         <box-icon name='line-chart'></box-icon>
-        <h3>Fractional CFO Services</h3>
+        <h3>Web & Application Development</h3>
         <p>Leverage my financial modeling, accounting, and data analysis expertise to unlock strategic insights for your
           business.</p>
-      </router-link>
-      <router-link to="/" class="services-box">
-        <box-icon name='cog' type='solid'></box-icon>
-        <h3>Automation Solutions</h3>
-        <p>Upgrade your workflows with the latest AI and automation solutions available. (VBA Macros, MS Power Automate,
-          APIs)</p>
-      </router-link>
-      <router-link to="/" class="services-box">
-        <box-icon name='intersect'></box-icon>
-        <h3>Integration Solutions</h3>
-        <p>Unlock your organization's potential by bridging the gap between disparate IT systems with integration
-          solutions.</p>
       </router-link>
     </div>
   </section>
@@ -103,42 +91,42 @@
 
     <div class="coaching-container">
       <router-link to="/" class="coaching-box">
-        <img src="../assets/Home/portfolio1.jpg" alt="">
+        <img src="../assets/Home/Fitness.webp" alt="">
         <div class="coaching-layer">
           <h4>Fitness & Health</h4>
           <p>Accomplish your fitness goals through discipline and consistency</p>
         </div>
       </router-link>
       <router-link to="/" class="coaching-box">
-        <img src="../assets/Home/portfolio2.jpg" alt="">
+        <img src="../assets/Home/Masculinity.webp" alt="">
         <div class="coaching-layer">
           <h4>Masculinity & Confidence</h4>
           <p>Build the strongest and most confident version of yourself</p>
         </div>
       </router-link>
       <router-link to="/" class="coaching-box">
-        <img src="../assets/Home/portfolio3.jpg" alt="">
+        <img src="../assets/Home/Relationships.webp" alt="">
         <div class="coaching-layer">
           <h4>Relationships & Heartbreak</h4>
           <p>Improve your current relationship or rebuild yourself stronger than ever</p>
         </div>
       </router-link>
       <router-link to="/" class="coaching-box">
-        <img src="../assets/Home/portfolio4.jpg" alt="">
+        <img src="../assets/Home/Career.webp" alt="">
         <div class="coaching-layer">
           <h4>Career Development</h4>
           <p>Develop technical skills and improve your earnings potential</p>
         </div>
       </router-link>
       <router-link to="/" class="coaching-box">
-        <img src="../assets/Home/portfolio5.jpg" alt="">
+        <img src="../assets/Home/Accountability.webp" alt="">
         <div class="coaching-layer">
           <h4>Accountability</h4>
           <p>Find more discipline and self-control than you've ever known</p>
         </div>
       </router-link>
       <router-link to="/" class="coaching-box">
-        <img src="../assets/Home/portfolio6.jpg" alt="">
+        <img src="../assets/Home/Childhood.webp" alt="">
         <div class="coaching-layer">
           <h4>Childhood Trauma</h4>
           <p>Heal your wounded inner child and shatter your limiting beliefs</p>
@@ -176,7 +164,8 @@
         </div>
         <div class="review-card-text">
           <h3>Name and Title</h3>
-          <p>Quote</p>
+          <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas commodi asperiores doloremque perspiciatis
+            voluptatum sunt totam esse at repudiandae autem!"</p>
         </div>
       </div>
       <div class="review-card-contents">
@@ -185,7 +174,8 @@
         </div>
         <div class="review-card-text">
           <h3>Name and Title</h3>
-          <p>Quote</p>
+          <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas commodi asperiores doloremque perspiciatis
+            voluptatum sunt totam esse at repudiandae autem!"</p>
         </div>
       </div>
       <div class="review-card-contents">
@@ -194,7 +184,8 @@
         </div>
         <div class="review-card-text">
           <h3>Name and Title</h3>
-          <p>Quote</p>
+          <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas commodi asperiores doloremque perspiciatis
+            voluptatum sunt totam esse at repudiandae autem!"</p>
         </div>
       </div>
     </div>

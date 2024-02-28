@@ -391,6 +391,7 @@ span {
   border-radius: 2rem;
   text-align: center;
   border: .2rem solid var(--main-color);
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.1);
   transition: .5s ease;
   cursor: pointer;
   /* Change cursor to pointer */
@@ -445,9 +446,10 @@ span {
 .coaching-container .coaching-box {
   position: relative;
   border-radius: 2rem;
-  box-shadow: 0 0 1rem var(--bg-color);
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.1);
   overflow: hidden;
   display: flex;
+  border: var(--dk-blue) solid 1px;
 }
 
 .coaching-box img {
@@ -512,7 +514,8 @@ span {
   height: calc(100vh - 200px);
   /* Adjust the height as needed */
   margin-bottom: 6rem;
-  gap: 1.5rem;
+  gap: 2.5rem;
+  justify-content: center;
 }
 
 .portfolio-header p {
@@ -532,6 +535,9 @@ span {
   transition: transform 0.6s ease, box-shadow 0.3s ease;
   /* Add transition for scaling and box shadow */
   cursor: pointer;
+  max-width: 500px;
+  min-height: 200px;
+  min-width: 200px;
 }
 
 .portfolio-contents>a:hover {
@@ -546,7 +552,9 @@ span {
   /* Add a border on hover */
 }
 
-.reviews {}
+.reviews {
+  background: var(--second-bg-color);
+}
 
 .review-cards-container {}
 
@@ -555,8 +563,12 @@ span {
   align-items: center;
   background-color: lightgray;
   padding: 2rem;
-  border-radius: 5%;
+  /*border-radius: 5%;*/
   margin-bottom: 2rem;
+  padding: 10px 20px;
+  gap: 2rem;
+  border: var(--dk-blue) solid 1.5px;
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.1);
 }
 
 .review-cards-container .review-card-contents .review-card-img img {
@@ -564,10 +576,22 @@ span {
   border: var(--dk-blue) solid;
 }
 
+.review-cards-container .review-card-contents .review-card-text h3 {
+  font-size: 2.6rem;
+}
+
+.review-cards-container .review-card-contents .review-card-text p {
+  font-size: 1.5rem;
+}
+
 .portfolio-contents-consulting,
 .portfolio-contents-coaching {
   padding: 1rem;
   /* Optional: Add additional styling specific to each subsection */
+}
+
+.portfolio>.universal-btn {
+  max-width: 250px;
 }
 
 .btn-box.btns {
@@ -823,6 +847,19 @@ span {
     pointer-events: none;
     background: var(--bg-color);
     opacity: .6;
+  }
+
+  .portfolio-contents {
+    flex-direction: column;
+    align-items: center;
+    /* Stack items vertically on smaller screens */
+  }
+
+  .portfolio-contents>a {
+    width: 100%;
+    /* Set anchor tags to full width */
+    margin-bottom: 1rem;
+    /* Add spacing between stacked items */
   }
 
 }

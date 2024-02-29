@@ -102,9 +102,61 @@
     box-shadow: none;
 }
 
+.coaching-about {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: var(--bg-color);
+    padding-bottom: 6rem;
+}
+
+.wrapper1 img {
+    display: none;
+}
+
+.wrapper {
+    padding-top: 2rem;
+}
+
+.wrapper img {
+    width: 100%;
+    max-width: 550px;
+    /* Adjust the width of the image as needed */
+    height: auto;
+    border-radius: 10px;
+    border: .2rem solid var(--main-color);
+    margin-left: 2rem;
+    /* Add margin to create space between text and image */
+    float: right;
+    /* Float the image to the right */
+}
+
+.text-box h3 {
+    font-size: 2.6rem;
+}
+
+.text-box p {
+    font-size: 1.6rem;
+    margin: 0rem;
+    /* Adjust margin as needed */
+    margin-bottom: 3rem;
+    text-align: justify;
+    /* Add margin to bottom */
+}
+
 .coaching-services {
     display: flex;
-    /* Use flexbox layout */
+}
+
+.coaching-services-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+a.universal-btn.minnect-btn {
+    width: calc(25% - 7px);
+    margin-bottom: 4rem;
 }
 
 .coaching-services>div {
@@ -211,7 +263,7 @@
     padding: 0rem;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
     .coaching-services {
         flex-direction: column;
     }
@@ -241,5 +293,40 @@
         /* Make button full width */
         margin-top: 20px;
         /* Add margin at the top for spacing */
+    }
+
+    .wrapper img {
+        display: none;
+    }
+
+    .wrapper1 img {
+        float: none;
+        margin: 0 auto;
+        /* Center the image */
+        width: 100%;
+        max-width: 575px;
+        display: block;
+        border-radius: 10px;
+        border: .2rem solid var(--main-color);
+        /* Set max width */
+    }
+}
+
+
+@media only screen and (max-width: 900px) {
+    .wrapper img {
+        display: none;
+    }
+
+    .wrapper1 img {
+        float: none;
+        margin: 0 auto;
+        /* Center the image */
+        width: 100%;
+        max-width: 575px;
+        display: block;
+        border-radius: 10px;
+        border: .2rem solid var(--main-color);
+        /* Set max width */
     }
 }

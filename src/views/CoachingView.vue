@@ -23,7 +23,53 @@
             </div>
         </div>
     </section>
+
+    <!-- 'about' section design and elements -->
+    <section class="coaching-about" id="journey">
+        <h2 class="heading">Path to <span>Success</span></h2>
+        <div>
+            <div class="wrapper">
+                <img src="../assets/Home/1. Opener.jpg" alt="">
+            </div>
+            <div class="text-box">
+                <!--<h3>Header</h3>-->
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam voluptate mollitia laboriosam aut
+                    explicabo
+                    dolorem sit, voluptas voluptatibus tempora dignissimos numquam autem illum earum ab nulla dicta alias
+                    nesciunt fuga!
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam voluptate mollitia laboriosam aut
+                    explicabo
+                    dolorem sit, voluptas voluptatibus tempora dignissimos numquam autem illum earum ab nulla dicta alias
+                    nesciunt fuga!
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam voluptate mollitia laboriosam aut
+                    explicabo
+                    dolorem sit, voluptas voluptatibus tempora dignissimos numquam autem illum earum ab nulla dicta alias
+                    nesciunt fuga!
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam voluptate mollitia laboriosam aut
+                    explicabo
+                    dolorem sit, voluptas voluptatibus tempora dignissimos numquam autem illum earum ab nulla dicta alias
+                    nesciunt fuga!
+
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa necessitatibus, minima quod nemo
+                    deserunt nam in praesentium voluptatibus amet distinctio enim dolores excepturi accusamus ad
+                    expedita numquam sunt est a tenetur eligendi. Voluptatibus, architecto quia.
+
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa necessitatibus, minima quod nemo
+                    deserunt nam in praesentium voluptatibus amet distinctio enim dolores excepturi accusamus ad
+                    expedita numquam sunt est a tenetur eligendi. Voluptatibus, architecto quia.
+                </p>
+            </div>
+            <div class="wrapper1">
+                <img src="../assets/Home/1. Opener.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
     <section class="coaching-services-section">
+        <h2 class="heading">Coaching <span>Services</span></h2>
+        <a href="https://minnect.com/become-an-expert/#download" target="_blank" class="universal-btn minnect-btn">Connect
+            on
+            Minnect</a>
         <div class="border-div" style="margin-bottom: 6rem;">
             <div class="coaching-services">
                 <div class="coaching-services-img" id="coaching-fitness">
@@ -96,7 +142,7 @@
                         Trauma</h3>
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa necessitatibus, minima quod nemo
                         deserunt nam in praesentium voluptatibus amet distinctio enim dolores excepturi accusamus ad
-                        expedita numquam sunt est a tenetur eligendi. Voluptatibus, architecto quia.</p>
+                        expedita numquam sunt est a tenetur eligendi. Voluptatibus, architecto quia. </p>
                     <a href="#contact" class="universal-btn">Work Together</a>
                 </div>
                 <div class="coaching-services-img">

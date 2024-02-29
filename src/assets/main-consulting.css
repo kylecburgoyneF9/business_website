@@ -102,6 +102,54 @@
     box-shadow: none;
 }
 
+.consulting-about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    background: var(--second-bg-color);
+    padding-bottom: 6rem;
+}
+
+.consulting-about-img {
+    position: relative;
+    width: 25rem;
+    /* Adjust width to make it more square */
+    height: 25rem;
+    /* Adjust height to make it more square */
+    border-radius: 15px;
+    /* Add slightly rounded corners */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.consulting-about-img img {
+    width: 90%;
+    height: 90%;
+    /* Adjust height to maintain aspect ratio */
+    border-radius: 10px;
+    /* Add slightly rounded corners to the image */
+    border: .2rem solid var(--main-color);
+}
+
+.consulting-about-content {
+    text-align: center;
+}
+
+.consulting-about-content h3 {
+    position: relative;
+    display: inline-block;
+    font-size: 2.6rem;
+}
+
+.consulting-about-content p {
+    position: relative;
+    font-size: 1.6rem;
+    margin: 0rem 0 3rem;
+}
+
 .consulting-services {
     display: flex;
     /* Use flexbox layout */

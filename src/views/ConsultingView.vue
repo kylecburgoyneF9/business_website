@@ -19,6 +19,30 @@
             </div>
         </div>
     </section>
+
+    <!-- 'about' section design and elements -->
+    <section class="consulting-about" id="my-career">
+        <h2 class="heading">My <span>Journey</span></h2>
+
+        <div class="consulting-about-img">
+            <img src="../assets/Home/Self.jpeg" alt="">
+            <span class="circle-spin"></span>
+        </div>
+
+        <div class="consulting-about-content">
+            <h3>Life Coach & Fractional CFO</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium dolorum recusandae saepe magni
+                eveniet provident voluptate cupiditate sapiente vero numquam soluta non amet voluptatem ipsam eius quam
+                molestias pariatur, eaque a! Minus repudiandae sapiente asperiores aliquid magnam iste vel quis officiis
+                odio laudantium numquam minima, dolorem officia esse, quidem ipsa.
+            </p>
+            <div class="btn-box btns">
+                <a href="#" class="btn">Read More</a>
+            </div>
+        </div>
+    </section>
+
+
     <section class="consulting-services-section">
         <div class="border-div" style="margin-bottom: 6rem;">
             <div class="consulting-services">

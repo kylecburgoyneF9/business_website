@@ -1,19 +1,24 @@
-:root {
+/*:root {
     --bg-color: #f5f5dc;
     --second-bg-color: #b7a7a5;
     --text-color: #545454;
     --main-color: #ff6b6b;
     --dk-blue: #081B29;
+}*/
+
+:root {
+    --off-white: #D9D9DC;
 }
 
 .coaching-services-section {
-    background: var(--second-bg-color);
+    background: white;
 }
 
 .coaching-header {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     padding: 0 9%;
     background-color: var(--dk-blue);
     background-size: cover;
@@ -32,11 +37,13 @@
     font-size: 2.6rem;
     font-weight: 600;
     line-height: 1.3;
+    color: var(--off-white);
 }
 
 .coaching-header-content p {
     font-size: 1.6rem;
     margin: 1.4rem 0 4rem;
+    color: var(--off-white);
 }
 
 .coaching-header-content-btns {
@@ -52,7 +59,6 @@
     margin: 0 auto;
     /* Center the button container horizontally */
     width: 48.5rem;
-    height: 5rem;
 }
 
 .coaching-header-content-btns .btn {
@@ -72,6 +78,7 @@
     overflow: hidden;
     transition: .5s;
     width: calc(50% - 10px);
+    height: 5rem;
 }
 
 .coaching-header-content-btns .btn {
@@ -102,9 +109,109 @@
     box-shadow: none;
 }
 
+.coaching-header-icons {
+    margin-top: 50px;
+}
+
+.coaching-header-icons a {
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: var(--main-color);
+    border: .2rem solid var(--main-color);
+    border-radius: 50%;
+    font-size: 20px;
+    color: var(--main-color);
+    z-index: 1;
+    overflow: hidden;
+    transition: .5s;
+    margin-right: 1rem;
+}
+
+.coaching-header-icons a:hover {
+    color: var(--bg-color);
+    box-shadow: 0 0 1rem var(--main-color);
+    scale: 1.15;
+}
+
+.coaching-header-icons a::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: var(--main-color);
+    z-index: -1;
+    transition: .5s;
+}
+
+.coaching-header-icons ::slotted(box-icon) {
+    color: var(--main-color);
+}
+
+.coaching-header-icons a:hover::before {
+    width: 100%;
+}
+
+.coaching-about {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: white;
+    padding-bottom: 6rem;
+}
+
+.wrapper1 img {
+    display: none;
+}
+
+.wrapper {
+    padding-top: 2rem;
+}
+
+.wrapper img {
+    width: 100%;
+    max-width: 550px;
+    /* Adjust the width of the image as needed */
+    height: auto;
+    border-radius: 10px;
+    border: .2rem solid white;
+    margin-left: 2rem;
+    /* Add margin to create space between text and image */
+    float: right;
+    /* Float the image to the right */
+}
+
+.text-box h3 {
+    font-size: 2.6rem;
+}
+
+.text-box p {
+    font-size: 1.6rem;
+    margin: 0rem;
+    /* Adjust margin as needed */
+    margin-bottom: 3rem;
+    text-align: justify;
+    /* Add margin to bottom */
+}
+
 .coaching-services {
     display: flex;
-    /* Use flexbox layout */
+}
+
+.coaching-services-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+a.universal-btn.minnect-btn {
+    width: calc(35% - 7px);
+    margin-bottom: 4rem;
 }
 
 .coaching-services>div {
@@ -113,6 +220,13 @@
     height: 50vh;
     /* Set the height as needed */
 }
+
+.img-responsive1 {
+    display: none;
+}
+
+.img-responsive2 {}
+
 
 .coaching-services-img {
     background-size: cover;
@@ -152,7 +266,7 @@
 }
 
 .coaching-services-content p {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     line-height: 1.5;
     /* Adjust line height as needed */
     margin-bottom: 30px;
@@ -211,7 +325,7 @@
     padding: 0rem;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
     .coaching-services {
         flex-direction: column;
     }
@@ -241,5 +355,56 @@
         /* Make button full width */
         margin-top: 20px;
         /* Add margin at the top for spacing */
+    }
+
+    .wrapper img {
+        display: none;
+    }
+
+    .wrapper1 img {
+        float: none;
+        margin: 0 auto;
+        /* Center the image */
+        width: 100%;
+        max-width: 575px;
+        display: block;
+        border-radius: 10px;
+        border: .2rem solid var(--main-color);
+        /* Set max width */
+    }
+}
+
+
+@media only screen and (max-width: 900px) {
+    .wrapper img {
+        display: none;
+    }
+
+    .wrapper1 img {
+        float: none;
+        margin: 0 auto;
+        /* Center the image */
+        width: 100%;
+        max-width: 575px;
+        display: block;
+        border-radius: 10px;
+        border: .2rem solid var(--main-color);
+        /* Set max width */
+    }
+
+    .img-responsive1 {
+        display: block;
+    }
+
+    .img-responsive2 {
+        display: none;
+    }
+
+    .universal-btn {
+        width: 100%;
+        /* Make button full width */
+        margin-top: 20px;
+        /* Add margin at the top for spacing */
+        margin-bottom: 3.5rem;
     }
 }

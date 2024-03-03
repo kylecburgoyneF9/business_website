@@ -31,10 +31,10 @@
 
   <!-- 'about' section design and elements -->
   <section class="about" id="journey">
-    <h2 class="heading">My <span>Journey</span></h2>
+    <h2 class="heading">About <span>Me</span></h2>
 
     <div class="about-img">
-      <img src="../assets/Home/Self.jpeg" alt="">
+      <img src="../assets/Home/Self-BW.jpg" alt="">
       <span class="circle-spin"></span>
     </div>
 
@@ -45,8 +45,13 @@
         molestias pariatur, eaque a! Minus repudiandae sapiente asperiores aliquid magnam iste vel quis officiis
         odio laudantium numquam minima, dolorem officia esse, quidem ipsa.
       </p>
-      <div class="btn-box btns">
-        <a href="#" class="btn">Read More</a>
+      <div class="home-about-btn">
+        <router-link :to="{ path: '/consulting', hash: '#my-career' }" scroll="{ behavior: 'smooth' }"
+          class="universal-btn">My
+          Career</router-link>
+        <router-link :to="{ path: '/coaching', hash: '#my-journey' }" scroll="{ behavior: 'smooth' }"
+          class="universal-btn">My
+          Journey</router-link>
       </div>
     </div>
   </section>
@@ -80,9 +85,8 @@
       <router-link :to="{ path: '/consulting', hash: '#consulting-web-development' }" scroll="{ behavior: 'smooth' }"
         class="services-box">
         <box-icon name='line-chart'></box-icon>
-        <h3>Web & Application Development</h3>
-        <p>Leverage my financial modeling, accounting, and data analysis expertise to unlock strategic insights for your
-          business.</p>
+        <h3>Web Development</h3>
+        <p>Engage me to craft full-stack web and web3 applications to empower your business's success.</p>
       </router-link>
     </div>
   </section>
@@ -90,7 +94,8 @@
   <!-- 'coaching' section design and elements -->
   <section class="coaching" id="coaching">
     <h2 class="heading"> Life <span>Coaching</span></h2>
-    <p>Fitness & Health | Masculinity & Confidence | Relationships & Heartbreak | Career Development | Accountability |
+    <p>Fitness & Health | Masculinity & Confidence | Relationships & Heartbreak | Career Development | Accountability
+      Coaching |
       Childhood Trauma</p>
 
     <div class="coaching-container">
@@ -130,7 +135,7 @@
         class="coaching-box">
         <img src="../assets/Home/Accountability.webp" alt="">
         <div class="coaching-layer">
-          <h4>Accountability</h4>
+          <h4>Accountability Coaching</h4>
           <p>Find more discipline and self-control than you've ever known</p>
         </div>
       </router-link>
@@ -149,10 +154,9 @@
   <section class="portfolio" id="portfolio">
     <div class="portfolio-header">
       <h2 class="heading">Digital <span>Portfolio</span></h2>
-      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium dolorum recusandae saepe magni
-        eveniet provident voluptate cupiditate sapiente vero numquam soluta non amet voluptatem ipsam eius quam
-        molestias pariatur, eaque a! Minus repudiandae sapiente asperiores aliquid magnam iste vel quis officiis
-        odio laudantium numquam minima, dolorem officia esse, quidem ipsa.
+      <p>I've curated a collection of YouTube videos highlighting my professional expertise and coaching skills. Depending
+        on what you are looking for, follow either link below and enjoy the content. I take content creation requests for
+        both business and self-development topics, so feel free to contact me and let's put something together.
       </p>
     </div>
     <div class="portfolio-contents">
@@ -241,12 +245,14 @@ onMounted(() => {
   // Initialize variables to keep track of the tallest heights for h3 and p tags
   let tallestH3Height = 0;
   let tallestPHeight = 0;
+  let maxHeight = 0;
 
   // Loop through each services box
   servicesBoxes.forEach(box => {
     // Get the height of the h3 and p elements within the current box
     const h3Height = box.querySelector('h3').offsetHeight;
     const pHeight = box.querySelector('p').offsetHeight;
+    const boxHeight = box.getBoundingClientRect().height;
 
     // Update the tallest heights if the current heights are taller
     if (h3Height > tallestH3Height) {
@@ -255,12 +261,16 @@ onMounted(() => {
     if (pHeight > tallestPHeight) {
       tallestPHeight = pHeight;
     }
+    if (boxHeight > maxHeight) {
+      maxHeight = boxHeight;
+    }
   });
 
   // Set the min-height of all h3 and p elements within each box to the tallest heights found
   servicesBoxes.forEach(box => {
     box.querySelector('h3').style.minHeight = tallestH3Height + 'px';
     box.querySelector('p').style.minHeight = tallestPHeight + 'px';
+    box.style.height = `${maxHeight}px`;
   });
 });
 </script>

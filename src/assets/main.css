@@ -499,13 +499,13 @@ span {
 
 .coaching-layer h4 {
   font-size: 3rem;
-  color: var(--off-white);
+  color: white;
 }
 
 .coaching-layer p {
   font-size: 1.6rem;
   margin: .3rem 0 1rem;
-  color: var(--off-white);
+  color: white;
 }
 
 .portfolio {
@@ -754,7 +754,7 @@ span {
   left: 0;
   width: 0;
   height: 100%;
-  background: var(--second-bg-color);
+  background: white;
   z-index: -1;
   transition: .5s;
 }

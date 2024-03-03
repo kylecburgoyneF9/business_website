@@ -1,19 +1,24 @@
-:root {
+/*:root {
     --bg-color: #f5f5dc;
     --second-bg-color: #b7a7a5;
     --text-color: #545454;
     --main-color: #ff6b6b;
     --dk-blue: #081B29;
+}*/
+
+:root {
+    --off-white: #D9D9DC;
 }
 
 .coaching-services-section {
-    background: var(--second-bg-color);
+    background: white;
 }
 
 .coaching-header {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     padding: 0 9%;
     background-color: var(--dk-blue);
     background-size: cover;
@@ -32,11 +37,13 @@
     font-size: 2.6rem;
     font-weight: 600;
     line-height: 1.3;
+    color: var(--off-white);
 }
 
 .coaching-header-content p {
     font-size: 1.6rem;
     margin: 1.4rem 0 4rem;
+    color: var(--off-white);
 }
 
 .coaching-header-content-btns {
@@ -52,7 +59,6 @@
     margin: 0 auto;
     /* Center the button container horizontally */
     width: 48.5rem;
-    height: 5rem;
 }
 
 .coaching-header-content-btns .btn {
@@ -72,6 +78,7 @@
     overflow: hidden;
     transition: .5s;
     width: calc(50% - 10px);
+    height: 5rem;
 }
 
 .coaching-header-content-btns .btn {
@@ -102,11 +109,59 @@
     box-shadow: none;
 }
 
+.coaching-header-icons {
+    margin-top: 50px;
+}
+
+.coaching-header-icons a {
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: var(--main-color);
+    border: .2rem solid var(--main-color);
+    border-radius: 50%;
+    font-size: 20px;
+    color: var(--main-color);
+    z-index: 1;
+    overflow: hidden;
+    transition: .5s;
+    margin-right: 1rem;
+}
+
+.coaching-header-icons a:hover {
+    color: var(--bg-color);
+    box-shadow: 0 0 1rem var(--main-color);
+    scale: 1.15;
+}
+
+.coaching-header-icons a::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: var(--main-color);
+    z-index: -1;
+    transition: .5s;
+}
+
+.coaching-header-icons ::slotted(box-icon) {
+    color: var(--main-color);
+}
+
+.coaching-header-icons a:hover::before {
+    width: 100%;
+}
+
 .coaching-about {
     display: flex;
     align-items: center;
     flex-direction: column;
-    background: var(--bg-color);
+    background: white;
     padding-bottom: 6rem;
 }
 
@@ -124,7 +179,7 @@
     /* Adjust the width of the image as needed */
     height: auto;
     border-radius: 10px;
-    border: .2rem solid var(--main-color);
+    border: .2rem solid white;
     margin-left: 2rem;
     /* Add margin to create space between text and image */
     float: right;

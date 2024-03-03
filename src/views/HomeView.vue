@@ -34,7 +34,7 @@
     <h2 class="heading">About <span>Me</span></h2>
 
     <div class="about-img">
-      <img src="../assets/Home/Self.jpeg" alt="">
+      <img src="../assets/Home/Self-BW.jpg" alt="">
       <span class="circle-spin"></span>
     </div>
 

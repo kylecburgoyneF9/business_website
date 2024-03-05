@@ -24,6 +24,7 @@
     background-size: cover;
     background-position: center;
     text-align: center;
+    position: relative;
 }
 
 .consulting-header-content h1 {

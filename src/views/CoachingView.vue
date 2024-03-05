@@ -1,6 +1,9 @@
 
 <template>
     <section class="coaching-header">
+        <video ref="video" class="header-video" autoplay playsinline loop muted>
+            <source src="../assets/videos/0226.mp4" type="video/mp4">
+        </video>
         <div class="coaching-header-content">
             <h1>Coaching Services</h1>
             <h3>Self-Development and Accountability</h3>
@@ -24,7 +27,7 @@
                     Trauma</router-link>
             </div>
         </div>
-        
+
         <SocialLinks class="coaching-header-icons" />
     </section>
 

@@ -1,6 +1,9 @@
 
 <template>
     <section class="consulting-header">
+        <video ref="video" class="header-video" autoplay playsinline loop muted>
+            <source src="../assets/videos/0226.mp4" type="video/mp4">
+        </video>
         <div class="consulting-header-content">
             <h1>Consulting Services</h1>
             <h3>Fractional CFO & Technology Specialist</h3>
@@ -18,7 +21,7 @@
                     Services</router-link>
             </div>
         </div>
-        
+
         <SocialLinks class="consulting-header-icons" />
     </section>
 

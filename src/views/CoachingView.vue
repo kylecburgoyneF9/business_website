@@ -1,10 +1,10 @@
 
 <template>
-    <section class="coaching-header">
+    <section class="interior-hero">
         <video ref="video" class="background-video" autoplay playsinline loop muted>
             <source src="../assets/videos/0226.mp4" type="video/mp4">
         </video>
-        <div class="coaching-header-content">
+        <div class="interior-hero-content">
             <h1>Coaching Services</h1>
             <h3>Self-Development and Accountability</h3>
             <p>I established my life coaching practice to share my personal journey and assist others in crafting their own
@@ -12,7 +12,7 @@
                 approach resonates with you, and you're prepared to wholeheartedly pursue your own path to human excellence,
                 reach out to me to commence this transformative journey together.
             </p>
-            <div class="coaching-header-content-btns">
+            <div class="interior-hero-content-btns">
                 <router-link to="#coaching-fitness" scroll="{ behavior: 'smooth' }" class="btn">Fitness &
                     Health</router-link>
                 <router-link to="#coaching-masculinity" scroll="{ behavior: 'smooth' }" class="btn">Masculinity &
@@ -28,7 +28,7 @@
             </div>
         </div>
 
-        <SocialLinks class="coaching-header-icons" />
+        <SocialLinks class="interior-hero-icons" />
     </section>
 
     <!-- 'about' section design and elements -->
@@ -72,17 +72,17 @@
         </div>
     </section>
 
-    <section class="coaching-services-section">
+    <section class="services-split-text-image-section">
         <h2 class="heading">Coaching <span>Services</span></h2>
         <a href="https://minnect.com/become-an-expert/#download" target="_blank" class="universal-btn minnect-btn">Connect
             on
             Minnect</a>
         <div class="border-div" style="margin-bottom: 6rem;">
-            <div class="coaching-services">
-                <div class="coaching-services-img" id="coaching-fitness">
+            <div class="services-split-text-image">
+                <div class="services-split-text-image-img" id="coaching-fitness">
                     <img src="../assets/Home/Fitness.webp" alt="">
                 </div>
-                <div class="coaching-services-content">
+                <div class="services-split-text-image-content">
                     <h3>Fitness &
                         Health</h3>
                     <p>Whether you're aiming for a subtle shift in body composition or a more substantial transformation,
@@ -96,11 +96,11 @@
                     <a href="#contact" class="universal-btn">Work Together</a>
                 </div>
             </div>
-            <div class="coaching-services">
-                <div class="coaching-services-img img-responsive1">
+            <div class="services-split-text-image">
+                <div class="services-split-text-image-img img-responsive1">
                     <img src="../assets/Home/Masculinity.webp" alt="">
                 </div>
-                <div class="coaching-services-content" id="coaching-masculinity">
+                <div class="services-split-text-image-content" id="coaching-masculinity">
                     <h3>Masculinity &
                         Confidence</h3>
                     <p>Confidence, the bedrock of self-trust and decisive action, holds the key to attracting positive
@@ -114,15 +114,15 @@
                         confidence.</p>
                     <a href="#contact" class="universal-btn">Work Together</a>
                 </div>
-                <div class="coaching-services-img img-responsive2">
+                <div class="services-split-text-image-img img-responsive2">
                     <img src="../assets/Home/Masculinity.webp" alt="">
                 </div>
             </div>
-            <div class="coaching-services">
-                <div class="coaching-services-img">
+            <div class="services-split-text-image">
+                <div class="services-split-text-image-img">
                     <img src="../assets/Home/Relationships.webp" alt="" id="coaching-relationships">
                 </div>
-                <div class="coaching-services-content">
+                <div class="services-split-text-image-content">
                     <h3>Relationships &
                         Heartbreak</h3>
                     <p>Relationship coaching holds a special place in my heart because all external connections hinge on our
@@ -137,11 +137,11 @@
                     <a href="#contact" class="universal-btn">Work Together</a>
                 </div>
             </div>
-            <div class="coaching-services">
-                <div class="coaching-services-img img-responsive1">
+            <div class="services-split-text-image">
+                <div class="services-split-text-image-img img-responsive1">
                     <img src="../assets/Home/Career.webp" alt="">
                 </div>
-                <div class="coaching-services-content" id="coaching-career">
+                <div class="services-split-text-image-content" id="coaching-career">
                     <h3>Career
                         Development</h3>
                     <p>Navigating the job market, whether it's your first job, dream job, or the next step in your career,
@@ -156,15 +156,15 @@
                     </p>
                     <a href="#contact" class="universal-btn">Work Together</a>
                 </div>
-                <div class="coaching-services-img img-responsive2">
+                <div class="services-split-text-image-img img-responsive2">
                     <img src="../assets/Home/Career.webp" alt="">
                 </div>
             </div>
-            <div class="coaching-services">
-                <div class="coaching-services-img">
+            <div class="services-split-text-image">
+                <div class="services-split-text-image-img">
                     <img src="../assets/Home/Accountability.webp" alt="" id="coaching-accountability">
                 </div>
-                <div class="coaching-services-content">
+                <div class="services-split-text-image-content">
                     <h3>Accountability
                         Coaching</h3>
                     <p>If you find yourself lacking general motivation towards life, struggle with exercising, or are simply
@@ -178,11 +178,11 @@
                     <a href="#contact" class="universal-btn">Work Together</a>
                 </div>
             </div>
-            <div class="coaching-services">
-                <div class="coaching-services-img img-responsive1">
+            <div class="services-split-text-image">
+                <div class="services-split-text-image-img img-responsive1">
                     <img src="../assets/Home/Childhood.webp" alt="">
                 </div>
-                <div class="coaching-services-content" id="coaching-childhood">
+                <div class="services-split-text-image-content" id="coaching-childhood">
                     <h3>Childhood
                         Trauma</h3>
                     <p>Childhood trauma and growing up in an unstable home environment can often lead to self-sabotaging
@@ -196,7 +196,7 @@
                         your wounded inner child.</p>
                     <a href="#contact" class="universal-btn">Work Together</a>
                 </div>
-                <div class="coaching-services-img img-responsive2">
+                <div class="services-split-text-image-img img-responsive2">
                     <img src="../assets/Home/Childhood.webp" alt="">
                 </div>
             </div>

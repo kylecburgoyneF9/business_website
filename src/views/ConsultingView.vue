@@ -1,16 +1,16 @@
 
 <template>
-    <section class="consulting-header">
+    <section class="interior-hero">
         <video ref="video" class="background-video" autoplay playsinline loop muted>
             <source src="../assets/videos/0226.mp4" type="video/mp4">
         </video>
-        <div class="consulting-header-content">
+        <div class="interior-hero-content">
             <h1>Consulting Services</h1>
             <h3>Fractional CFO & Technology Specialist</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus at cupiditate laborum quae facere
                 debitis ipsam quasi, natus quibusdam officiis fugit repellat veniam totam asperiores doloremque nobis.
             </p>
-            <div class="consulting-header-content-btns">
+            <div class="interior-hero-content-btns">
                 <router-link to="#consulting-fractional-cfo" scroll="{ behavior: 'smooth' }" class="btn">Fractional CFO
                     Services</router-link>
                 <router-link to="#consulting-automation-solutions" scroll="{ behavior: 'smooth' }" class="btn">Automations
@@ -22,7 +22,7 @@
             </div>
         </div>
 
-        <SocialLinks class="consulting-header-icons" />
+        <SocialLinks class="interior-hero-icons" />
     </section>
 
     <!-- 'about' section design and elements -->
@@ -43,13 +43,13 @@
     </section>
 
 
-    <section class="consulting-services-section">
+    <section class="services-split-text-image-section">
         <div class="border-div" style="margin-bottom: 6rem;">
-            <div class="consulting-services">
-                <div class="consulting-services-img" id="consulting-fractional-cfo">
+            <div class="services-split-text-image">
+                <div class="services-split-text-image-img" id="consulting-fractional-cfo">
                     <img src="../assets/Home/Finance.jpg" alt="">
                 </div>
-                <div class="consulting-services-content">
+                <div class="services-split-text-image-content">
                     <h3>Fractional CFO Services</h3>
                     <p>Having accumulated 9 years of experience in the business world, I've crafted a diverse range of
                         models, including but not limited to solar tax-equity, solar loan origination, corporate, debt and
@@ -60,11 +60,11 @@
                     <a href="#contact" class="universal-btn">Work Together</a>
                 </div>
             </div>
-            <div class="consulting-services">
-                <div class="consulting-services-img img-responsive1">
+            <div class="services-split-text-image">
+                <div class="services-split-text-image-img img-responsive1">
                     <img src="../assets/Home/Computer1.jpg" alt="">
                 </div>
-                <div class="consulting-services-content" id="consulting-automation-solutions">
+                <div class="services-split-text-image-content" id="consulting-automation-solutions">
                     <h3>Automation Solutions</h3>
                     <p>Leveraging a powerful combination of Excel, VBA, and Microsoft Power Automation, I
                         specialize in automating a wide array of standard tasks in accounting, finance, marketing, and
@@ -76,15 +76,15 @@
                         understanding of the value this automation can deliver.</p>
                     <a href="#contact" class="universal-btn">Work Together</a>
                 </div>
-                <div class="consulting-services-img img-responsive2">
+                <div class="services-split-text-image-img img-responsive2">
                     <img src="../assets/Home/Computer1.jpg" alt="">
                 </div>
             </div>
-            <div class="consulting-services">
-                <div class="consulting-services-img">
+            <div class="services-split-text-image">
+                <div class="services-split-text-image-img">
                     <img src="../assets/Home/Computer4.jpg" alt="">
                 </div>
-                <div class="consulting-services-content" id="consulting-integration-services">
+                <div class="services-split-text-image-content" id="consulting-integration-services">
                     <h3>Integration Solutions</h3>
                     <p>Using a suite of high and low code expertise, plus today's incredible array of database, AI, and
                         cloud services, I can help you get the most out of your existing technology stack.</p>
@@ -92,16 +92,15 @@
                         lossing visibility into your business due to a lack of communication between your core technology
                         systems, please reach out to me. Almost every company I have worked for (small and large) has
                         operated with such friction/barriers. These frictions are costing you in hard dollars, turnover,
-                        time,
-                        and opportunity.</p>
+                        time,and opportunity.</p>
                     <a href="#contact" class="universal-btn">Work Together</a>
                 </div>
             </div>
-            <div class="consulting-services">
-                <div class="consulting-services-img img-responsive1">
+            <div class="services-split-text-image">
+                <div class="services-split-text-image-img img-responsive1">
                     <img src="../assets/Home/Computer2.jpg" alt="">
                 </div>
-                <div class="consulting-services-content" id="consulting-web-development">
+                <div class="services-split-text-image-content" id="consulting-web-development">
                     <h3>Web & Application Development</h3>
                     <p>My prevailing development skillset is comprised of Vue3.js, vanilla CSS, HTML, and JavaScript,
                         Web3.js, and Solidity. This is a growing skillset of mine where I am seeking new engagements to
@@ -110,7 +109,7 @@
                         web3 application, I offer a growing range of web and application development services. </p>
                     <a href="#contact" class="universal-btn">Work Together</a>
                 </div>
-                <div class="consulting-services-img img-responsive2">
+                <div class="services-split-text-image-img img-responsive2">
                     <img src="../assets/Home/Computer2.jpg" alt="">
                 </div>
             </div>

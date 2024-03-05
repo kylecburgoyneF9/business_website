@@ -1,0 +1,140 @@
+/*:root {
+    --bg-color: #f5f5dc;
+    --second-bg-color: #b7a7a5;
+    --text-color: #545454;
+    --main-color: #ff6b6b;
+    --dk-blue: #081B29;
+}*/
+
+:root {
+    --off-white: #D9D9DC;
+}
+
+.services-split-text-image-section {
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.services-split-text-image {
+    display: flex;
+    position: relative;
+}
+
+.services-split-text-image:nth-child(odd) .services-split-text-image-content {
+    margin-left: auto;
+}
+
+.services-split-text-image>div {
+    /* Make each div take equal space */
+    min-height: 50vh;
+    /* Set the height as needed */
+}
+
+.services-split-text-image-img {
+    width: 50%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+
+
+/* Adjust the sizing of the images */
+.services-split-text-image-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.services-split-text-image-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    width: 50%;
+    /*background: #b7a7a5;*/
+    background: lightgray;
+    padding: 20px;
+}
+
+.services-split-text-image-content h3 {
+    font-size: 2.6rem;
+    font-weight: 600;
+    line-height: 1.3;
+    color: #545454;
+    margin-bottom: 10px;
+    /* Add spacing between h3 and p */
+}
+
+.services-split-text-image-content p {
+    font-size: 1.6rem;
+    line-height: 1.5;
+    /* Adjust line height as needed */
+    margin-bottom: 30px;
+    /* Add spacing between paragraphs */
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+
+
+.border-div {
+    border: 3px solid var(--dk-blue);
+    padding: 0rem;
+}
+
+.img-responsive1 {
+    display: none;
+}
+
+.img-responsive2 {
+    display: block;
+    left: unset;
+    right: 0;
+}
+
+@media only screen and (max-width: 900px) {
+    .services-split-text-image {
+        flex-direction: column;
+    }
+
+    .services-split-text-image>div {
+        width: 100%;
+        /* Each div takes full width */
+        height: auto;
+        min-height: unset;
+        /* Auto height */
+    }
+
+    .services-split-text-image-content {
+        width: 100%;
+        /* Set width to 100% */
+        height: auto;
+        /* Auto height */
+    }
+
+    .services-split-text-image-content {
+        padding: 20px;
+    }
+
+    .services-split-text-image-img {
+        width: 100%;
+        padding-top: 70%;
+        height: 0;
+        position: relative;
+    }
+
+    .img-responsive1 {
+        display: block;
+    }
+
+    .img-responsive2 {
+        display: none;
+    }
+}

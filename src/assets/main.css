@@ -279,10 +279,6 @@ section {
   transition: .5s;
 }
 
-.home-sci ::slotted(box-icon) {
-  color: var(--main-color);
-}
-
 .home-sci a:hover::before {
   width: 100%;
 }
@@ -807,10 +803,6 @@ span {
   background: var(--main-color);
   z-index: -1;
   transition: .5s;
-}
-
-.footer-icons ::slotted(box-icon) {
-  color: var(--main-color);
 }
 
 .footer-icons a:hover::before {

@@ -102,10 +102,6 @@
     transition: .5s;
 }
 
-.consulting-header-icons ::slotted(box-icon) {
-    color: var(--main-color);
-}
-
 .consulting-header-icons a:hover::before {
     width: 100%;
 }

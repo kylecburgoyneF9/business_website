@@ -149,10 +149,6 @@
     transition: .5s;
 }
 
-.coaching-header-icons ::slotted(box-icon) {
-    color: var(--main-color);
-}
-
 .coaching-header-icons a:hover::before {
     width: 100%;
 }

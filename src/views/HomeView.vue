@@ -13,20 +13,12 @@
       <div class="btn-box">
         <a href="#contact" class="btn">Let's Talk</a>
         <a href="https://minnect.com/become-an-expert/#download" target="_blank" class="btn">Minnect</a>
-        <a href="/Kyle_Burgoyne_CV_2024.pdf" class="btn" download>Download
+        <a href="../assets/Kyle_Burgoyne_CV_2024.pdf" class="btn" download="../assets/Kyle_Burgoyne_CV_2024.pdf">Download
           CV</a>
       </div>
     </div>
 
-    <div class="home-sci">
-      <a href="https://github.com/kylecburgoyneF9" target="_blank"><box-icon type='logo' name='github'></box-icon></a>
-      <a href="https://www.youtube.com/channel/UCKlKCP8OuQVRArpZrzTd-xA" target="_blank"><box-icon name='youtube'
-          type='logo'></box-icon></a>
-      <a href="https://www.instagram.com/kylecburgoyne/" target="_blank"><box-icon name='instagram-alt'
-          type='logo'></box-icon></a>
-      <a href="https://www.linkedin.com/in/kyle-burgoyne-4824927b/" target="_blank"><box-icon name='linkedin'
-          type='logo'></box-icon></a>
-    </div>
+    <SocialLinks class="home-sci"/>
   </section>
 
   <!-- 'about' section design and elements -->
@@ -63,28 +55,28 @@
     <div class="services-container">
       <router-link :to="{ path: '/consulting', hash: '#consulting-fractional-cfo' }" scroll="{ behavior: 'smooth' }"
         class="services-box">
-        <box-icon name='line-chart'></box-icon>
+        <SvgLineChart />
         <h3>Fractional CFO Services</h3>
         <p>Leverage my financial modeling, accounting, and data analysis expertise to unlock strategic insights for your
           business.</p>
       </router-link>
       <router-link :to="{ path: '/consulting', hash: '#consulting-automation-solutions' }" scroll="{ behavior: 'smooth' }"
         class="services-box">
-        <box-icon name='cog' type='solid'></box-icon>
+        <SvgCog />
         <h3>Automation Solutions</h3>
         <p>Upgrade your workflows with the latest AI and automation solutions available. (VBA Macros, MS Power Automate,
           APIs)</p>
       </router-link>
       <router-link :to="{ path: '/consulting', hash: '#consulting-integration-solutions' }"
         scroll="{ behavior: 'smooth' }" class="services-box">
-        <box-icon name='intersect'></box-icon>
+        <SvgIntersect />
         <h3>Integration Solutions</h3>
         <p>Unlock your organization's potential by bridging the gap between disparate IT systems with integration
           solutions.</p>
       </router-link>
       <router-link :to="{ path: '/consulting', hash: '#consulting-web-development' }" scroll="{ behavior: 'smooth' }"
         class="services-box">
-        <box-icon name='line-chart'></box-icon>
+        <SvgLineChart />
         <h3>Web Development</h3>
         <p>Engage me to craft full-stack web and web3 applications to empower your business's success.</p>
       </router-link>
@@ -237,9 +229,14 @@
 
 <script setup>
 import { RouterLink } from 'vue-router';
-import { onMounted } from 'vue';
+import { onMounted, onUnmounted } from 'vue';
 
-onMounted(() => {
+import SocialLinks from '../components/SocialLinks.vue'
+import SvgCog from '../components/svgs/Cog.vue'
+import SvgLineChart from '../components/svgs/LineChart.vue'
+import SvgIntersect from '../components/svgs/Intersect.vue'
+
+const setHeights = () => {
   const servicesBoxes = document.querySelectorAll('.services-container .services-box');
 
   // Initialize variables to keep track of the tallest heights for h3 and p tags
@@ -272,7 +269,17 @@ onMounted(() => {
     box.querySelector('p').style.minHeight = tallestPHeight + 'px';
     box.style.height = `${maxHeight}px`;
   });
+}
+ 
+onMounted(() => {
+  setHeights()
+  window.addEventListener('resize', setHeights)
 });
+
+onUnmounted(() => {
+  window.removeEventListener('resize', setHeights)
+})
+
 </script>
 
 <style scoped></style>

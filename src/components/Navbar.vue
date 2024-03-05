@@ -2,7 +2,7 @@
     <header class="header" :class="{ 'sticky': isSticky }">
         <a href="/" class="logo">KB | <span>CharacterMatters</span></a>
         <div class="menu-icon" @click="toggleMenu">
-            <box-icon name='menu'></box-icon>
+            <MenuIcon :class="{ open: isMenuOpen }" />
         </div>
         <nav class="navbar" :class="{ 'active': isMenuOpen }">
             <router-link to="/consulting">Consulting</router-link>
@@ -19,6 +19,8 @@
 <script setup>
 import { ref, onMounted, onBeforeUnmount } from 'vue';
 import { RouterLink } from 'vue-router';
+
+import MenuIcon from './svgs/MenuIcon.vue'
 
 const isMenuOpen = ref(false);
 

@@ -18,15 +18,8 @@
                     Services</router-link>
             </div>
         </div>
-        <div class="consulting-header-icons">
-            <a href="https://github.com/kylecburgoyneF9" target="_blank"><box-icon type='logo' name='github'></box-icon></a>
-            <a href="https://www.youtube.com/channel/UCKlKCP8OuQVRArpZrzTd-xA" target="_blank"><box-icon name='youtube'
-                    type='logo'></box-icon></a>
-            <a href="https://www.instagram.com/kylecburgoyne/" target="_blank"><box-icon name='instagram-alt'
-                    type='logo'></box-icon></a>
-            <a href="https://www.linkedin.com/in/kyle-burgoyne-4824927b/" target="_blank"><box-icon name='linkedin'
-                    type='logo'></box-icon></a>
-        </div>
+        
+        <SocialLinks class="consulting-header-icons" />
     </section>
 
     <!-- 'about' section design and elements -->
@@ -151,5 +144,7 @@
 </template>
 <script setup>
 import { RouterLink } from 'vue-router';
+import SocialLinks from '../components/SocialLinks.vue'
+
 </script>
 <style scoped></style>

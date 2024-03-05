@@ -22,11 +22,11 @@ const router = createRouter({
       name: "coaching",
       component: CoachingView,
     },
-    {
+    /*{
       path: "/partners",
       name: "partners",
       component: PartnersView,
-    },
+    },*/
     { path: '/:catchAll(.*)', 
       redirect: '/' 
     },

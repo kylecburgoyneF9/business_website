@@ -13,7 +13,7 @@
       <div class="btn-box">
         <a href="#contact" class="btn">Let's Talk</a>
         <a href="https://minnect.com/become-an-expert/#download" target="_blank" class="btn">Minnect</a>
-        <a href="../assets/Kyle_Burgoyne_CV_2024.pdf" class="btn" download="../assets/Kyle_Burgoyne_CV_2024.pdf">Download
+        <a href="/Kyle_Burgoyne_CV_2024.pdf" class="btn" download>Download
           CV</a>
       </div>
     </div>

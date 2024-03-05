@@ -42,8 +42,8 @@
             <p></p>
             <p></p>
         </div>
-        <a href="../assets/Kyle_Burgoyne_CV_2024.pdf" class="universal-btn"
-            download="../assets/Kyle_Burgoyne_CV_2024.pdf">Download CV</a>
+        <a href="/Kyle_Burgoyne_CV_2024.pdf" class="universal-btn"
+            download>Download CV</a>
     </section>
 
 

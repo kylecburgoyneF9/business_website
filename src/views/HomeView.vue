@@ -153,9 +153,19 @@
     </div>
     <div class="portfolio-contents">
       <a href="https://www.youtube.com/channel/UCKlKCP8OuQVRArpZrzTd-xA" target="_blank"
-        class="portfolio-contents-consulting">Consulting</a>
+        class="portfolio-contents-consulting has-background-video">
+        <video ref="video" class="background-video" autoplay playsinline loop muted>
+            <source src="../assets/videos/0226.mp4" type="video/mp4">
+        </video>
+        Consulting
+      </a>
       <a href="https://www.youtube.com/channel/UCKlKCP8OuQVRArpZrzTd-xA" target="_blank"
-        class="portfolio-contents-coaching">Coaching</a>
+        class="portfolio-contents-coaching has-background-video">
+        <video ref="video" class="background-video" autoplay playsinline loop muted>
+            <source src="../assets/videos/0226.mp4" type="video/mp4">
+        </video>
+        Coaching
+      </a>
     </div>
     <a href="#contact" class="universal-btn">Work Together</a>
   </section>

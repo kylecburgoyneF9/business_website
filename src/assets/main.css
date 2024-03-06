@@ -36,7 +36,7 @@ section {
 .home {
   display: flex;
   align-items: center;
-  padding: calc(4rem + 40px + 20px) 9%;
+  padding: 0 9%;
   background-color: var(--dk-blue);
   background-size: cover;
   background-position: center;
@@ -46,6 +46,7 @@ section {
   width: 100%;
   max-width: 60rem;
   z-index: 99;
+  padding-top: .9rem;
 }
 
 .home-content h1 {
@@ -107,7 +108,7 @@ section {
 .home-content p {
   font-size: 1.6rem;
   /* subtracting the margin on the buttons below */
-  margin: 1.4rem 0 calc(4rem - .8rem);
+  margin: 1.4rem 0 calc(4rem - .9rem);
   color: var(--off-white);
 }
 
@@ -117,7 +118,7 @@ section {
   /* justify-content: space-between;
   max-width: 48.5rem; */
   /* height: 5rem; */
-  margin: 0 -1.6rem;
+  margin: 0 -.9rem;
 }
 
 .btn-box .btn {
@@ -126,7 +127,7 @@ section {
   align-items: center;
   min-width: 15rem;
   min-height: 5rem;
-  margin: 1rem;
+  margin: .9rem;
   background: var(--main-color);
   border: .2rem solid var(--main-color);
   border-radius: .8rem;
@@ -192,6 +193,14 @@ section {
   bottom: 4rem;
   display: flex;
   justify-content: space-between;
+}
+
+.home-sci.social-links a {
+  margin-right: 1.35rem;
+}
+
+.home-sci.social-links a:last-child {
+  margin-right: 0;
 }
 
 .home-imgHover {
@@ -471,6 +480,10 @@ span {
     background: var(--bg-color);
     opacity: .6;
   }
+
+  section {
+    padding: 5rem 4% 5rem;
+  }
 }
 
 @media (max-width: 550px) {
@@ -485,10 +498,6 @@ span {
   .home-content h1 {
     display: flex;
     flex-direction: column;
-  }
-
-  .home-sci {
-    justify-content: center;
   }
 }
 
@@ -506,6 +515,12 @@ span {
     align-items: center;
     flex-direction: column;
     text-align: center;
+  }
+
+  .home-sci {
+    justify-content: center;
+    width: 100%;
+    left: 0;
   }
 
   .btn-box {

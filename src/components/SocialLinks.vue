@@ -21,7 +21,7 @@ import SvgYoutube from "./svgs/Youtube.vue";
 import SvgInstagram from "./svgs/Instagram.vue";
 import SvgLinkedin from "./svgs/Linkedin.vue";
 </script>
-<style scoped>
+<style>
 .social-links a {
     position: relative;
     display: inline-flex;
@@ -37,7 +37,10 @@ import SvgLinkedin from "./svgs/Linkedin.vue";
     z-index: 1;
     overflow: hidden;
     transition: .5s;
-    margin-right: 1rem;
+}
+
+.social-links a + .social-links a {
+    margin-left: 1rem;
 }
 
 .social-links a:hover {

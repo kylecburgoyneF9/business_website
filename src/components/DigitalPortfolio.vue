@@ -48,7 +48,7 @@
   display: flex;
   width: 100%;
   /* Ensure the flex container spans the entire width */
-  height: calc(100vh - 200px);
+  /* min-height: calc(100vh - 200px); */
   /* Adjust the height as needed */
   margin-bottom: 6rem;
   gap: 2.5rem;
@@ -73,7 +73,7 @@
   /* Add transition for scaling and box shadow */
   cursor: pointer;
   max-width: 500px;
-  min-height: 200px;
+  min-height: 350px;
   min-width: 200px;
   border: 2px solid transparent;
 }

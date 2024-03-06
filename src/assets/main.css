@@ -196,11 +196,7 @@ section {
 }
 
 .home-sci.social-links a {
-  margin-right: 1.35rem;
-}
-
-.home-sci.social-links a:last-child {
-  margin-right: 0;
+  margin: 0 calc(1.35rem/2);
 }
 
 .home-imgHover {

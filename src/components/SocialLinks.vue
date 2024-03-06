@@ -37,10 +37,7 @@ import SvgLinkedin from "./svgs/Linkedin.vue";
     z-index: 1;
     overflow: hidden;
     transition: .5s;
-}
-
-.social-links a + .social-links a {
-    margin-left: 1rem;
+    margin: 0 .5rem;
 }
 
 .social-links a:hover {

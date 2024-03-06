@@ -13,7 +13,7 @@
 import SocialLinks from './SocialLinks.vue'
 import SvgUpArrow from './svgs/UpArrow.vue'
 </script>
-<style scoped>
+<style>
 .footer {
   display: flex;
   justify-content: space-between;
@@ -21,6 +21,10 @@ import SvgUpArrow from './svgs/UpArrow.vue'
   flex-wrap: wrap;
   padding: 2rem 9%;
   background: var(--dk-blue);
+}
+
+.footer  a {
+  margin: 1rem;
 }
 
 .footer-text,

@@ -33,7 +33,8 @@ const router = createRouter({
   ],
   scrollBehavior(to, from, savedPosition) {
     if (to.hash) {
-      return { el: to.hash, behavior: 'smooth' };
+      const nav = document.getElementById('nav')
+      return { el: to.hash, behavior: 'smooth', top: nav.offsetHeight };
     } else if (savedPosition) {
       return savedPosition;
     } else {

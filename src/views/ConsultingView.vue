@@ -11,13 +11,13 @@
                 debitis ipsam quasi, natus quibusdam officiis fugit repellat veniam totam asperiores doloremque nobis.
             </p>
             <div class="interior-hero-content-btns">
-                <router-link to="#consulting-fractional-cfo" scroll="{ behavior: 'smooth' }" class="btn">Fractional CFO
+                <router-link to="#consulting-fractional-cfo" class="btn">Fractional CFO
                     Services</router-link>
-                <router-link to="#consulting-automation-solutions" scroll="{ behavior: 'smooth' }" class="btn">Automations
+                <router-link to="#consulting-automation-solutions"  class="btn">Automations
                     Solution</router-link>
-                <router-link to="#consulting-integration-services" scroll="{ behavior: 'smooth' }" class="btn">Integrations
+                <router-link to="#consulting-integration-services"  class="btn">Integrations
                     Solutions</router-link>
-                <router-link to="#consulting-web-development" scroll="{ behavior: 'smooth' }" class="btn">Web Development
+                <router-link to="#consulting-web-development"  class="btn">Web Development
                     Services</router-link>
             </div>
         </div>
@@ -124,5 +124,31 @@ import SocialLinks from '../components/SocialLinks.vue'
 
 </script>
 <style scoped>
-@import '../assets/main-consulting.css';
+.consulting-about {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    background: white;
+    padding-bottom: 6rem;
+}
+
+.consulting-about-content {
+    text-align: justify;
+}
+
+.consulting-about-content p {
+    position: relative;
+    font-size: 1.6rem;
+    margin: 0rem 0 3rem;
+}
+
+.consulting-services {
+    display: flex;
+    /* Use flexbox layout */
+}
+
+.consulting-about {
+    min-height: 75vh;
+}
 </style>

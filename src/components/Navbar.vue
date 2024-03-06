@@ -1,5 +1,5 @@
 <template>
-    <header class="header" :class="{ 'sticky': isSticky }">
+    <header id="nav" class="header" :class="{ 'sticky': isSticky }">
         <a href="/" class="logo">KB | <span>CharacterMatters</span></a>
         <button class="menu-icon" @click="toggleMenu">
             <MenuIcon :class="{ open: isMenuOpen }" />

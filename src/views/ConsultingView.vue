@@ -123,4 +123,6 @@ import { RouterLink } from 'vue-router';
 import SocialLinks from '../components/SocialLinks.vue'
 
 </script>
-<style scoped></style>
+<style scoped>
+@import '../assets/main-consulting.css';
+</style>

@@ -79,10 +79,6 @@ import SvgUpArrow from './svgs/UpArrow.vue'
 
 @media (max-width: 462px) {
 
-  .footer {
-    flex-direction: column-reverse;
-  }
-
   .footer p {
     margin-top: 2rem;
     text-align: center;

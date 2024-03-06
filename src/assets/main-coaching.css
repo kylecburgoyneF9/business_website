@@ -57,65 +57,12 @@ a.universal-btn.minnect-btn {
     margin-bottom: 4rem;
 }
 
-
-/* Universal button styles */
-.universal-btn {
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    height: 4rem;
-    background: var(--main-color);
-    border: .2rem solid var(--main-color);
-    border-radius: .8rem;
-    font-size: 1.3rem;
-    font-weight: 600;
-    color: var(--bg-color);
-    z-index: 1;
-    overflow: hidden;
-    transition: .5s;
-    width: calc(35% - 7px);
-    /* Adjust the width based on container width and gap */
-    box-shadow: 0 0 1rem var(--main-color);
-    position: relative;
-}
-
-/* Style the before pseudo-element for universal buttons */
-.universal-btn::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 0;
-    height: 100%;
-    background: var(--dk-blue);
-    z-index: -1;
-    transition: .5s;
-}
-
-/* Hover effect for universal buttons */
-.universal-btn:hover::before {
-    width: 100%;
-}
-
-.universal-btn:hover {
-    color: var(--main-color);
-    scale: 1.02;
-    box-shadow: none;
-}
-
 .border-div {
     border: 3px solid var(--dk-blue);
     padding: 0rem;
 }
 
 @media only screen and (max-width: 700px) {    
-
-    .universal-btn {
-        width: 100%;
-        /* Make button full width */
-        margin-top: 20px;
-        /* Add margin at the top for spacing */
-    }
 
     .wrapper img {
         display: none;
@@ -150,13 +97,5 @@ a.universal-btn.minnect-btn {
         border-radius: 10px;
         border: .2rem solid var(--main-color);
         /* Set max width */
-    }
-
-    .universal-btn {
-        width: 100%;
-        /* Make button full width */
-        margin-top: 20px;
-        /* Add margin at the top for spacing */
-        margin-bottom: 3.5rem;
     }
 }

@@ -48,7 +48,7 @@
     width: 50%;
     /*background: #b7a7a5;*/
     background: lightgray;
-    padding: 20px;
+    padding: 4rem 2rem;
 }
 
 .services-split-text-image-content h3 {
@@ -65,11 +65,8 @@
     line-height: 1.5;
     /* Adjust line height as needed */
     margin-bottom: 30px;
-    /* Add spacing between paragraphs */
-    padding-left: 2rem;
-    padding-right: 2rem;
+    /* Add spacing between paragraphs */ 
 }
-
 
 
 .border-div {
@@ -101,15 +98,13 @@
     }
 
     .services-split-text-image-content {
+        padding: 2rem;
         width: 100%;
         /* Set width to 100% */
         height: auto;
         /* Auto height */
     }
 
-    .services-split-text-image-content {
-        padding: 20px;
-    }
 
     .services-split-text-image-img {
         width: 100%;

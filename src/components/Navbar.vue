@@ -17,7 +17,7 @@
 <style scoped></style>
 
 <script setup>
-import { ref, onMounted, onBeforeUnmount } from 'vue';
+import { ref, onMounted, onBeforeUnmount, watch } from 'vue';
 import { RouterLink } from 'vue-router';
 
 import MenuIcon from './svgs/MenuIcon.vue'
@@ -34,12 +34,28 @@ const handleScroll = () => {
     isSticky.value = window.scrollY > 100; // Adjust the threshold as needed
 };
 
+const windowWidth = ref(true)
+
+watch(windowWidth, (newWindowWidth) => {
+    let isMobile = newWindowWidth <= 768;
+    if (isMobile && isMenuOpen.value) toggleMenu()
+})
+
+const trackWidth = () => {
+    windowWidth.value = window.innerWidth;
+}
+
+
+
 onMounted(() => {
     window.addEventListener('scroll', handleScroll);
+    window.addEventListener('resize', trackWidth);
 });
 
 onBeforeUnmount(() => {
     window.removeEventListener('scroll', handleScroll);
+    window.addEventListener('resize', trackWidth);
+
 });
 </script>
 

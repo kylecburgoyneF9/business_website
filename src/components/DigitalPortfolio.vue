@@ -14,14 +14,14 @@
         <video ref="video" class="background-video" autoplay playsinline loop muted>
             <source src="../assets/videos/0226.mp4" type="video/mp4">
         </video>
-        Consulting
+        <h3>Consulting</h3>
       </a>
       <a href="https://www.youtube.com/channel/UCKlKCP8OuQVRArpZrzTd-xA" target="_blank"
         class="portfolio-contents-coaching has-background-video">
         <video ref="video" class="background-video" autoplay playsinline loop muted>
             <source src="../assets/videos/0226.mp4" type="video/mp4">
         </video>
-        Coaching
+        <h3>Coaching</h3> 
       </a>
     </div>
     <a href="#contact" class="universal-btn">Work Together</a>
@@ -65,16 +65,28 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: lightgray;
+  background-color: var(--dk-blue);
   border-radius: 2rem;
   box-shadow: 0 6px 8px rgba(0, 0, 0, 0.1);
   /* Add a subtle box shadow */
-  transition: transform 0.6s ease, box-shadow 0.3s ease;
+  transition: transform 0.6s ease, box-shadow 0.3s ease, border-color 0.3s ease;
   /* Add transition for scaling and box shadow */
   cursor: pointer;
   max-width: 500px;
   min-height: 200px;
   min-width: 200px;
+  border: 2px solid transparent;
+}
+
+.portfolio .background-video {
+  opacity: .3;
+}
+
+.portfolio-contents h3 {
+  position: relative;
+  z-index: 2;
+  font-size: 3rem;
+  color: white;
 }
 
 .portfolio-contents>a:hover {
@@ -85,7 +97,7 @@
 }
 
 .portfolio-contents>a:hover {
-  border: 2px solid var(--main-color);
+  border-color: var(--main-color);
   /* Add a border on hover */
 }
 
@@ -102,10 +114,10 @@
 
 @media (max-width: 768px) {
     .portfolio-contents {
-    flex-direction: column;
-    align-items: center;
-    /* Stack items vertically on smaller screens */
-  }
+      flex-direction: column;
+      align-items: center;
+      /* Stack items vertically on smaller screens */
+    }
 
   .portfolio-contents>a {
     width: 100%;

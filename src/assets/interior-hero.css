@@ -10,6 +10,10 @@
     position: relative;
 }
 
+.interior-hero .background-video {
+    opacity: .15;
+}
+
 .interior-hero-content h1 {
     font-size: 5.6rem;
     font-weight: 700;

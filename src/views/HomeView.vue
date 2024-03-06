@@ -90,7 +90,7 @@
       Coaching |
       Childhood Trauma</p>
 
-    <div class="coaching-container">
+    <div class="coaching-container" :class="{'is-touch': isTouch }">
       <router-link :to="{ path: '/coaching', hash: '#coaching-fitness' }" scroll="{ behavior: 'smooth' }"
         class="coaching-box">
         <img src="../assets/Home/Fitness.webp" alt="">
@@ -142,109 +142,29 @@
     </div>
   </section>
 
-  <!-- 'portfolio' section design and elements -->
-  <section class="portfolio" id="portfolio">
-    <div class="portfolio-header">
-      <h2 class="heading">Digital <span>Portfolio</span></h2>
-      <p>I've curated a collection of YouTube videos highlighting my professional expertise and coaching skills. Depending
-        on what you are looking for, follow either link below and enjoy the content. I take content creation requests for
-        both business and self-development topics, so feel free to contact me and let's put something together.
-      </p>
-    </div>
-    <div class="portfolio-contents">
-      <a href="https://www.youtube.com/channel/UCKlKCP8OuQVRArpZrzTd-xA" target="_blank"
-        class="portfolio-contents-consulting has-background-video">
-        <video ref="video" class="background-video" autoplay playsinline loop muted>
-            <source src="../assets/videos/0226.mp4" type="video/mp4">
-        </video>
-        Consulting
-      </a>
-      <a href="https://www.youtube.com/channel/UCKlKCP8OuQVRArpZrzTd-xA" target="_blank"
-        class="portfolio-contents-coaching has-background-video">
-        <video ref="video" class="background-video" autoplay playsinline loop muted>
-            <source src="../assets/videos/0226.mp4" type="video/mp4">
-        </video>
-        Coaching
-      </a>
-    </div>
-    <a href="#contact" class="universal-btn">Work Together</a>
-  </section>
+  <!-- Digital Portfolio -->
+  <DigitalPortfolio />
 
-  <!-- 'reviews' section design and elements -->
-  <section class="reviews" id="reviews">
-    <h2 class="heading">My <span>Reviews</span></h2>
-    <div class="review-cards-container">
-      <div class="review-card-contents">
-        <div class="review-card-img">
-          <img src="../assets/Home/Self.jpeg" alt="">
-        </div>
-        <div class="review-card-text">
-          <h3>Name and Title</h3>
-          <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas commodi asperiores doloremque perspiciatis
-            voluptatum sunt totam esse at repudiandae autem!"</p>
-        </div>
-      </div>
-      <div class="review-card-contents">
-        <div class="review-card-img">
-          <img src="../assets/Home/Self.jpeg" alt="">
-        </div>
-        <div class="review-card-text">
-          <h3>Name and Title</h3>
-          <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas commodi asperiores doloremque perspiciatis
-            voluptatum sunt totam esse at repudiandae autem!"</p>
-        </div>
-      </div>
-      <div class="review-card-contents">
-        <div class="review-card-img">
-          <img src="../assets/Home/Self.jpeg" alt="">
-        </div>
-        <div class="review-card-text">
-          <h3>Name and Title</h3>
-          <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas commodi asperiores doloremque perspiciatis
-            voluptatum sunt totam esse at repudiandae autem!"</p>
-        </div>
-      </div>
-    </div>
-  </section>
+  <!-- Reviews Section -->
+  <Reviews />
 
-  <!-- 'contact' section design and elements -->
-  <section class="contact" id="contact">
-    <h2 class="heading">Contact <span>Me!</span></h2>
-    <form action="#">
-      <div class="input-box">
-        <div class="input-field">
-          <input type="text" placeholder="Full Name" required>
-        </div>
-        <div class="input-field">
-          <input type="email" placeholder="Email Address" required>
-        </div>
-      </div>
-      <div class="input-box">
-        <div class="input-field">
-          <input type="tel" placeholder="Mobile Number" required>
-        </div>
-        <div class="input-field">
-          <input type="text" placeholder="Email Subject" required>
-        </div>
-      </div>
-      <div class="textarea-field">
-        <textarea name="message" id="message" cols="30" rows="10" placeholder="Your Message" required></textarea>
-      </div>
-      <div class="btn-box btns">
-        <button type="submit" class="btn">Submit</button>
-      </div>
-    </form>
-  </section>
+  <!-- Contact Section -->
+  <ContactForm />
+
 </template>
 
 <script setup>
 import { RouterLink } from 'vue-router';
-import { onMounted, onUnmounted } from 'vue';
+import { onMounted, onUnmounted, ref } from 'vue';
 
+// import svgs
 import SocialLinks from '../components/SocialLinks.vue'
 import SvgCog from '../components/svgs/Cog.vue'
 import SvgLineChart from '../components/svgs/LineChart.vue'
 import SvgIntersect from '../components/svgs/Intersect.vue'
+
+import Reviews from '../components/Reviews.vue'
+import DigitalPortfolio from '../components/DigitalPortfolio.vue'
 
 const setHeights = () => {
   const servicesBoxes = document.querySelectorAll('.services-container .services-box');
@@ -277,10 +197,15 @@ const setHeights = () => {
   servicesBoxes.forEach(box => {
     box.querySelector('h3').style.minHeight = tallestH3Height + 'px';
     box.querySelector('p').style.minHeight = tallestPHeight + 'px';
-    box.style.height = `${maxHeight}px`;
+    box.style.minHeight = `${maxHeight}px`;
   });
 }
- 
+
+// detecting touch because some elements only expose copy on hover and touchscreens won't see it
+import { useWindowStore } from '../stores/window.js'
+const windowStore = useWindowStore()
+const isTouch = windowStore.isTouch;
+
 onMounted(() => {
   setHeights()
   window.addEventListener('resize', setHeights)

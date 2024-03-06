@@ -1,15 +1,3 @@
-/*:root {
-    --bg-color: #f5f5dc;
-    --second-bg-color: #b7a7a5;
-    --text-color: #545454;
-    --main-color: #ff6b6b;
-    --dk-blue: #081B29;
-}*/
-
-:root {
-    --off-white: #D9D9DC;
-}
-
 .services-split-text-image-section {
     background: white;
     display: flex;

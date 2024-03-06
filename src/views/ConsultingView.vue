@@ -22,7 +22,7 @@
             </div>
         </div>
 
-        <SocialLinks class="interior-hero-icons" />
+        <SocialLinks />
     </section>
 
     <!-- 'about' section design and elements -->
@@ -115,34 +115,8 @@
             </div>
         </div>
     </section>
-    <!-- 'contact' section design and elements -->
-    <section class="contact" id="contact">
-        <h2 class="heading">Contact <span>Me!</span></h2>
-        <form action="#">
-            <div class="input-box">
-                <div class="input-field">
-                    <input type="text" placeholder="Full Name" required>
-                </div>
-                <div class="input-field">
-                    <input type="email" placeholder="Email Address" required>
-                </div>
-            </div>
-            <div class="input-box">
-                <div class="input-field">
-                    <input type="tel" placeholder="Mobile Number" required>
-                </div>
-                <div class="input-field">
-                    <input type="text" placeholder="Email Subject" required>
-                </div>
-            </div>
-            <div class="textarea-field">
-                <textarea name="message" id="message" cols="30" rows="10" placeholder="Your Message" required></textarea>
-            </div>
-            <div class="btn-box btns">
-                <button type="submit" class="btn">Submit</button>
-            </div>
-        </form>
-    </section>
+    
+    <ContactForm />
 </template>
 <script setup>
 import { RouterLink } from 'vue-router';

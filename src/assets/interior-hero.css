@@ -3,7 +3,6 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 0 9%;
     background-color: var(--dk-blue);
     background-size: cover;
     background-position: center;
@@ -43,52 +42,12 @@
     /* Adjust the maximum width of the button container */
     margin: 0 auto;
     /* Center the button container horizontally */
-    width: 48.5rem;
+    max-width: 48.5rem;
     /*height: 5rem;*/
 }
 
-.interior-hero-icons {
+.interior-hero .social-links {
     margin-top: 50px;
-}
-
-.interior-hero-icons a {
-    position: relative;
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    width: 40px;
-    height: 40px;
-    background: var(--main-color);
-    border: .2rem solid var(--main-color);
-    border-radius: 50%;
-    font-size: 20px;
-    color: var(--main-color);
-    z-index: 1;
-    overflow: hidden;
-    transition: .5s;
-    margin-right: 1rem;
-}
-
-.interior-hero-icons a:hover {
-    color: var(--bg-color);
-    box-shadow: 0 0 1rem var(--main-color);
-    scale: 1.15;
-}
-
-.interior-hero-icons a::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 0;
-    height: 100%;
-    background: var(--main-color);
-    z-index: -1;
-    transition: .5s;
-}
-
-.interior-hero-icons a:hover::before {
-    width: 100%;
 }
 
 .interior-hero-content-btns .btn {

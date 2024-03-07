@@ -11,13 +11,13 @@
                 debitis ipsam quasi, natus quibusdam officiis fugit repellat veniam totam asperiores doloremque nobis.
             </p>
             <div class="interior-hero-content-btns">
-                <router-link to="#consulting-fractional-cfo" class="btn">Fractional CFO
+                <router-link to="#consulting-fractional-cfo" class="btn" scroll="{ behavior: 'smooth' }">Fractional CFO
                     Services</router-link>
-                <router-link to="#consulting-automation-solutions"  class="btn">Automations
+                <router-link to="#consulting-automation-solutions"  class="btn" scroll="{ behavior: 'smooth' }">Automations
                     Solution</router-link>
-                <router-link to="#consulting-integration-services"  class="btn">Integrations
+                <router-link to="#consulting-integration-services"  class="btn" scroll="{ behavior: 'smooth' }">Integrations
                     Solutions</router-link>
-                <router-link to="#consulting-web-development"  class="btn">Web Development
+                <router-link to="#consulting-web-development"  class="btn" scroll="{ behavior: 'smooth' }">Web Development
                     Services</router-link>
             </div>
         </div>

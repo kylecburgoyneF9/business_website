@@ -34,7 +34,12 @@ const router = createRouter({
   scrollBehavior(to, from, savedPosition) {
     if (to.hash) {
       const nav = document.getElementById('nav')
-      return { el: to.hash, behavior: 'smooth', top: nav.offsetHeight };
+      return new Promise((resolve, reject) => {
+        setTimeout(() => {
+          resolve({ el: to.hash, behavior: 'smooth', top: nav.offsetHeight })
+        }, 100)
+      })
+
     } else if (savedPosition) {
       return savedPosition;
     } else {

@@ -73,13 +73,14 @@
   /* Add transition for scaling and box shadow */
   cursor: pointer;
   max-width: 500px;
-  min-height: 350px;
+  height: 350px;
   min-width: 200px;
   border: 2px solid transparent;
 }
 
 .portfolio .background-video {
   opacity: .3;
+  border-radius: 2rem;
 }
 
 .portfolio-contents h3 {

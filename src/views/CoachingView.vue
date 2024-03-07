@@ -210,5 +210,94 @@ import { RouterLink } from 'vue-router';
 import SocialLinks from '../components/SocialLinks.vue';
 </script>
 <style scoped>
-@import '../assets/main-coaching.css';
+
+.coaching-about {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: white;
+    padding-bottom: 6rem;
+}
+
+.wrapper1 img {
+    display: none;
+}
+
+.wrapper {
+    padding-top: 2rem;
+}
+
+.wrapper img {
+    width: 100%;
+    max-width: 550px;
+    /* Adjust the width of the image as needed */
+    height: auto;
+    border-radius: 10px;
+    border: .2rem solid white;
+    margin-left: 2rem;
+    /* Add margin to create space between text and image */
+    float: right;
+    /* Float the image to the right */
+}
+
+.text-box h3 {
+    font-size: 2.6rem;
+}
+
+.text-box p {
+    font-size: 1.6rem;
+    margin: 0rem;
+    /* Adjust margin as needed */
+    margin-bottom: 3rem;
+    text-align: justify;
+    /* Add margin to bottom */
+}
+
+a.universal-btn.minnect-btn {
+    width: calc(35% - 7px);
+    margin-bottom: 4rem;
+}
+
+.border-div {
+    border: 3px solid var(--dk-blue);
+    padding: 0rem;
+}
+
+@media only screen and (max-width: 700px) {    
+
+    .wrapper img {
+        display: none;
+    }
+
+    .wrapper1 img {
+        float: none;
+        margin: 0 auto;
+        /* Center the image */
+        width: 100%;
+        max-width: 575px;
+        display: block;
+        border-radius: 10px;
+        border: .2rem solid var(--main-color);
+        /* Set max width */
+    }
+}
+
+
+@media only screen and (max-width: 900px) {
+    .wrapper img {
+        display: none;
+    }
+
+    .wrapper1 img {
+        float: none;
+        margin: 0 auto;
+        /* Center the image */
+        width: 100%;
+        max-width: 575px;
+        display: block;
+        border-radius: 10px;
+        border: .2rem solid var(--main-color);
+        /* Set max width */
+    }
+}
 </style>

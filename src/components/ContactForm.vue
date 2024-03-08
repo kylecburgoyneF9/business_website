@@ -37,8 +37,8 @@ const formRef = ref(null)
 
 const sendEmail = () => {
       emailjs
-        .sendForm('service', 'template', formRef.value, {
-          publicKey: 'key',
+        .sendForm(import.meta.env.VITE_EJS_ID, import.meta.env.VITE_EJS_TEMPLATE, formRef.value, {
+          publicKey: import.meta.env.VITE_EJS_KEY,
         })
         .then(
           () => {

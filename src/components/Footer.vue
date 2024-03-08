@@ -1,7 +1,6 @@
 <template>
     <footer class="footer">
         <SocialLinks class="footer-icons"/>
-
         <div class="footer-iconTop">
             <a href="#">
                 <SvgUpArrow />

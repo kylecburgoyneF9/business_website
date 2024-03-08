@@ -1,9 +1,7 @@
 
 <template>
     <section class="interior-hero">
-        <video ref="video" class="background-video" autoplay playsinline loop muted>
-            <source src="../assets/videos/0226.mp4" type="video/mp4">
-        </video>
+        <BackgroundVideo fileName="0226.mp4" />
         <div class="interior-hero-content">
             <h1>Coaching Services</h1>
             <h3>Self-Development and Accountability</h3>

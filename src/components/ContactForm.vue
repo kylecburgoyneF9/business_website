@@ -2,25 +2,25 @@
       <!-- 'contact' section design and elements -->
   <section class="contact" id="contact">
     <h2 class="heading">Contact <span>Me!</span></h2>
-    <form action="#">
+    <form ref="formRef" @submit.prevent="sendEmail">
       <div class="input-box">
         <div class="input-field">
-          <input type="text" placeholder="Full Name" required>
+          <input type="text" placeholder="Full Name" name="name" required>
         </div>
         <div class="input-field">
-          <input type="email" placeholder="Email Address" required>
+          <input type="email" placeholder="Email Address" name="email" required>
         </div>
       </div>
       <div class="input-box">
         <div class="input-field">
-          <input type="tel" placeholder="Mobile Number" required>
+          <input type="tel" placeholder="Mobile Number" name="phone" required>
         </div>
         <div class="input-field">
-          <input type="text" placeholder="Email Subject" required>
+          <input type="text" placeholder="Email Subject" name="subject" required>
         </div>
       </div>
       <div class="textarea-field">
-        <textarea name="message" id="message" cols="30" rows="10" placeholder="Your Message" required></textarea>
+        <textarea id="message" cols="30" rows="10" placeholder="Your Message" name="message" required></textarea>
       </div>
       <div class="btn-box btns">
         <button type="submit" class="btn">Submit</button>
@@ -28,6 +28,28 @@
     </form>
   </section>
 </template>
+
+<script setup>
+import { ref } from 'vue'
+import emailjs from '@emailjs/browser'
+
+const formRef = ref(null)
+
+const sendEmail = () => {
+      emailjs
+        .sendForm('service', 'template', formRef.value, {
+          publicKey: 'key',
+        })
+        .then(
+          () => {
+            console.log('SUCCESS!');
+          },
+          (error) => {
+            console.log('FAILED...', error.text);
+          },
+        );
+    }
+</script>
 
 <style scoped>
 .contact {

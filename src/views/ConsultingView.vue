@@ -1,9 +1,7 @@
 
 <template>
     <section class="interior-hero">
-        <video ref="video" class="background-video" autoplay playsinline loop muted>
-            <source src="../assets/videos/0226.mp4" type="video/mp4">
-        </video>
+        <BackgroundVideo fileName="0226.mp4" />
         <div class="interior-hero-content">
             <h1>Consulting Services</h1>
             <h3>Fractional CFO & Technology Specialist</h3>
@@ -84,7 +82,7 @@
                 <div class="services-split-text-image-img">
                     <img src="../assets/Home/Computer4.jpg" alt="">
                 </div>
-                <div class="services-split-text-image-content" id="consulting-integration-services">
+                <div class="services-split-text-image-content" id="consulting-integration-solutions">
                     <h3>Integration Solutions</h3>
                     <p>Using a suite of high and low code expertise, plus today's incredible array of database, AI, and
                         cloud services, I can help you get the most out of your existing technology stack.</p>

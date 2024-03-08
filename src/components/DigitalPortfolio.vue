@@ -11,16 +11,12 @@
     <div class="portfolio-contents">
       <a href="https://www.youtube.com/channel/UCKlKCP8OuQVRArpZrzTd-xA" target="_blank"
         class="portfolio-contents-consulting has-background-video">
-        <video ref="video" class="background-video" autoplay playsinline loop muted>
-            <source src="../assets/videos/0226.mp4" type="video/mp4">
-        </video>
+        <BackgroundVideo fileName="0226.mp4" />
         <h3>Consulting</h3>
       </a>
       <a href="https://www.youtube.com/channel/UCKlKCP8OuQVRArpZrzTd-xA" target="_blank"
         class="portfolio-contents-coaching has-background-video">
-        <video ref="video" class="background-video" autoplay playsinline loop muted>
-            <source src="../assets/videos/0226.mp4" type="video/mp4">
-        </video>
+        <BackgroundVideo fileName="0226.mp4" />
         <h3>Coaching</h3> 
       </a>
     </div>

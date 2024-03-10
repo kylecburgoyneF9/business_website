@@ -1,32 +1,26 @@
 
 <template>
-    <section class="consulting-header">
-        <div class="consulting-header-content">
+    <section class="interior-hero">
+        <BackgroundVideo fileName="0226.mp4" />
+        <div class="interior-hero-content">
             <h1>Consulting Services</h1>
             <h3>Fractional CFO & Technology Specialist</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus at cupiditate laborum quae facere
                 debitis ipsam quasi, natus quibusdam officiis fugit repellat veniam totam asperiores doloremque nobis.
             </p>
-            <div class="consulting-header-content-btns">
-                <router-link to="#consulting-fractional-cfo" scroll="{ behavior: 'smooth' }" class="btn">Fractional CFO
+            <div class="interior-hero-content-btns">
+                <router-link to="#consulting-fractional-cfo" class="btn" scroll="{ behavior: 'smooth' }">Fractional CFO
                     Services</router-link>
-                <router-link to="#consulting-automation-solutions" scroll="{ behavior: 'smooth' }" class="btn">Automations
+                <router-link to="#consulting-automation-solutions"  class="btn" scroll="{ behavior: 'smooth' }">Automations
                     Solution</router-link>
-                <router-link to="#consulting-integration-services" scroll="{ behavior: 'smooth' }" class="btn">Integrations
+                <router-link to="#consulting-integration-services"  class="btn" scroll="{ behavior: 'smooth' }">Integrations
                     Solutions</router-link>
-                <router-link to="#consulting-web-development" scroll="{ behavior: 'smooth' }" class="btn">Web Development
+                <router-link to="#consulting-web-development"  class="btn" scroll="{ behavior: 'smooth' }">Web Development
                     Services</router-link>
             </div>
         </div>
-        <div class="consulting-header-icons">
-            <a href="https://github.com/kylecburgoyneF9" target="_blank"><box-icon type='logo' name='github'></box-icon></a>
-            <a href="https://www.youtube.com/channel/UCKlKCP8OuQVRArpZrzTd-xA" target="_blank"><box-icon name='youtube'
-                    type='logo'></box-icon></a>
-            <a href="https://www.instagram.com/kylecburgoyne/" target="_blank"><box-icon name='instagram-alt'
-                    type='logo'></box-icon></a>
-            <a href="https://www.linkedin.com/in/kyle-burgoyne-4824927b/" target="_blank"><box-icon name='linkedin'
-                    type='logo'></box-icon></a>
-        </div>
+
+        <SocialLinks />
     </section>
 
     <!-- 'about' section design and elements -->
@@ -47,13 +41,13 @@
     </section>
 
 
-    <section class="consulting-services-section">
+    <section class="services-split-text-image-section">
         <div class="border-div" style="margin-bottom: 6rem;">
-            <div class="consulting-services">
-                <div class="consulting-services-img" id="consulting-fractional-cfo">
+            <div class="services-split-text-image">
+                <div class="services-split-text-image-img" id="consulting-fractional-cfo">
                     <img src="../assets/Home/Finance.jpg" alt="">
                 </div>
-                <div class="consulting-services-content">
+                <div class="services-split-text-image-content">
                     <h3>Fractional CFO Services</h3>
                     <p>Having accumulated 9 years of experience in the business world, I've crafted a diverse range of
                         models, including but not limited to solar tax-equity, solar loan origination, corporate, debt and
@@ -64,11 +58,11 @@
                     <a href="#contact" class="universal-btn">Work Together</a>
                 </div>
             </div>
-            <div class="consulting-services">
-                <div class="consulting-services-img img-responsive1">
+            <div class="services-split-text-image">
+                <div class="services-split-text-image-img img-responsive1">
                     <img src="../assets/Home/Computer1.jpg" alt="">
                 </div>
-                <div class="consulting-services-content" id="consulting-automation-solutions">
+                <div class="services-split-text-image-content" id="consulting-automation-solutions">
                     <h3>Automation Solutions</h3>
                     <p>Leveraging a powerful combination of Excel, VBA, and Microsoft Power Automation, I
                         specialize in automating a wide array of standard tasks in accounting, finance, marketing, and
@@ -80,15 +74,15 @@
                         understanding of the value this automation can deliver.</p>
                     <a href="#contact" class="universal-btn">Work Together</a>
                 </div>
-                <div class="consulting-services-img img-responsive2">
+                <div class="services-split-text-image-img img-responsive2">
                     <img src="../assets/Home/Computer1.jpg" alt="">
                 </div>
             </div>
-            <div class="consulting-services">
-                <div class="consulting-services-img">
+            <div class="services-split-text-image">
+                <div class="services-split-text-image-img">
                     <img src="../assets/Home/Computer4.jpg" alt="">
                 </div>
-                <div class="consulting-services-content" id="consulting-integration-services">
+                <div class="services-split-text-image-content" id="consulting-integration-solutions">
                     <h3>Integration Solutions</h3>
                     <p>Using a suite of high and low code expertise, plus today's incredible array of database, AI, and
                         cloud services, I can help you get the most out of your existing technology stack.</p>
@@ -96,16 +90,15 @@
                         lossing visibility into your business due to a lack of communication between your core technology
                         systems, please reach out to me. Almost every company I have worked for (small and large) has
                         operated with such friction/barriers. These frictions are costing you in hard dollars, turnover,
-                        time,
-                        and opportunity.</p>
+                        time,and opportunity.</p>
                     <a href="#contact" class="universal-btn">Work Together</a>
                 </div>
             </div>
-            <div class="consulting-services">
-                <div class="consulting-services-img img-responsive1">
+            <div class="services-split-text-image">
+                <div class="services-split-text-image-img img-responsive1">
                     <img src="../assets/Home/Computer2.jpg" alt="">
                 </div>
-                <div class="consulting-services-content" id="consulting-web-development">
+                <div class="services-split-text-image-content" id="consulting-web-development">
                     <h3>Web & Application Development</h3>
                     <p>My prevailing development skillset is comprised of Vue3.js, vanilla CSS, HTML, and JavaScript,
                         Web3.js, and Solidity. This is a growing skillset of mine where I am seeking new engagements to
@@ -114,42 +107,46 @@
                         web3 application, I offer a growing range of web and application development services. </p>
                     <a href="#contact" class="universal-btn">Work Together</a>
                 </div>
-                <div class="consulting-services-img img-responsive2">
+                <div class="services-split-text-image-img img-responsive2">
                     <img src="../assets/Home/Computer2.jpg" alt="">
                 </div>
             </div>
         </div>
     </section>
-    <!-- 'contact' section design and elements -->
-    <section class="contact" id="contact">
-        <h2 class="heading">Contact <span>Me!</span></h2>
-        <form action="#">
-            <div class="input-box">
-                <div class="input-field">
-                    <input type="text" placeholder="Full Name" required>
-                </div>
-                <div class="input-field">
-                    <input type="email" placeholder="Email Address" required>
-                </div>
-            </div>
-            <div class="input-box">
-                <div class="input-field">
-                    <input type="tel" placeholder="Mobile Number" required>
-                </div>
-                <div class="input-field">
-                    <input type="text" placeholder="Email Subject" required>
-                </div>
-            </div>
-            <div class="textarea-field">
-                <textarea name="message" id="message" cols="30" rows="10" placeholder="Your Message" required></textarea>
-            </div>
-            <div class="btn-box btns">
-                <button type="submit" class="btn">Submit</button>
-            </div>
-        </form>
-    </section>
+    
+    <ContactForm />
 </template>
 <script setup>
 import { RouterLink } from 'vue-router';
+import SocialLinks from '../components/SocialLinks.vue'
+
 </script>
-<style scoped></style>
+<style scoped>
+.consulting-about {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    background: white;
+    padding-bottom: 6rem;
+}
+
+.consulting-about-content {
+    text-align: justify;
+}
+
+.consulting-about-content p {
+    position: relative;
+    font-size: 1.6rem;
+    margin: 0rem 0 3rem;
+}
+
+.consulting-services {
+    display: flex;
+    /* Use flexbox layout */
+}
+
+.consulting-about {
+    min-height: 75vh;
+}
+</style>

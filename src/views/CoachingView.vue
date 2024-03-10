@@ -1,7 +1,8 @@
 
 <template>
-    <section class="coaching-header">
-        <div class="coaching-header-content">
+    <section class="interior-hero">
+        <BackgroundVideo fileName="0226.mp4" />
+        <div class="interior-hero-content">
             <h1>Coaching Services</h1>
             <h3>Self-Development and Accountability</h3>
             <p>I established my life coaching practice to share my personal journey and assist others in crafting their own
@@ -9,7 +10,7 @@
                 approach resonates with you, and you're prepared to wholeheartedly pursue your own path to human excellence,
                 reach out to me to commence this transformative journey together.
             </p>
-            <div class="coaching-header-content-btns">
+            <div class="interior-hero-content-btns">
                 <router-link to="#coaching-fitness" scroll="{ behavior: 'smooth' }" class="btn">Fitness &
                     Health</router-link>
                 <router-link to="#coaching-masculinity" scroll="{ behavior: 'smooth' }" class="btn">Masculinity &
@@ -24,15 +25,8 @@
                     Trauma</router-link>
             </div>
         </div>
-        <div class="coaching-header-icons">
-            <a href="https://github.com/kylecburgoyneF9" target="_blank"><box-icon type='logo' name='github'></box-icon></a>
-            <a href="https://www.youtube.com/channel/UCKlKCP8OuQVRArpZrzTd-xA" target="_blank"><box-icon name='youtube'
-                    type='logo'></box-icon></a>
-            <a href="https://www.instagram.com/kylecburgoyne/" target="_blank"><box-icon name='instagram-alt'
-                    type='logo'></box-icon></a>
-            <a href="https://www.linkedin.com/in/kyle-burgoyne-4824927b/" target="_blank"><box-icon name='linkedin'
-                    type='logo'></box-icon></a>
-        </div>
+
+        <SocialLinks />
     </section>
 
     <!-- 'about' section design and elements -->
@@ -76,17 +70,17 @@
         </div>
     </section>
 
-    <section class="coaching-services-section">
+    <section class="services-split-text-image-section">
         <h2 class="heading">Coaching <span>Services</span></h2>
         <a href="https://minnect.com/become-an-expert/#download" target="_blank" class="universal-btn minnect-btn">Connect
             on
             Minnect</a>
         <div class="border-div" style="margin-bottom: 6rem;">
-            <div class="coaching-services">
-                <div class="coaching-services-img" id="coaching-fitness">
+            <div class="services-split-text-image">
+                <div class="services-split-text-image-img" id="coaching-fitness">
                     <img src="../assets/Home/Fitness.webp" alt="">
                 </div>
-                <div class="coaching-services-content">
+                <div class="services-split-text-image-content">
                     <h3>Fitness &
                         Health</h3>
                     <p>Whether you're aiming for a subtle shift in body composition or a more substantial transformation,
@@ -100,11 +94,11 @@
                     <a href="#contact" class="universal-btn">Work Together</a>
                 </div>
             </div>
-            <div class="coaching-services">
-                <div class="coaching-services-img img-responsive1">
+            <div class="services-split-text-image">
+                <div class="services-split-text-image-img img-responsive1">
                     <img src="../assets/Home/Masculinity.webp" alt="">
                 </div>
-                <div class="coaching-services-content" id="coaching-masculinity">
+                <div class="services-split-text-image-content" id="coaching-masculinity">
                     <h3>Masculinity &
                         Confidence</h3>
                     <p>Confidence, the bedrock of self-trust and decisive action, holds the key to attracting positive
@@ -118,15 +112,15 @@
                         confidence.</p>
                     <a href="#contact" class="universal-btn">Work Together</a>
                 </div>
-                <div class="coaching-services-img img-responsive2">
+                <div class="services-split-text-image-img img-responsive2">
                     <img src="../assets/Home/Masculinity.webp" alt="">
                 </div>
             </div>
-            <div class="coaching-services">
-                <div class="coaching-services-img">
+            <div class="services-split-text-image">
+                <div class="services-split-text-image-img">
                     <img src="../assets/Home/Relationships.webp" alt="" id="coaching-relationships">
                 </div>
-                <div class="coaching-services-content">
+                <div class="services-split-text-image-content">
                     <h3>Relationships &
                         Heartbreak</h3>
                     <p>Relationship coaching holds a special place in my heart because all external connections hinge on our
@@ -141,11 +135,11 @@
                     <a href="#contact" class="universal-btn">Work Together</a>
                 </div>
             </div>
-            <div class="coaching-services">
-                <div class="coaching-services-img img-responsive1">
+            <div class="services-split-text-image">
+                <div class="services-split-text-image-img img-responsive1">
                     <img src="../assets/Home/Career.webp" alt="">
                 </div>
-                <div class="coaching-services-content" id="coaching-career">
+                <div class="services-split-text-image-content" id="coaching-career">
                     <h3>Career
                         Development</h3>
                     <p>Navigating the job market, whether it's your first job, dream job, or the next step in your career,
@@ -160,15 +154,15 @@
                     </p>
                     <a href="#contact" class="universal-btn">Work Together</a>
                 </div>
-                <div class="coaching-services-img img-responsive2">
+                <div class="services-split-text-image-img img-responsive2">
                     <img src="../assets/Home/Career.webp" alt="">
                 </div>
             </div>
-            <div class="coaching-services">
-                <div class="coaching-services-img">
+            <div class="services-split-text-image">
+                <div class="services-split-text-image-img">
                     <img src="../assets/Home/Accountability.webp" alt="" id="coaching-accountability">
                 </div>
-                <div class="coaching-services-content">
+                <div class="services-split-text-image-content">
                     <h3>Accountability
                         Coaching</h3>
                     <p>If you find yourself lacking general motivation towards life, struggle with exercising, or are simply
@@ -182,11 +176,11 @@
                     <a href="#contact" class="universal-btn">Work Together</a>
                 </div>
             </div>
-            <div class="coaching-services">
-                <div class="coaching-services-img img-responsive1">
+            <div class="services-split-text-image">
+                <div class="services-split-text-image-img img-responsive1">
                     <img src="../assets/Home/Childhood.webp" alt="">
                 </div>
-                <div class="coaching-services-content" id="coaching-childhood">
+                <div class="services-split-text-image-content" id="coaching-childhood">
                     <h3>Childhood
                         Trauma</h3>
                     <p>Childhood trauma and growing up in an unstable home environment can often lead to self-sabotaging
@@ -200,42 +194,108 @@
                         your wounded inner child.</p>
                     <a href="#contact" class="universal-btn">Work Together</a>
                 </div>
-                <div class="coaching-services-img img-responsive2">
+                <div class="services-split-text-image-img img-responsive2">
                     <img src="../assets/Home/Childhood.webp" alt="">
                 </div>
             </div>
         </div>
     </section>
-    <!-- 'contact' section design and elements -->
-    <section class="contact" id="contact">
-        <h2 class="heading">Contact <span>Me!</span></h2>
-        <form action="#">
-            <div class="input-box">
-                <div class="input-field">
-                    <input type="text" placeholder="Full Name" required>
-                </div>
-                <div class="input-field">
-                    <input type="email" placeholder="Email Address" required>
-                </div>
-            </div>
-            <div class="input-box">
-                <div class="input-field">
-                    <input type="tel" placeholder="Mobile Number" required>
-                </div>
-                <div class="input-field">
-                    <input type="text" placeholder="Email Subject" required>
-                </div>
-            </div>
-            <div class="textarea-field">
-                <textarea name="message" id="message" cols="30" rows="10" placeholder="Your Message" required></textarea>
-            </div>
-            <div class="btn-box btns">
-                <button type="submit" class="btn">Submit</button>
-            </div>
-        </form>
-    </section>
+   
+    <ContactForm />
 </template>
 <script setup>
 import { RouterLink } from 'vue-router';
+import SocialLinks from '../components/SocialLinks.vue';
 </script>
-<style scoped></style>
+<style scoped>
+
+.coaching-about {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: white;
+    padding-bottom: 6rem;
+}
+
+.wrapper1 img {
+    display: none;
+}
+
+.wrapper {
+    padding-top: 2rem;
+}
+
+.wrapper img {
+    width: 100%;
+    max-width: 550px;
+    /* Adjust the width of the image as needed */
+    height: auto;
+    border-radius: 10px;
+    border: .2rem solid white;
+    margin-left: 2rem;
+    /* Add margin to create space between text and image */
+    float: right;
+    /* Float the image to the right */
+}
+
+.text-box h3 {
+    font-size: 2.6rem;
+}
+
+.text-box p {
+    font-size: 1.6rem;
+    margin: 0rem;
+    /* Adjust margin as needed */
+    margin-bottom: 3rem;
+    text-align: justify;
+    /* Add margin to bottom */
+}
+
+a.universal-btn.minnect-btn {
+    width: calc(35% - 7px);
+    margin-bottom: 4rem;
+}
+
+.border-div {
+    border: 3px solid var(--dk-blue);
+    padding: 0rem;
+}
+
+@media only screen and (max-width: 700px) {    
+
+    .wrapper img {
+        display: none;
+    }
+
+    .wrapper1 img {
+        float: none;
+        margin: 0 auto;
+        /* Center the image */
+        width: 100%;
+        max-width: 575px;
+        display: block;
+        border-radius: 10px;
+        border: .2rem solid var(--main-color);
+        /* Set max width */
+    }
+}
+
+
+@media only screen and (max-width: 900px) {
+    .wrapper img {
+        display: none;
+    }
+
+    .wrapper1 img {
+        float: none;
+        margin: 0 auto;
+        /* Center the image */
+        width: 100%;
+        max-width: 575px;
+        display: block;
+        border-radius: 10px;
+        border: .2rem solid var(--main-color);
+        /* Set max width */
+    }
+}
+</style>

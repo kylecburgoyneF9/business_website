@@ -39,6 +39,7 @@
 <style scoped>
 .reviews {
   background: white;
+  padding: 0 9%;
 }
 
 .review-cards-container {
@@ -56,6 +57,7 @@
 .review-cards-container .review-card-contents {
   display: flex;
   align-items: center;
+  flex-grow: 1;
   background-color: var(--second-bg-color);
   padding: 2rem;
   /*border-radius: 5%;*/
@@ -66,11 +68,26 @@
   box-shadow: 0 6px 8px rgba(0, 0, 0, 0.1);
 }
 
+.review-cards-container .review-card-contents:nth-of-type(1) img {
+  object-position: right top;
+  filter: grayscale(100%);
+}
+
+.review-cards-container .review-card-contents:nth-of-type(2) img {
+
+}
+
+.review-cards-container .review-card-contents:nth-of-type(3) img {
+
+}
+
 .review-cards-container .review-card-contents .review-card-img img {
   width: 18rem; /* Adjust the width as needed */
   height: 18rem; /* Adjust the height as needed */
   border-radius: 50%;
   border: var(--dk-blue) solid;
+  object-fit: cover;
+  filter: grayscale(100%);
 }
 
 .review-cards-container .review-card-contents .review-card-text h3 {

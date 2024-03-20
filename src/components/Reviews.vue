@@ -66,6 +66,7 @@
   gap: 2rem;
   border: var(--dk-blue) solid 1.5px;
   box-shadow: 0 6px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
 }
 
 .review-cards-container .review-card-contents:nth-of-type(1) img {

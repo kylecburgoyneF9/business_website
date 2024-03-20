@@ -5,9 +5,7 @@
         <div class="interior-hero-content">
             <h1>Consulting Services</h1>
             <h3>Fractional CFO & Technology Specialist</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus at cupiditate laborum quae facere
-                debitis ipsam quasi, natus quibusdam officiis fugit repellat veniam totam asperiores doloremque nobis.
-            </p>
+            <p>My team, and I, help businesses build out and maximize their existing finance/accounting function(s) and overall technology infrastructure. We pride ourselves in providing <strong>direct-to-bottom-line value</strong> through better operational decision making and relief of costly manual data entry/preparation. </p>
             <div class="interior-hero-content-btns">
                 <router-link to="#consulting-fractional-cfo" class="btn" scroll="{ behavior: 'smooth' }">Fractional CFO
                     Services</router-link>
@@ -49,12 +47,9 @@
                 </div>
                 <div class="services-split-text-image-content">
                     <h3>Fractional CFO Services</h3>
-                    <p>Having accumulated 9 years of experience in the business world, I've crafted a diverse range of
-                        models, including but not limited to solar tax-equity, solar loan origination, corporate, debt and
-                        equity due diligence, private placement, and accounting.</p>
+                    <p>With nearly a decade of financial and accounting experience, I handle the entirety of our CFO engagements. While I do offer bookkeeper-type services, my main value-add sits in being that tactical analytics-driven partner who can get into the bottom weeds and then deliver the correct 30,000-foot strategic recommendation/decision. </p>
 
-                    <p>Whether you're seeking to enhance your business tools or need support in presenting your business's
-                        potential, we can collaborate to achieve your objectives.</p>
+                    <p>Whether you're seeking to enhance your business tools or need support to capture more of your business's potential, we can collaborate to achieve your objectives.</p>
                     <a href="#contact" class="universal-btn">Work Together</a>
                 </div>
             </div>
@@ -64,14 +59,9 @@
                 </div>
                 <div class="services-split-text-image-content" id="consulting-automation-solutions">
                     <h3>Automation Solutions</h3>
-                    <p>Leveraging a powerful combination of Excel, VBA, and Microsoft Power Automation, I
-                        specialize in automating a wide array of standard tasks in accounting, finance, marketing, and
-                        administration within office environments.</p>
+                    <p>Leveraging a powerful combination of Excel, VBA, Microsoft Power Automation, and Make.com, we specialize in automating a wide array of standard tasks in the accounting, finance, marketing, and administration departments of a business.</p>
 
-                    <p>Curious if your business is a suitable candidate for streamlined automation? Let's have a
-                        consultation to evaluate the potential benefits, such as saving personnel time, enhancing data
-                        accuracy, and boosting overall convenience for your business. This way, you'll have a clear
-                        understanding of the value this automation can deliver.</p>
+                    <p>Curious if your business is a suitable candidate for streamlined automation? Let's have a consultation to evaluate the potential benefits, such as saving personnel time, enhancing data accuracy, and improving overall operational efficiency. This way, you'll have a clear understanding of the value this automation can deliver.</p>
                     <a href="#contact" class="universal-btn">Work Together</a>
                 </div>
                 <div class="services-split-text-image-img img-responsive2">
@@ -84,13 +74,8 @@
                 </div>
                 <div class="services-split-text-image-content" id="consulting-integration-solutions">
                     <h3>Integration Solutions</h3>
-                    <p>Using a suite of high and low code expertise, plus today's incredible array of database, AI, and
-                        cloud services, I can help you get the most out of your existing technology stack.</p>
-                    <p>If you're spending too much time manually manipulating data on a regular basis or are at the point of
-                        lossing visibility into your business due to a lack of communication between your core technology
-                        systems, please reach out to me. Almost every company I have worked for (small and large) has
-                        operated with such friction/barriers. These frictions are costing you in hard dollars, turnover,
-                        time,and opportunity.</p>
+                    <p>Using a suite of high and low code expertise, plus today's incredible array of database, AI, and cloud services, we can help you get the most out of your existing technology stack.</p>
+                    <p>If you're spending too much time manually manipulating data on a regular basis or are at the point of losing visibility into your business due to a lack of communication between your core technology systems, please reach out to me. Almost every company I have worked for (small and large) has operated with such friction/barriers. These frictions are costing you in hard dollars, turnover, time, and opportunity.</p>
                     <a href="#contact" class="universal-btn">Work Together</a>
                 </div>
             </div>
@@ -100,11 +85,8 @@
                 </div>
                 <div class="services-split-text-image-content" id="consulting-web-development">
                     <h3>Web & Application Development</h3>
-                    <p>My prevailing development skillset is comprised of Vue3.js, vanilla CSS, HTML, and JavaScript,
-                        Web3.js, and Solidity. This is a growing skillset of mine where I am seeking new engagements to
-                        build my portfolio. I am presently investing heavily into this part of my professional toolkit.</p>
-                    <p>Whether you are looking for a personal/professional-use website, an internal software solution, or a
-                        web3 application, I offer a growing range of web and application development services. </p>
+                    <p>My team’s prevailing development skillset is comprised of Vue3.js, vanilla CSS, HTML, and JavaScript, Web3.js, Solidity, VBA Macros, Make.com, Power Apps, MS Power Automate, and Zapier. This is a growing skillset of ours where we are seeking new engagements to build our portfolio. We are presently investing heavily into this part of our professional toolkit.</p>
+                    <p>Whether you are looking for a personal/professional-use website, an internal software solution, or a web3 application, we offer a growing range of web and application development services.</p>
                     <a href="#contact" class="universal-btn">Work Together</a>
                 </div>
                 <div class="services-split-text-image-img img-responsive2">

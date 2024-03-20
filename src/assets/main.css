@@ -310,13 +310,19 @@ span {
   gap: 2rem;
 }
 
+.services-intro {
+  font-size: 1.6rem;
+  text-align: center;
+  margin-bottom: 5rem;
+}
+
 .services-container .services-box {
   flex: 1 1 30rem;
-  background: var(--second-bg-color);
+  background: var(--dk-blue);
   padding: 3rem 2rem 3rem;
   border-radius: 2rem;
   text-align: center;
-  border: .2rem solid var(--dk-blue);
+  border: .25rem solid var(--main-color);
   box-shadow: 0 6px 8px rgba(0, 0, 0, 0.1);
   transition: .5s ease;
   cursor: pointer;
@@ -325,9 +331,18 @@ span {
 }
 
 .services-container .services-box:hover {
-  border-color: var(--dk-blue);
+  border-color: var(--main-color);
   transform: scale(1.02);
-  box-shadow: 0 0 1rem var(--dk-blue);
+  box-shadow: 0 0 1rem var(--main-color);
+}
+
+.svg-icon {
+  width: 50px;
+  /* Set width */
+  height: 50px;
+  /* Set height */
+  fill: var(--main-color);
+  /* Set fill color */
 }
 
 .services-box i {
@@ -337,13 +352,13 @@ span {
 
 .services-box h3 {
   font-size: 2.6rem;
-  color: var(--text-color);
+  color: white;
 }
 
 .services-box p {
   font-size: 1.6rem;
   margin: 1rem 0 3rem;
-  color: var(--text-color);
+  color: white;
 }
 
 .coaching {
@@ -468,6 +483,18 @@ span {
     width: 55%;
   }
 
+  .services-lists {
+    display: flex;
+    margin-bottom: 2rem;
+    gap: 1rem;
+    flex-direction: column;
+    padding: 0 1rem;
+  }
+
+  .services-list ul {
+    text-align: justify;
+  }
+
 }
 
 @media (max-width: 768px) {
@@ -551,4 +578,3 @@ span {
   position: relative;
   overflow: hidden;
 }
-

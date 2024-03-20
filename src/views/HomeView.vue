@@ -4,10 +4,9 @@
     <div class="home-content">
       <h1>Kyle Burgoyne</h1>
       <div class="">
-        <h3>Life Coach & Fractional CFO</h3>
+        <h3>Fractional CFO & CTO</h3>
       </div>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus at cupiditate laborum quae facere
-        debitis ipsam quasi, natus quibusdam officiis fugit repellat veniam totam asperiores doloremque nobis.
+      <p>My team, and I, help businesses build out and maximize their existing finance/accounting function(s) and overall technology infrastructure. We pride ourselves in providing <strong>direct-to-bottom-line value</strong> through better operational decision making and relief of costly manual data entry/preparation. 
       </p>
 
       <div class="btn-box">
@@ -31,19 +30,13 @@
     </div>
 
     <div class="about-content">
-      <h3>Life Coach & Fractional CFO</h3>
-      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium dolorum recusandae saepe magni
-        eveniet provident voluptate cupiditate sapiente vero numquam soluta non amet voluptatem ipsam eius quam
-        molestias pariatur, eaque a! Minus repudiandae sapiente asperiores aliquid magnam iste vel quis officiis
-        odio laudantium numquam minima, dolorem officia esse, quidem ipsa.
+      <h3>Fractional CFO & CTO</h3>
+      <p>Today’s suite of high and low code technology presents both small and large businesses with meaningful opportunity for direct cost savings and improved operational decision making. Unfortunately, taking advantage of these opportunities requires a professional with enough cross-functional knowledge to both see the opportunity and implement against it. My team’s finance and technical capabilities allow us to play this highly specialized role.
       </p>
       <div class="home-about-btn">
         <router-link :to="{ path: '/consulting', hash: '#my-career' }" scroll="{ behavior: 'smooth' }"
           class="universal-btn">My
           Career</router-link>
-        <router-link :to="{ path: '/coaching', hash: '#my-journey' }" scroll="{ behavior: 'smooth' }"
-          class="universal-btn">My
-          Journey</router-link>
       </div>
     </div>
   </section>
@@ -51,93 +44,34 @@
   <!-- 'services' section design and elements -->
   <section class="services" id="services">
     <h2 class="heading">Consulting <span>Services</span></h2>
-
+    <div class="services-intro">
+      Please click on the links below to read more about our suite of services. I believe that our services can deliver <strong>direct-to-bottom-line value</strong> to nearly any business. A couple examples would be (i) accommodating CFO/CTO needs for businesses that might not have the resources or workload to call for full-time, (ii) relieving a founder from CFO/CTO obligations so that they can focus on operations, (iii) help businesses alleviate the pains of the legacy systems without having to modify any existing infrastructure. It is the nature of automation, today, to play the <strong>intermediary</strong> between legacy systems and users. 
+    </div>
     <div class="services-container">
       <router-link :to="{ path: '/consulting', hash: '#consulting-fractional-cfo' }" scroll="{ behavior: 'smooth' }"
         class="services-box">
-        <SvgLineChart />
+        <SvgLineChart class="svg-icon"/>
         <h3>Fractional CFO Services</h3>
-        <p>Leverage my financial modeling, accounting, and data analysis expertise to unlock strategic insights for your
-          business.</p>
+        <p>Fractional CFO Services: Leverage our modeling, accounting, and data analysis expertise to unluck strategic insights for your business. 
+        </p>
       </router-link>
       <router-link :to="{ path: '/consulting', hash: '#consulting-automation-solutions' }" scroll="{ behavior: 'smooth' }"
         class="services-box">
-        <SvgCog />
+        <SvgCog class="svg-icon"/>
         <h3>Automation Solutions</h3>
-        <p>Upgrade your workflows with the latest AI and automation solutions available. (VBA Macros, MS Power Automate,
-          APIs)</p>
+        <p>Upgrade your workflows with the latest AI and automation solutions available. (VBA Macros, MS Power Automate, APIs)</p>
       </router-link>
       <router-link :to="{ path: '/consulting', hash: '#consulting-integration-solutions' }"
         scroll="{ behavior: 'smooth' }" class="services-box">
-        <SvgIntersect />
+        <SvgIntersect class="svg-icon"/>
         <h3>Integration Solutions</h3>
-        <p>Unlock your organization's potential by bridging the gap between disparate IT systems with integration
-          solutions.</p>
+        <p>Unlock your organization’s potential by bridging the gap between disparate IT systems with integration solutions. </p>
       </router-link>
       <router-link :to="{ path: '/consulting', hash: '#consulting-web-development' }" scroll="{ behavior: 'smooth' }"
         class="services-box">
-        <SvgLineChart />
+        <SvgLineChart class="svg-icon"/>
         <h3>Web Development</h3>
-        <p>Engage me to craft full-stack web and web3 applications to empower your business's success.</p>
-      </router-link>
-    </div>
-  </section>
-
-  <!-- 'coaching' section design and elements -->
-  <section class="coaching" id="coaching">
-    <h2 class="heading"> Life <span>Coaching</span></h2>
-    <p>Fitness & Health | Masculinity & Confidence | Relationships & Heartbreak | Career Development | Accountability
-      Coaching |
-      Childhood Trauma</p>
-
-    <div class="coaching-container" :class="{'is-touch': isTouch }">
-      <router-link :to="{ path: '/coaching', hash: '#coaching-fitness' }" scroll="{ behavior: 'smooth' }"
-        class="coaching-box">
-        <img src="../assets/Home/Fitness.webp" alt="">
-        <div class="coaching-layer">
-          <h4>Fitness & Health</h4>
-          <p>Accomplish your fitness goals through discipline and consistency</p>
-        </div>
-      </router-link>
-      <router-link :to="{ path: '/coaching', hash: '#coaching-masculinity' }" scroll="{ behavior: 'smooth' }"
-        class="coaching-box">
-        <img src="../assets/Home/Masculinity.webp" alt="">
-        <div class="coaching-layer">
-          <h4>Masculinity & Confidence</h4>
-          <p>Build the strongest and most confident version of yourself</p>
-        </div>
-      </router-link>
-      <router-link :to="{ path: '/coaching', hash: '#coaching-relationships' }" scroll="{ behavior: 'smooth' }"
-        class="coaching-box">
-        <img src="../assets/Home/Relationships.webp" alt="">
-        <div class="coaching-layer">
-          <h4>Relationships & Heartbreak</h4>
-          <p>Improve your current relationship or rebuild yourself stronger than ever</p>
-        </div>
-      </router-link>
-      <router-link :to="{ path: '/coaching', hash: '#coaching-career' }" scroll="{ behavior: 'smooth' }"
-        class="coaching-box">
-        <img src="../assets/Home/Career.webp" alt="">
-        <div class="coaching-layer">
-          <h4>Career Development</h4>
-          <p>Develop technical skills and improve your earnings potential</p>
-        </div>
-      </router-link>
-      <router-link :to="{ path: '/coaching', hash: '#coaching-accountability' }" scroll="{ behavior: 'smooth' }"
-        class="coaching-box">
-        <img src="../assets/Home/Accountability.webp" alt="">
-        <div class="coaching-layer">
-          <h4>Accountability Coaching</h4>
-          <p>Find more discipline and self-control than you've ever known</p>
-        </div>
-      </router-link>
-      <router-link :to="{ path: '/coaching', hash: '#coaching-childhood' }" scroll="{ behavior: 'smooth' }"
-        class="coaching-box">
-        <img src="../assets/Home/Childhood.webp" alt="">
-        <div class="coaching-layer">
-          <h4>Childhood Trauma</h4>
-          <p>Heal your wounded inner child and shatter your limiting beliefs</p>
-        </div>
+        <p>Engage us to craft full-stack web and web3 applications to empower your business’s success. </p>
       </router-link>
     </div>
   </section>

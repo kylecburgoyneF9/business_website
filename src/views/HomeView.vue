@@ -69,7 +69,7 @@
       </router-link>
       <router-link :to="{ path: '/consulting', hash: '#consulting-web-development' }" scroll="{ behavior: 'smooth' }"
         class="services-box">
-        <SvgLineChart class="svg-icon"/>
+        <Tagtag class="svg-icon"/>
         <h3>Web Development</h3>
         <p>Engage us to craft full-stack web and web3 applications to empower your business’s success. </p>
       </router-link>
@@ -89,13 +89,14 @@
 
 <script setup>
 import { RouterLink } from 'vue-router';
-import { onMounted, onUnmounted, ref } from 'vue';
+import { onMounted, onUnmounted, ref, nextTick } from 'vue';
 
 // import svgs
 import SocialLinks from '../components/SocialLinks.vue'
 import SvgCog from '../components/svgs/Cog.vue'
 import SvgLineChart from '../components/svgs/LineChart.vue'
 import SvgIntersect from '../components/svgs/Intersect.vue'
+import Tagtag from '@/components/svgs/Tagtag.vue';
 
 import Reviews from '../components/Reviews.vue'
 import DigitalPortfolio from '../components/DigitalPortfolio.vue'
@@ -141,8 +142,10 @@ const windowStore = useWindowStore()
 const isTouch = windowStore.isTouch;
 
 onMounted(() => {
-  setHeights()
-  window.addEventListener('resize', setHeights)
+  nextTick(() => {
+      setHeights()
+      window.addEventListener('resize', setHeights)
+    })
 });
 
 onUnmounted(() => {

@@ -5,11 +5,11 @@
             <MenuIcon :class="{ open: isMenuOpen }" />
         </button>
         <nav class="navbar" :class="{ 'active': isMenuOpen }">
-            <router-link to="/consulting" @click="toggleMenu">Consulting</router-link>
-            <router-link to="/coaching" @click="toggleMenu">Coaching</router-link>
+            <router-link to="/consulting" @click="toggleMenu">Services</router-link>
             <router-link :to="{ path: '/', hash: '#portfolio' }" scroll="{ behavior: 'smooth' }" @click="toggleMenu">Portfolio</router-link>
             <router-link :to="{ path: '/', hash: '#reviews' }" scroll="{ behavior: 'smooth' }" @click="toggleMenu">Reviews</router-link>
             <router-link to="#contact" @click="toggleMenu">Contact</router-link>
+            <a class="calendly-link">Calendly</a>
         </nav>
     </header>
 </template>
@@ -107,6 +107,10 @@ onBeforeUnmount(() => {
 .navbar a.active {
   /*Implement the 'active' class at some point*/
   color: var(--main-color);
+}
+
+.calendly-link {
+    cursor: pointer; /* Change cursor to pointer on hover */
 }
 
 /* Menu icon is not currently implemented

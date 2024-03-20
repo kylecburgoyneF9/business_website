@@ -3,21 +3,13 @@
   <section class="portfolio" id="portfolio">
     <div class="portfolio-header">
       <h2 class="heading">Digital <span>Portfolio</span></h2>
-      <p>I've curated a collection of YouTube videos highlighting my professional expertise and coaching skills. Depending
-        on what you are looking for, follow either link below and enjoy the content. I take content creation requests for
-        both business and self-development topics, so feel free to contact me and let's put something together.
-      </p>
+      <p>We've curated a collection of YouTube videos highlighting our professional expertise. I challenge our audience to watch any video on your channel and <strong>not</strong> take away a new practicality that could be used same-day.  I take content creation requests for varying finance and technology business needs, so feel free to contact me and let's put something together. Follow the link below. Enjoy the content!</p>
     </div>
     <div class="portfolio-contents">
       <a href="https://www.youtube.com/channel/UCKlKCP8OuQVRArpZrzTd-xA" target="_blank"
         class="portfolio-contents-consulting has-background-video">
         <BackgroundVideo fileName="0226.mp4" />
         <h3>Consulting</h3>
-      </a>
-      <a href="https://www.youtube.com/channel/UCKlKCP8OuQVRArpZrzTd-xA" target="_blank"
-        class="portfolio-contents-coaching has-background-video">
-        <BackgroundVideo fileName="0226.mp4" />
-        <h3>Coaching</h3> 
       </a>
     </div>
     <a href="#contact" class="universal-btn">Work Together</a>

@@ -80,7 +80,7 @@
         <SvgIntersect class="svg-icon" />
         <h3> FP&A Automation & Integration</h3>
         <p>We support Controllers, CFOs, and other accounting managers in outfitting their FP&A departments with the
-          latest integrations, automations, and Ai tools to alleviate the challenges of manual and legacy systems.</p>
+          latest integration, automation, and AI tools to alleviate the challenges of manual and legacy systems.</p>
       </router-link>
     </div>
   </section>

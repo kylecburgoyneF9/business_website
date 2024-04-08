@@ -8,14 +8,15 @@
         possess the same level of knowledge and capability in capturing high ROI opportunities using today’s suite of
         automation, integrations, and AI technologies. This niche cross functional skillset enables D3 to deliver the
         highest of RIO to FP&A departments and operators in need of better data visibility or the configuration of an
-        automation solution. This skillset directly supplements D3’s fractional CFO services, as we can see other high
+        automation solution. This skillset also directly supplements D3’s fractional CFO services, as we can see other
+        high
         ROI technology opportunities throughout the business, not just with the FP&A function. </p>
       <p>Our firm enjoys showcasing its capabilities across many social media platforms to educate CFOs and executive
-        business operators on where our services can deliver value to their businesses. This is, also, not something
-        that many other firms do. I think this is an important mechanism of any financial or technical advisory firm
-        from a marketing perspective, but really, it’s the ‘giving back’ piece. I can say definitively that I would not
-        be the professional, nor person, without the many creators out there from whom I have benefited. Thanks to all
-        the creators out there. I’m excited to finally join the club. </p>
+        business operators on where our services can deliver value to their businesses. Again, this is something
+        few other firms do. I think this is an important mechanism for any financial or technical advisory firm from a
+        marketing perspective, but it's important from a 'giving back' perspective as well. I can say definitively that
+        I would not be the professional, nor person, I am without the many creators out there from whom I have
+        benefited. It's time for me to start being one myself.</p>
     </div>
     <a href="#contact" class="universal-btn">Work Together</a>
   </section>

@@ -60,7 +60,8 @@
                     <h3>Fractional CFO Services</h3>
                     <p>CEOs and founders carry immense responsibility. Entrust your financial strategy to a seasoned
                         expert and allow yourself to focus on steering your business toward success. As a data-driven
-                        tactician, I provide tailored recommendations to empower your decision-making process.</p>
+                        tactician, I provide tailored recommendations to empower your decision-making process. Here are
+                        the services we offer:</p>
                     <ul>
                         <li>Financial Strategy Development: Create and implement financial strategies aligned with
                             business goals.</li>
@@ -84,7 +85,7 @@
                 </div>
                 <div class="services-split-text-image-content" id="consulting-automation-solutions">
                     <h3>Specialized Business Tooling</h3>
-                    <p>[placeholder]</p>
+                    <p>[placeholder] Here are the services we offer:</p>
                     <ul>
                         <li>[placeholder]</li>
                         <li>[placeholder]</li>
@@ -105,7 +106,7 @@
                         losing visibility into the business, or struggling, daily, with your legacy systems, please
                         reach out to me. These frictions are costing you in hard dollars, turnover, time, and
                         opportunity. Our cross-functional expertise places us in a niche position to deliver specialized
-                        value to finance and accounting teams.</p>
+                        value to finance and accounting teams. Here are the services we offer:</p>
                     <ul>
                         <li>Ad-hoc Engagement: Capture emerging opportunities throughout your finance and accounting
                             ecosystems with today’s suite of AI tools.</li>

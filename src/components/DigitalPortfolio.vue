@@ -3,11 +3,11 @@
   <section class="portfolio" id="portfolio">
     <div class="portfolio-header">
       <h2 class="heading">Digital <span>Portfolio</span></h2>
-      <p>Here is a showcase of <strong>what gives D3 its Difference</strong>. Any operator out there today who could use
-        strong CFO
-        partnership support to take their business to the next level should contact us. Any CFOs or accounting managers
-        who are tired of their disparate legacy systems or significantly manual processes should also contact us. Please
-        let us make your lives considerably easier day to day. </p>
+      <p>Here is a showcase of <strong>what gives D3 its Difference</strong>. Any operator out there who could use
+        a strong CFO partner to take their business to the next level should, please contact us. Any CFOs or accounting
+        managers who are tired of their disparate legacy systems or significantly manual processes should also contact
+        us. Please
+        let us make your lives considerably easier day-to-day. </p>
       <p>Our content is teeming with emerging opportunities that every finance and accounting department should be
         considering today. Like and subscribe if you want more. </p>
 

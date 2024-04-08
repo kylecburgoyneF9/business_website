@@ -11,7 +11,7 @@
       <router-link :to="{ path: '/', hash: '#reviews' }" scroll="{ behavior: 'smooth' }"
         @click="toggleMenu">Reviews</router-link>
       <router-link to="#contact" @click="toggleMenu">Contact</router-link>
-      <a href="https://calendly.com/kylecburgoyne/30min" class="calendly-link" target="_blank">Calendly</a>
+      <a href="https://calendly.com/kylecburgoyne/15min" class="calendly-link" target="_blank">Calendly</a>
     </nav>
   </header>
 </template>

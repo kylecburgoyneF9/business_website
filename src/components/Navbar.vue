@@ -1,17 +1,19 @@
 <template>
-    <header id="nav" class="header" :class="{ 'sticky': isSticky }">
-        <a href="/" class="logo">KB | <span>CharacterMatters</span></a>
-        <button class="menu-icon" @click="toggleMenu">
-            <MenuIcon :class="{ open: isMenuOpen }" />
-        </button>
-        <nav class="navbar" :class="{ 'active': isMenuOpen }">
-            <router-link to="/consulting" @click="toggleMenu">Services</router-link>
-            <router-link :to="{ path: '/', hash: '#portfolio' }" scroll="{ behavior: 'smooth' }" @click="toggleMenu">Portfolio</router-link>
-            <router-link :to="{ path: '/', hash: '#reviews' }" scroll="{ behavior: 'smooth' }" @click="toggleMenu">Reviews</router-link>
-            <router-link to="#contact" @click="toggleMenu">Contact</router-link>
-            <a href="https://calendly.com/kylecburgoyne/30min" class="calendly-link" target="_blank">Calendly</a>
-        </nav>
-    </header>
+  <header id="nav" class="header" :class="{ 'sticky': isSticky }">
+    <a href="/" class="logo">KB | <span>D3 Finance</span></a>
+    <button class="menu-icon" @click="toggleMenu">
+      <MenuIcon :class="{ open: isMenuOpen }" />
+    </button>
+    <nav class="navbar" :class="{ 'active': isMenuOpen }">
+      <router-link to="/consulting" @click="toggleMenu">Services</router-link>
+      <router-link :to="{ path: '/', hash: '#portfolio' }" scroll="{ behavior: 'smooth' }"
+        @click="toggleMenu">Portfolio</router-link>
+      <router-link :to="{ path: '/', hash: '#reviews' }" scroll="{ behavior: 'smooth' }"
+        @click="toggleMenu">Reviews</router-link>
+      <router-link to="#contact" @click="toggleMenu">Contact</router-link>
+      <a href="https://calendly.com/kylecburgoyne/30min" class="calendly-link" target="_blank">Calendly</a>
+    </nav>
+  </header>
 </template>
 
 <style scoped></style>
@@ -25,36 +27,36 @@ import MenuIcon from './svgs/MenuIcon.vue'
 const isMenuOpen = ref(false);
 
 const toggleMenu = () => {
-    isMenuOpen.value = !isMenuOpen.value;
+  isMenuOpen.value = !isMenuOpen.value;
 };
 
 const isSticky = ref(false);
 
 const handleScroll = () => {
-    isSticky.value = window.scrollY > 100; // Adjust the threshold as needed
+  isSticky.value = window.scrollY > 100; // Adjust the threshold as needed
 };
 
 const windowWidth = ref(true)
 
 watch(windowWidth, (newWindowWidth) => {
-    let isMobile = newWindowWidth <= 768;
-    if (isMobile && isMenuOpen.value) toggleMenu()
+  let isMobile = newWindowWidth <= 768;
+  if (isMobile && isMenuOpen.value) toggleMenu()
 })
 
 const trackWidth = () => {
-    windowWidth.value = window.innerWidth;
+  windowWidth.value = window.innerWidth;
 }
 
 
 
 onMounted(() => {
-    window.addEventListener('scroll', handleScroll);
-    window.addEventListener('resize', trackWidth);
+  window.addEventListener('scroll', handleScroll);
+  window.addEventListener('resize', trackWidth);
 });
 
 onBeforeUnmount(() => {
-    window.removeEventListener('scroll', handleScroll);
-    window.addEventListener('resize', trackWidth);
+  window.removeEventListener('scroll', handleScroll);
+  window.addEventListener('resize', trackWidth);
 
 });
 </script>
@@ -110,7 +112,8 @@ onBeforeUnmount(() => {
 }
 
 .calendly-link {
-    cursor: pointer; /* Change cursor to pointer on hover */
+  cursor: pointer;
+  /* Change cursor to pointer on hover */
 }
 
 /* Menu icon is not currently implemented

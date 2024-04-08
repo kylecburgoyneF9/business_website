@@ -2,22 +2,26 @@
   <!-- 'home' section design and elements -->
   <section class="home" id="home">
     <div class="home-content">
-      <h1>Kyle Burgoyne</h1>
+      <h1>D3 Finance</h1>
       <div class="">
-        <h3>Fractional CFO & CTO</h3>
+        <h3>Fractional CFO & Technical Advisory Services</h3>
       </div>
-      <p>My team, and I, help businesses build out and maximize their existing finance/accounting function(s) and overall technology infrastructure. We pride ourselves in providing <strong>direct-to-bottom-line value</strong> through better operational decision making and relief of costly manual data entry/preparation. 
-      </p>
+      <p>My team delivers fractional CFO and technical advisory services designed to directly impact the bottom line
+        with <strong> high ROI opportunities</strong>. We do this by combining specialized finance and accounting
+        expertise
+        with today’s
+        array of automation, integration and AI technologies. Scroll for more and connect with me today. </p>
 
       <div class="btn-box">
         <a href="#contact" class="btn">Let's Talk</a>
         <a href="https://minnect.com/become-an-expert/#download" target="_blank" class="btn">Minnect</a>
-        <a href="../assets/Kyle_Burgoyne_CV_2024.pdf" class="btn" download="../assets/Kyle_Burgoyne_CV_2024.pdf">Download
+        <a href="../assets/Kyle_Burgoyne_CV_2024.pdf" class="btn"
+          download="../assets/Kyle_Burgoyne_CV_2024.pdf">Download
           CV</a>
       </div>
     </div>
 
-    <SocialLinks class="home-sci"/>
+    <SocialLinks class="home-sci" />
   </section>
 
   <!-- 'about' section design and elements -->
@@ -30,8 +34,15 @@
     </div>
 
     <div class="about-content">
-      <h3>Fractional CFO & CTO</h3>
-      <p>Today’s suite of high and low code technology presents both small and large businesses with meaningful opportunity for direct cost savings and improved operational decision making. Unfortunately, taking advantage of these opportunities requires a professional with enough cross-functional knowledge to both see the opportunity and implement against it. My team’s finance and technical capabilities allow us to play this highly specialized role.
+      <h3>Kyle Burgoyne</h3>
+      <p>I started D3 Finance to deliver clear financial leadership to business operators, who need it, and capture the
+        emerging automation opportunities found within most businesses and FP&A departments today.
+      </p>
+      <p>Today's high and low code technology offers businesses significant opportunities for cost savings, enhanced
+        decision-making, and eased operational management. Seizing these opportunities necessitates a team possessing
+        specialized cross-functional expertise. Leveraging my decade-long career in accounting, finance, and
+        entrepreneurship along with a passion for technology, I spearhead our team's efforts to capture these
+        opportunities.
       </p>
       <div class="home-about-btn">
         <router-link :to="{ path: '/consulting', hash: '#my-career' }" scroll="{ behavior: 'smooth' }"
@@ -45,39 +56,43 @@
   <section class="services" id="services">
     <h2 class="heading">Consulting <span>Services</span></h2>
     <div class="services-intro">
-      Please click on the links below to read more about our suite of services. I believe that our services can deliver <strong>direct-to-bottom-line value</strong> to nearly any business. A couple examples would be (i) accommodating CFO/CTO needs for businesses that might not have the resources or workload to call for full-time, (ii) relieving a founder from CFO/CTO obligations so that they can focus on operations, (iii) help businesses alleviate the pains of the legacy systems without having to modify any existing infrastructure. It is the nature of automation, today, to play the <strong>intermediary</strong> between legacy systems and users. 
+      Our services are designed to deliver directly to your business's bottom line. Click the links to explore our suite
+      of services.
     </div>
     <div class="services-container">
       <router-link :to="{ path: '/consulting', hash: '#consulting-fractional-cfo' }" scroll="{ behavior: 'smooth' }"
         class="services-box">
-        <SvgLineChart class="svg-icon"/>
+        <SvgLineChart class="svg-icon" />
         <h3>Fractional CFO Services</h3>
-        <p>Fractional CFO Services: Leverage our modeling, accounting, and data analysis expertise to unluck strategic insights for your business. 
+        <p>We help executive business operators make their best decisions by fulfilling their business’s key finance and
+          accounting leadership needs.
         </p>
       </router-link>
-      <router-link :to="{ path: '/consulting', hash: '#consulting-automation-solutions' }" scroll="{ behavior: 'smooth' }"
-        class="services-box">
-        <SvgCog class="svg-icon"/>
-        <h3>Automation Solutions</h3>
-        <p>Upgrade your workflows with the latest AI and automation solutions available. (VBA Macros, MS Power Automate, APIs)</p>
+      <router-link :to="{ path: '/consulting', hash: '#consulting-automation-solutions' }"
+        scroll="{ behavior: 'smooth' }" class="services-box">
+        <SvgCog class="svg-icon" />
+        <h3>Specialized Business Tooling</h3>
+        <p>We collaborate with business operators to build specialized operating tools to grow their business, ease
+          their operations, and make their decisions more data-driven. </p>
       </router-link>
       <router-link :to="{ path: '/consulting', hash: '#consulting-integration-solutions' }"
         scroll="{ behavior: 'smooth' }" class="services-box">
-        <SvgIntersect class="svg-icon"/>
-        <h3>Integration Solutions</h3>
-        <p>Unlock your organization’s potential by bridging the gap between disparate IT systems with integration solutions. </p>
-      </router-link>
-      <router-link :to="{ path: '/consulting', hash: '#consulting-web-development' }" scroll="{ behavior: 'smooth' }"
-        class="services-box">
-        <Tagtag class="svg-icon"/>
-        <h3>Web Development</h3>
-        <p>Engage us to craft full-stack web and web3 applications to empower your business’s success. </p>
+        <SvgIntersect class="svg-icon" />
+        <h3> FP&A Automation & Integration</h3>
+        <p>We support Controllers, CFOs, and other accounting managers in outfitting their FP&A departments with the
+          latest integrations, automations, and Ai tools to alleviate the challenges of manual and legacy systems.</p>
       </router-link>
     </div>
   </section>
 
+  <!-- The D3 Difference -->
+  <TheDifference />
+
   <!-- Digital Portfolio -->
   <DigitalPortfolio />
+
+  <!-- Digital Portfolio -->
+  <MyPromise />
 
   <!-- Reviews Section -->
   <Reviews />
@@ -98,6 +113,8 @@ import SvgLineChart from '../components/svgs/LineChart.vue'
 import SvgIntersect from '../components/svgs/Intersect.vue'
 import Tagtag from '@/components/svgs/Tagtag.vue';
 
+import TheDifference from '../components/D3Difference.vue'
+import MyPromise from '../components/MyPromise.vue'
 import Reviews from '../components/Reviews.vue'
 import DigitalPortfolio from '../components/DigitalPortfolio.vue'
 
@@ -143,9 +160,9 @@ const isTouch = windowStore.isTouch;
 
 onMounted(() => {
   nextTick(() => {
-      setHeights()
-      window.addEventListener('resize', setHeights)
-    })
+    setHeights()
+    window.addEventListener('resize', setHeights)
+  })
 });
 
 onUnmounted(() => {
@@ -154,5 +171,4 @@ onUnmounted(() => {
 
 </script>
 
-<style scoped>
-</style>
+<style scoped></style>

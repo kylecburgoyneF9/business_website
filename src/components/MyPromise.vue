@@ -1,30 +1,24 @@
 <template>
   <!-- 'portfolio' section design and elements -->
-  <section class="portfolio" id="portfolio">
-    <div class="portfolio-header">
-      <h2 class="heading">Digital <span>Portfolio</span></h2>
-      <p>Here is a showcase of <strong>what gives D3 its Difference</strong>. Any operator out there today who could use
-        strong CFO
-        partnership support to take their business to the next level should contact us. Any CFOs or accounting managers
-        who are tired of their disparate legacy systems or significantly manual processes should also contact us. Please
-        let us make your lives considerably easier day to day. </p>
-      <p>Our content is teeming with emerging opportunities that every finance and accounting department should be
-        considering today. Like and subscribe if you want more. </p>
+  <section class="my-promise" id="portfolio">
+    <div class="my-promise-header">
+      <h2 class="heading">My <span>Promise</span></h2>
+      <p>When you team up with D3 Finance, you'll find reassurance in having an executive-level partner who comprehends
+        your operation’s distinctive needs and challenges. Collaboratively, we'll identify the precise strategies
+        required to propel you and your team toward its next phase of success. </p>
+      <p>We offer month-to-month services so that if at any point you feel that we’re not delivering to bottom-line, you
+        can walk away.</p>
+      <p>We only take on clients who can invest in our services and where we can deliver on high ROI opportunities. Our
+        team determines and presents an ROI estimate to prospective customers ahead of all formal engagements after our
+        discovery process. </p>
 
     </div>
-    <div class="portfolio-contents">
-      <a href="https://www.youtube.com/channel/UCKlKCP8OuQVRArpZrzTd-xA" target="_blank"
-        class="portfolio-contents-consulting has-background-video">
-        <BackgroundVideo fileName="0226.mp4" />
-        <h3>Consulting</h3>
-      </a>
-    </div>
-    <a href="#contact" class="universal-btn">Work Together</a>
+    <a href="#contact" class="universal-btn">Contact Us</a>
   </section>
 </template>
 
 <style scoped>
-.portfolio {
+.my-promise {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -33,13 +27,13 @@
   background: white;
 }
 
-.portfolio-header {
+.my-promise-header {
   display: flex;
   flex-direction: column;
   text-align: center;
 }
 
-.portfolio-contents {
+.my-promise-contents {
   display: flex;
   width: 100%;
   /* Ensure the flex container spans the entire width */
@@ -50,12 +44,12 @@
   justify-content: center;
 }
 
-.portfolio-header p {
+.my-promise-header p {
   margin-bottom: 4rem;
   font-size: 1.6rem;
 }
 
-.portfolio-contents>a {
+.my-promise-contents>a {
   flex: 1;
   display: flex;
   justify-content: center;
@@ -73,49 +67,44 @@
   border: 2px solid transparent;
 }
 
-.portfolio .background-video {
-  opacity: .3;
-  border-radius: 2rem;
-}
-
-.portfolio-contents h3 {
+.my-promise-contents h3 {
   position: relative;
   z-index: 2;
   font-size: 3rem;
   color: white;
 }
 
-.portfolio-contents>a:hover {
+.my-promise-contents>a:hover {
   transform: scale(1.01);
   /* Scale up slightly on hover */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   /* Increase box shadow on hover */
 }
 
-.portfolio-contents>a:hover {
+.my-promise-contents>a:hover {
   border-color: var(--main-color);
   /* Add a border on hover */
 }
 
-.portfolio-contents-consulting,
-.portfolio-contents-coaching {
+.my-promise-contents-consulting,
+.my-promise-contents-coaching {
   padding: 1rem;
   /* Optional: Add additional styling specific to each subsection */
 }
 
-.portfolio>.universal-btn {
+.my-promise>.universal-btn {
   max-width: 250px;
   margin-bottom: 5rem;
 }
 
 @media (max-width: 768px) {
-  .portfolio-contents {
+  .my-promise-contents {
     flex-direction: column;
     align-items: center;
     /* Stack items vertically on smaller screens */
   }
 
-  .portfolio-contents>a {
+  .my-promise-contents>a {
     width: 100%;
     /* Set anchor tags to full width */
     margin-bottom: 1rem;

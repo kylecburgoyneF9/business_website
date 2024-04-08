@@ -1,20 +1,21 @@
-
 <template>
     <section class="interior-hero">
         <BackgroundVideo fileName="0226.mp4" />
         <div class="interior-hero-content">
             <h1>Consulting Services</h1>
-            <h3>Fractional CFO & Technology Specialist</h3>
-            <p>My team, and I, help businesses build out and maximize their existing finance/accounting function(s) and overall technology infrastructure. We pride ourselves in providing <strong>direct-to-bottom-line value</strong> through better operational decision making and relief of costly manual data entry/preparation. </p>
+            <h3>Fractional CFO & Technical Advisory Services</h3>
+            <p>My team delivers fractional CFO and technical advisory services designed to directly impact the bottom
+                line with <strong> high ROI opportunities</strong>. We do this by combining specialized finance and
+                accounting expertise with today’s array of automation, integration and AI technologies. Scroll for more
+                and connect with me today. </p>
             <div class="interior-hero-content-btns">
                 <router-link to="#consulting-fractional-cfo" class="btn" scroll="{ behavior: 'smooth' }">Fractional CFO
                     Services</router-link>
-                <router-link to="#consulting-automation-solutions"  class="btn" scroll="{ behavior: 'smooth' }">Automations
-                    Solution</router-link>
-                <router-link to="#consulting-integration-services"  class="btn" scroll="{ behavior: 'smooth' }">Integrations
-                    Solutions</router-link>
-                <router-link to="#consulting-web-development"  class="btn" scroll="{ behavior: 'smooth' }">Web Development
-                    Services</router-link>
+                <router-link to="#consulting-automation-solutions" class="btn"
+                    scroll="{ behavior: 'smooth' }">Specialized Business
+                    Tooling</router-link>
+                <router-link to="#consulting-integration-services" class="btn" scroll="{ behavior: 'smooth' }">
+                    FP&A Automation and Integration</router-link>
             </div>
         </div>
 
@@ -25,17 +26,27 @@
     <section class="consulting-about" id="my-career">
         <h2 class="heading">My <span>Career</span></h2>
         <div class="consulting-about-content">
-            <p>With a Bachelor of Science in Business Administration and a Certified Public Accountant (CPA) background,
-                I've seamlessly transitioned between various roles, showcasing my prowess as a startup and small
-                business enthusiast.</p>
-            <p></p>
-            <p></p>
+            <p>With nearly a decade of experience bridging the gap between technology and finance/accounting teams, I
+                have honed a unique skill set that allows me to serve as the intermediary between these critical
+                functions. My expertise lies in understanding both the intricacies of financial operations and the
+                potential of cutting-edge technology solutions. Leveraging this cross-functional knowledge, I excel in
+                identifying opportunities for process improvement, automation, and integration, thereby streamlining
+                operations and enhancing decision-making capabilities.</p>
+            <p>As a seasoned professional, I specialize in providing direct-to-bottom-line value through strategic
+                insights and practical solutions. Whether it's optimizing financial workflows, implementing automation
+                tools, or integrating disparate IT systems, I am adept at translating complex technical concepts into
+                actionable strategies that drive business growth. My ability to communicate effectively with both
+                finance/accounting and technology teams enables me to facilitate collaboration and alignment, ensuring
+                that organizational objectives are met efficiently and effectively.</p>
+            <p>In today's rapidly evolving business landscape, the intersection of finance/accounting and technology has
+                never been more crucial. With my proven track record of success in navigating this intersection, I am
+                well-positioned to help businesses harness the power of technology to achieve their financial goals and
+                drive sustainable growth.</p>
             <p></p>
             <p></p>
             <p></p>
         </div>
-        <a href="/Kyle_Burgoyne_CV_2024.pdf" class="universal-btn"
-            download>Download CV</a>
+        <a href="/Kyle_Burgoyne_CV_2024.pdf" class="universal-btn" download>Download CV</a>
     </section>
 
 
@@ -47,9 +58,23 @@
                 </div>
                 <div class="services-split-text-image-content">
                     <h3>Fractional CFO Services</h3>
-                    <p>With nearly a decade of financial and accounting experience, I handle the entirety of our CFO engagements. While I do offer bookkeeper-type services, my main value-add sits in being that tactical analytics-driven partner who can get into the bottom weeds and then deliver the correct 30,000-foot strategic recommendation/decision. </p>
-
-                    <p>Whether you're seeking to enhance your business tools or need support to capture more of your business's potential, we can collaborate to achieve your objectives.</p>
+                    <p>CEOs and founders carry immense responsibility. Entrust your financial strategy to a seasoned
+                        expert and allow yourself to focus on steering your business toward success. As a data-driven
+                        tactician, I provide tailored recommendations to empower your decision-making process.</p>
+                    <ul>
+                        <li>Financial Strategy Development: Create and implement financial strategies aligned with
+                            business goals.</li>
+                        <li>Budgeting and Forecasting: Develop budgets and financial forecasts to guide business
+                            decisions.</li>
+                        <li>Financial Analysis and Reporting: Analyze financial data and prepare reports for key
+                            decision makers.</li>
+                        <li>Cash Flow Management: Monitor cash flow and optimize liquidity to support business
+                            operations.</li>
+                        <li>Financial Modeling: Build financial models to evaluate business scenarios and investment
+                            opportunities.</li>
+                        <li>Data Analytics: Assess, capture, and analyze key data points for the business to improve
+                            executive-level decision making.</li>
+                    </ul>
                     <a href="#contact" class="universal-btn">Work Together</a>
                 </div>
             </div>
@@ -58,10 +83,12 @@
                     <img src="../assets/Home/Computer1.jpg" alt="">
                 </div>
                 <div class="services-split-text-image-content" id="consulting-automation-solutions">
-                    <h3>Automation Solutions</h3>
-                    <p>Leveraging a powerful combination of Excel, VBA, Microsoft Power Automation, and Make.com, we specialize in automating a wide array of standard tasks in the accounting, finance, marketing, and administration departments of a business.</p>
-
-                    <p>Curious if your business is a suitable candidate for streamlined automation? Let's have a consultation to evaluate the potential benefits, such as saving personnel time, enhancing data accuracy, and improving overall operational efficiency. This way, you'll have a clear understanding of the value this automation can deliver.</p>
+                    <h3>Specialized Business Tooling</h3>
+                    <p>[placeholder]</p>
+                    <ul>
+                        <li>[placeholder]</li>
+                        <li>[placeholder]</li>
+                    </ul>
                     <a href="#contact" class="universal-btn">Work Together</a>
                 </div>
                 <div class="services-split-text-image-img img-responsive2">
@@ -73,29 +100,24 @@
                     <img src="../assets/Home/Computer4.jpg" alt="">
                 </div>
                 <div class="services-split-text-image-content" id="consulting-integration-solutions">
-                    <h3>Integration Solutions</h3>
-                    <p>Using a suite of high and low code expertise, plus today's incredible array of database, AI, and cloud services, we can help you get the most out of your existing technology stack.</p>
-                    <p>If you're spending too much time manually manipulating data on a regular basis or are at the point of losing visibility into your business due to a lack of communication between your core technology systems, please reach out to me. Almost every company I have worked for (small and large) has operated with such friction/barriers. These frictions are costing you in hard dollars, turnover, time, and opportunity.</p>
+                    <h3>FP&A Automation and Integration</h3>
+                    <p>CFOs and Controllers, if your FP&A function is spending too much time manually manipulating data,
+                        losing visibility into the business, or struggling, daily, with your legacy systems, please
+                        reach out to me. These frictions are costing you in hard dollars, turnover, time, and
+                        opportunity. Our cross-functional expertise places us in a niche position to deliver specialized
+                        value to finance and accounting teams.</p>
+                    <ul>
+                        <li>Ad-hoc Engagement: Capture emerging opportunities throughout your finance and accounting
+                            ecosystems with today’s suite of AI tools.</li>
+                        <li>Legacy Refurbishment: ‘Upgrade’ your legacy systems, or ‘remedy’ disparate ones, to feel
+                            effortless and powerful without changing any of your underlying infrastructure.</li>
+                    </ul>
                     <a href="#contact" class="universal-btn">Work Together</a>
-                </div>
-            </div>
-            <div class="services-split-text-image">
-                <div class="services-split-text-image-img img-responsive1">
-                    <img src="../assets/Home/Computer2.jpg" alt="">
-                </div>
-                <div class="services-split-text-image-content" id="consulting-web-development">
-                    <h3>Web & Application Development</h3>
-                    <p>My team’s prevailing development skillset is comprised of Vue3.js, vanilla CSS, HTML, and JavaScript, Web3.js, Solidity, VBA Macros, Make.com, Power Apps, MS Power Automate, and Zapier. This is a growing skillset of ours where we are seeking new engagements to build our portfolio. We are presently investing heavily into this part of our professional toolkit.</p>
-                    <p>Whether you are looking for a personal/professional-use website, an internal software solution, or a web3 application, we offer a growing range of web and application development services.</p>
-                    <a href="#contact" class="universal-btn">Work Together</a>
-                </div>
-                <div class="services-split-text-image-img img-responsive2">
-                    <img src="../assets/Home/Computer2.jpg" alt="">
                 </div>
             </div>
         </div>
     </section>
-    
+
     <ContactForm />
 </template>
 <script setup>

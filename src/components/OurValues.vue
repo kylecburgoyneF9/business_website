@@ -1,8 +1,8 @@
 <template>
   <!-- 'portfolio' section design and elements -->
-  <section class="d3-difference" id="d3-difference">
-    <div class="d3-difference-contents">
-      <h2 class="heading">The D3 <span>Difference</span></h2>
+  <section class="d3-values" id="d3-difference">
+    <div class="d3-values-contents">
+      <h2 class="heading">The D3 <span>Values</span></h2>
       <p>The D3 Difference lies at the confluence of finance, technology, and operations, distinguishing us from other
         fractional CFO services firms. With our team's niche technical proficiencies and operational acumen, we offer a
         unique skill set that enables us to leverage today's automation and AI technologies, empowering business
@@ -22,7 +22,7 @@
 </template>
 
 <style scoped>
-.d3-difference {
+.d3-values {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -31,17 +31,17 @@
   background: white;
 }
 
-.d3-difference-contents .heading {
+.d3-values-contents .heading {
   margin-bottom: 2rem;
 }
 
-.d3-difference-contents {
+.d3-values-contents {
   display: flex;
   flex-direction: column;
   text-align: center;
 }
 
-.d3-difference-contents {
+.d3-values-contents {
   display: flex;
   width: 100%;
   /* Ensure the flex container spans the entire width */
@@ -52,17 +52,17 @@
   justify-content: center;
 }
 
-.d3-difference-contents p {
+.d3-values-contents p {
   margin-bottom: 2rem;
   font-size: 1.6rem;
 }
 
-.d3-difference-contents p:nth-child(3) {
+.d3-values-contents p:nth-child(3) {
   margin-bottom: 4rem;
   font-size: 1.6rem;
 }
 
-.d3-difference-contents>a {
+.d3-values-contents>a {
   flex: 1;
   display: flex;
   justify-content: center;
@@ -80,44 +80,44 @@
   border: 2px solid transparent;
 }
 
-.d3-difference-contents h3 {
+.d3-values-contents h3 {
   position: relative;
   z-index: 2;
   font-size: 3rem;
   color: white;
 }
 
-.d3-difference-contents>a:hover {
+.d3-values-contents>a:hover {
   transform: scale(1.01);
   /* Scale up slightly on hover */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   /* Increase box shadow on hover */
 }
 
-.d3-difference-contents>a:hover {
+.d3-values-contents>a:hover {
   border-color: var(--main-color);
   /* Add a border on hover */
 }
 
-.d3-difference-contents-consulting,
-.d3-difference-contents-coaching {
+.d3-values-contents-consulting,
+.d3-values-contents-coaching {
   padding: 1rem;
   /* Optional: Add additional styling specific to each subsection */
 }
 
-.d3-difference>.universal-btn {
+.d3-values>.universal-btn {
   max-width: 250px;
   margin-bottom: 5rem;
 }
 
 @media (max-width: 768px) {
-  .d3-difference-contents {
+  .d3-values-contents {
     flex-direction: column;
     align-items: center;
     /* Stack items vertically on smaller screens */
   }
 
-  .d3-difference-contents>a {
+  .d3-values-contents>a {
     width: 100%;
     /* Set anchor tags to full width */
     margin-bottom: 1rem;

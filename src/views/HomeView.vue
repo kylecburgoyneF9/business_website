@@ -35,15 +35,20 @@
 
     <div class="about-content">
       <h3>Kyle Burgoyne</h3>
-      <p>I started D3 Finance to deliver clear financial leadership to business operators, who need it, and capture the
-        emerging automation opportunities found within most businesses and FP&A departments today.
+      <p>I started D3 Finance to deliver powerful financial leadership to business operators, who need it, and capture
+        the emerging automation opportunities found within most FP&A functions today. </p>
+      <p>I've gained valuable experience across a diverse array of companies, spanning from burgeoning startups to
+        industry giants. While my core responsibilities have centered around finance and accounting, I've been fortunate
+        to gain substantial exposure to operational and managerial facets throughout my tenure. With a decade-long
+        career in FP&A, I've augmented my skill set with certain technological proficiencies, enabling me to serve as a
+        formidable partner in data-driven decision-making for my clients. My ability to produce and reach certain kinds
+        of data sets me apart from other CFOs and CFO firms.
       </p>
-      <p>Today's high and low code technology offers businesses significant opportunities for cost savings, enhanced
-        decision-making, and eased operational management. Seizing these opportunities necessitates a team possessing
-        specialized cross-functional expertise. Leveraging my decade-long career in accounting, finance, and
-        entrepreneurship along with a passion for technology, I spearhead our team's efforts to capture these
-        opportunities.
-      </p>
+      <p>Today's landscape of high and low code technologies presents businesses with considerable prospects for cost
+        reduction, improved decision-making, and streamlined operational oversight. Capturing these opportunities
+        requires a team with specialized expertise spanning multiple disciplines. Drawing upon my extensive background
+        in accounting, finance, and entrepreneurship, coupled with a fervent interest in technology, I lead our team's
+        endeavors to seize these targeted FP&A automation opportunities.</p>
       <div class="home-about-btn">
         <router-link :to="{ path: '/consulting', hash: '#my-career' }" scroll="{ behavior: 'smooth' }"
           class="universal-btn">My
@@ -68,13 +73,6 @@
           accounting leadership needs.
         </p>
       </router-link>
-      <router-link :to="{ path: '/consulting', hash: '#consulting-automation-solutions' }"
-        scroll="{ behavior: 'smooth' }" class="services-box">
-        <SvgCog class="svg-icon" />
-        <h3>Specialized Business Tooling</h3>
-        <p>We collaborate with business operators to build specialized operating tools to grow their business, ease
-          their operations, and make their decisions more data-driven. </p>
-      </router-link>
       <router-link :to="{ path: '/consulting', hash: '#consulting-integration-solutions' }"
         scroll="{ behavior: 'smooth' }" class="services-box">
         <SvgIntersect class="svg-icon" />
@@ -91,11 +89,13 @@
   <!-- Digital Portfolio -->
   <DigitalPortfolio />
 
+  <!-- Reviews Section -->
+  <Reviews />
+
   <!-- Digital Portfolio -->
   <MyPromise />
 
-  <!-- Reviews Section -->
-  <Reviews />
+  <OurValues />
 
   <!-- Contact Section -->
   <ContactForm />
@@ -117,6 +117,7 @@ import TheDifference from '../components/D3Difference.vue'
 import MyPromise from '../components/MyPromise.vue'
 import Reviews from '../components/Reviews.vue'
 import DigitalPortfolio from '../components/DigitalPortfolio.vue'
+import OurValues from '../components/OurValues.vue'
 
 const setHeights = () => {
   const servicesBoxes = document.querySelectorAll('.services-container .services-box');

@@ -26,23 +26,7 @@
     <section class="consulting-about" id="my-career">
         <h2 class="heading">My <span>Career</span></h2>
         <div class="consulting-about-content">
-            <p>With nearly a decade of experience bridging the gap between technology and finance/accounting teams, I
-                have honed a unique skill set that allows me to serve as the intermediary between these critical
-                functions. My expertise lies in understanding both the intricacies of financial operations and the
-                potential of cutting-edge technology solutions. Leveraging this cross-functional knowledge, I excel in
-                identifying opportunities for process improvement, automation, and integration, thereby streamlining
-                operations and enhancing decision-making capabilities.</p>
-            <p>As a seasoned professional, I specialize in providing direct-to-bottom-line value through strategic
-                insights and practical solutions. Whether it's optimizing financial workflows, implementing automation
-                tools, or integrating disparate IT systems, I am adept at translating complex technical concepts into
-                actionable strategies that drive business growth. My ability to communicate effectively with both
-                finance/accounting and technology teams enables me to facilitate collaboration and alignment, ensuring
-                that organizational objectives are met efficiently and effectively.</p>
-            <p>In today's rapidly evolving business landscape, the intersection of finance/accounting and technology has
-                never been more crucial. With my proven track record of success in navigating this intersection, I am
-                well-positioned to help businesses harness the power of technology to achieve their financial goals and
-                drive sustainable growth.</p>
-            <p></p>
+            <p>[placeholder]</p>
             <p></p>
             <p></p>
         </div>
@@ -63,37 +47,26 @@
                         tactician, I provide tailored recommendations to empower your decision-making process. Here are
                         the services we offer:</p>
                     <ul>
-                        <li>Financial Strategy Development: Create and implement financial strategies aligned with
-                            business goals.</li>
-                        <li>Budgeting and Forecasting: Develop budgets and financial forecasts to guide business
-                            decisions.</li>
-                        <li>Financial Analysis and Reporting: Analyze financial data and prepare reports for key
-                            decision makers.</li>
-                        <li>Cash Flow Management: Monitor cash flow and optimize liquidity to support business
-                            operations.</li>
-                        <li>Financial Modeling: Build financial models to evaluate business scenarios and investment
-                            opportunities.</li>
-                        <li>Data Analytics: Assess, capture, and analyze key data points for the business to improve
-                            executive-level decision making.</li>
+                        <li>Financial Strategy Development: Craft and execute financial strategies that align with your
+                            business objectives, driving sustainable growth and profitability.</li>
+                        <li>Budgeting and Forecasting: Develop accurate budgets and financial forecasts to provide a
+                            roadmap for informed decision-making and resource allocation.</li>
+                        <li>Financial Analysis and Reporting: Analyze financial data to derive actionable insights and
+                            prepare comprehensive reports for key stakeholders, facilitating informed decision-making
+                            and strategic planning.</li>
+                        <li>Cash Flow Management: Monitor cash flow dynamics and optimize liquidity management
+                            strategies to ensure smooth business operations and financial stability.</li>
+                        <li>Financial Modeling: Construct robust financial models to evaluate various business scenarios
+                            and investment opportunities, enabling informed strategic decision-making and risk
+                            assessment.</li>
+                        <li>Data Analytics: Harness the power of data analytics to assess, capture, and analyze key
+                            business metrics, empowering executives with actionable insights for driving performance and
+                            innovation.</li>
+                        <li>Department Buildout: Strategically structure and expand FP&A departments to enhance
+                            organizational capabilities and support business growth, optimizing resources and fostering
+                            a data-driven culture.</li>
                     </ul>
                     <a href="#contact" class="universal-btn">Work Together</a>
-                </div>
-            </div>
-            <div class="services-split-text-image">
-                <div class="services-split-text-image-img img-responsive1">
-                    <img src="../assets/Home/Computer1.jpg" alt="">
-                </div>
-                <div class="services-split-text-image-content" id="consulting-automation-solutions">
-                    <h3>Specialized Business Tooling</h3>
-                    <p>[placeholder] Here are the services we offer:</p>
-                    <ul>
-                        <li>[placeholder]</li>
-                        <li>[placeholder]</li>
-                    </ul>
-                    <a href="#contact" class="universal-btn">Work Together</a>
-                </div>
-                <div class="services-split-text-image-img img-responsive2">
-                    <img src="../assets/Home/Computer1.jpg" alt="">
                 </div>
             </div>
             <div class="services-split-text-image">
@@ -108,10 +81,21 @@
                         opportunity. Our cross-functional expertise places us in a niche position to deliver specialized
                         value to finance and accounting teams. Here are the services we offer:</p>
                     <ul>
-                        <li>Ad-hoc Engagement: Capture emerging opportunities throughout your finance and accounting
-                            ecosystems with today’s suite of AI tools.</li>
-                        <li>Legacy Refurbishment: ‘Upgrade’ your legacy systems, or ‘remedy’ disparate ones, to feel
-                            effortless and powerful without changing any of your underlying infrastructure.</li>
+                        <li>Data Extraction: Leveraging automation and AI capabilities, we extract data from various
+                            sources including PDFs, websites, web-based applications, and legacy systems, ensuring
+                            comprehensive access to critical information.</li>
+                        <li>Data Collation: By consolidating data from disparate systems, we uncover valuable insights
+                            that drive informed decision-making and business optimization, unlocking the full potential
+                            of your organization's data assets.</li>
+                        <li>Data Accessibility: We enhance data accessibility through user-friendly platforms and
+                            streamlined protocols, ensuring stakeholders have seamless access to pertinent information
+                            whenever and wherever needed.</li>
+                        <li>Entry Automation: Utilizing advanced automation technologies, we streamline data entry
+                            processes, minimizing manual errors and expediting workflow efficiency, allowing your team
+                            to focus on high-value tasks.</li>
+                        <li>Data Reporting: Our comprehensive reporting solutions encompass dynamic visualizations and
+                            interactive dashboards, providing actionable insights and trends to guide strategic planning
+                            and facilitate data-driven decision-making across your organization.</li>
                     </ul>
                     <a href="#contact" class="universal-btn">Work Together</a>
                 </div>

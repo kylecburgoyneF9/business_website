@@ -4,13 +4,12 @@
     <div class="my-promise-header">
       <h2 class="heading">My <span>Promise</span></h2>
       <p>When you team up with D3 Finance, you'll find reassurance in having an executive-level partner who comprehends
-        your operation’s distinctive needs and challenges. Collaboratively, we'll identify the precise strategies
-        required to propel you and your team toward its next phase of success. </p>
+        your operation’s distinctive needs and challenges. Together, we'll identify the precise strategies required to
+        propel you and your team toward its next phase of success.</p>
       <p>We offer month-to-month services so that if at any point you feel that we’re not delivering to bottom-line, you
         can walk away.</p>
-      <p>We only take on clients who can invest in our services and where we can deliver on high ROI opportunities. Our
-        team determines and presents an ROI estimate to prospective customers ahead of all formal engagements after our
-        discovery process. </p>
+      <p>We only take on clients who can invest in our services and where we can deliver on high ROI opportunities for
+        our clients. </p>
 
     </div>
     <a href="#contact" class="universal-btn">Contact Us</a>

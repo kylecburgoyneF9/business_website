@@ -12,7 +12,7 @@
                 <router-link to="#consulting-fractional-cfo" class="btn" scroll="{ behavior: 'smooth' }">Fractional CFO
                     Services</router-link>
                 <router-link to="#consulting-integration-services" class="btn" scroll="{ behavior: 'smooth' }">
-                    Automation and Integration</router-link>
+                    FP&A Automation and Integration</router-link>
             </div>
         </div>
 

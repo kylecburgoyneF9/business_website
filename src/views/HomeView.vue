@@ -2,6 +2,7 @@
   <!-- 'home' section design and elements -->
   <section class="home" id="home">
     <div class="home-content">
+      <BackgroundVideo fileName="0226.mp4" />
       <h1>D3 Finance</h1>
       <div class="">
         <h3>Fractional CFO & Technical Advisory Services</h3>
@@ -35,20 +36,14 @@
 
     <div class="about-content">
       <h3>Kyle Burgoyne</h3>
-      <p>I started D3 Finance to deliver powerful financial leadership to business operators, who need it, and capture
-        the emerging automation opportunities found within most FP&A functions today. </p>
-      <p>I've gained valuable experience across a diverse array of companies, spanning from burgeoning startups to
-        industry giants. While my core responsibilities have centered around finance and accounting, I've been fortunate
-        to gain substantial exposure to operational and managerial facets throughout my tenure. With a decade-long
-        career in FP&A, I've augmented my skill set with certain technological proficiencies, enabling me to serve as a
-        formidable partner in data-driven decision-making for my clients. My ability to produce and reach certain kinds
-        of data sets me apart from other CFOs and CFO firms.
+      <p>I started D3 Finance to deliver powerful financial leadership to business operators, who need it, and to
+        capture the emerging automation and AI opportunities found within most businesses today. </p>
+      <p>My technical capability and diversity of experience, sets me apart from other CFOs. I've seen the inside of a
+        diverse array of companies, spanning from burgeoning startups to industry giants. I’ve had the chance to see
+        both great success and great failure. You simply will not find another CFO with the same technical or
+        operational abilities to bring to your team. It could not be more rewarding to share these skills with my
+        clients to grow their businesses alongside mine.
       </p>
-      <p>Today's landscape of high and low code technologies presents businesses with considerable prospects for cost
-        reduction, improved decision-making, and streamlined operational oversight. Capturing these opportunities
-        requires a team with specialized expertise spanning multiple disciplines. Drawing upon my extensive background
-        in accounting, finance, and entrepreneurship, coupled with a fervent interest in technology, I lead our team's
-        endeavors to seize these targeted FP&A automation opportunities.</p>
       <div class="home-about-btn">
         <router-link :to="{ path: '/consulting', hash: '#my-career' }" scroll="{ behavior: 'smooth' }"
           class="universal-btn">My

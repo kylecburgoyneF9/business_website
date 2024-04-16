@@ -3,19 +3,14 @@
   <section class="d3-difference" id="d3-difference">
     <div class="d3-difference-contents">
       <h2 class="heading">The D3 <span>Difference</span></h2>
-      <p>The D3 Difference lies at the confluence of finance, technology, and operations, distinguishing us from other
-        fractional CFO services firms. With our team's niche technical proficiencies and operational acumen, we offer a
-        unique skill set that enables us to leverage today's automation and AI technologies, empowering business
-        operators to make the most informed, data-driven financial decisions they can make today.</p>
+      <p>The D3 Difference is “better DATA...better DECISIONS...better DOLLARS”. With our team's niche technical
+        proficiencies, we offer a unique skill set where we can leverage today's automation and AI technologies and
+        empower
+        business operators to make the most informed, data-driven financial decisions they can today.</p>
       <p>Beyond our CFO services, our specialized cross-functional expertise positions D3 to identify and seize high-ROI
         opportunities within FP&A departments seeking enhanced data visibility and relief from labor-intensive
         processes. Additionally, we serve a unique set of CFO services professionals looking to deliver tailored data
         solutions to their clients through automation and AI technologies.</p>
-      <p>We take pride in sharing our expertise across various social media platforms to educate CFOs and
-        executive-level business operators on how our services can add value to their organizations. This outreach is
-        not merely a marketing endeavor for us; it's our way of giving back to the broader business community. I owe
-        much of my professional and personal growth to the countless creators whose work has inspired me, and I'm
-        excited to be a contributor to this community.</p>
     </div>
     <a href="#contact" class="universal-btn">Work Together</a>
   </section>

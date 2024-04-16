@@ -3,19 +3,29 @@
   <section class="portfolio" id="portfolio">
     <div class="portfolio-header">
       <h2 class="heading">Digital <span>Portfolio</span></h2>
-      <p>Here is a showcase of what gives D3 its Difference. Any operator out there today who could use a strong CFO
-        partner to take their business to the next level should contact us. Any CFOs or accounting managers who are
-        tired of their disparate legacy systems or significantly manual processes should also contact us. Please let us
-        make your lives considerably easier day to day. </p>
-      <p>Our content is teeming with emerging opportunities that every operator and FP&A professional should be
-        considering today. Like and subscribe if you want more. </p>
-
+      <p>We take pride in sharing our expertise across various social media platforms to educate CFOs and
+        executive-level business operators on how our services can add value to their organizations. This outreach is
+        not merely a marketing endeavor for us; it's our way of giving back to the broader business community. I owe
+        much of my professional and personal growth to the countless creators whose work has inspired me, and I'm
+        excited to be a contributor to this community.</p>
+      <p><strong>Our content is teeming with emerging opportunities that every operator and FP&A professional should be
+          considering today. Like and subscribe if you want more.</strong></p>
     </div>
     <div class="portfolio-contents">
       <a href="https://www.youtube.com/channel/UCKlKCP8OuQVRArpZrzTd-xA" target="_blank"
         class="portfolio-contents-consulting has-background-video">
         <BackgroundVideo fileName="0226.mp4" />
-        <h3>Consulting</h3>
+        <h3>CFO Services</h3>
+      </a>
+      <a href="https://www.youtube.com/channel/UCKlKCP8OuQVRArpZrzTd-xA" target="_blank"
+        class="portfolio-contents-consulting has-background-video">
+        <BackgroundVideo fileName="0226.mp4" />
+        <h3>Automation Services</h3>
+      </a>
+      <a href="https://www.youtube.com/channel/UCKlKCP8OuQVRArpZrzTd-xA" target="_blank"
+        class="portfolio-contents-consulting has-background-video">
+        <BackgroundVideo fileName="0226.mp4" />
+        <h3>D3 Difference</h3>
       </a>
     </div>
     <a href="#contact" class="universal-btn">Work Together</a>
@@ -47,6 +57,7 @@
   margin-bottom: 6rem;
   gap: 2.5rem;
   justify-content: center;
+  text-align: center;
 }
 
 .portfolio-header p {

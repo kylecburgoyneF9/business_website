@@ -72,7 +72,13 @@ section {
   width: 50rem;
 }
 
-/*Animations not currently implemented
+.home-content .background-video {
+  opacity: .15;
+}
+
+/*
+Fucking nailed that 4/15/2024
+Animations not currently implemented
 .home-content .text-animate h3 {
     font-size: 3.2rem;
     font-weight: 700;

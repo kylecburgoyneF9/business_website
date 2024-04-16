@@ -3,25 +3,69 @@
   <section class="d3-values" id="d3-difference">
     <div class="d3-values-contents">
       <h2 class="heading">The D3 <span>Values</span></h2>
-      <p>The D3 Difference lies at the confluence of finance, technology, and operations, distinguishing us from other
-        fractional CFO services firms. With our team's niche technical proficiencies and operational acumen, we offer a
-        unique skill set that enables us to leverage today's automation and AI technologies, empowering business
-        operators to make the most informed, data-driven financial decisions they can make today.</p>
-      <p>Beyond our CFO services, our specialized cross-functional expertise positions D3 to identify and seize high-ROI
-        opportunities within FP&A departments seeking enhanced data visibility and relief from labor-intensive
-        processes. Additionally, we serve a unique set of CFO services professionals looking to deliver tailored data
-        solutions to their clients through automation and AI technologies.</p>
-      <p>We take pride in sharing our expertise across various social media platforms to educate CFOs and
-        executive-level business operators on how our services can add value to their organizations. This outreach is
-        not merely a marketing endeavor for us; it's our way of giving back to the broader business community. I owe
-        much of my professional and personal growth to the countless creators whose work has inspired me, and I'm
-        excited to be a contributor to this community.</p>
+      <p>I believe that culture is set by the tone at the top. A leader without the willingness to give more than they
+        ask is just a fan. D3 is a leader. Within our culture, we encourage discussions of character (i.e. ‘character
+        matters’) and emphasize why ‘character matters’ so much. We hold these values to be foundational to success in
+        both life and business. </p>
+      <div class="values-review-cards-container">
+        <div class="values-review-card-contents">
+          <div class="values-review-card-text">
+            <h3>Gratitude</h3>
+            <p>Life is gift, honor it. Work hard.</p>
+          </div>
+        </div>
+        <div class="values-review-card-contents">
+          <div class="values-review-card-text">
+            <h3>Accountability</h3>
+            <p>Believe in the fruition and freedom of the truth. Find the fine line separating what you can and cannot
+              control. Seek the truth, where it may lead. Seek strong character, wherever it may lead. </p>
+          </div>
+        </div>
+        <div class="values-review-card-contents">
+          <div class="values-review-card-text">
+            <h3>Infatigueability</h3>
+            <p>Thrive on feedback. ‘Life is not about how hard you can hit, its about how hard you can get it, and keep
+              going.’ Keep going.</p>
+          </div>
+        </div>
+      </div>
     </div>
     <a href="#contact" class="universal-btn">Work Together</a>
   </section>
 </template>
 
 <style scoped>
+.values-review-cards-container {
+  display: flex;
+  flex-direction: column;
+  /* Ensure cards stack vertically */
+  align-items: center;
+  /* Center cards horizontally */
+}
+
+.values-review-cards-container .values-review-card-contents {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  background-color: var(--second-bg-color);
+  padding: 2rem;
+  /*border-radius: 5%;*/
+  margin-bottom: 2rem;
+  padding: 10px 20px;
+  gap: 2rem;
+  border: var(--dk-blue) solid 1.5px;
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+}
+
+.values-review-cards-container .values-review-card-contents .values-review-card-text h3 {
+  font-size: 2.6rem;
+}
+
+.values-review-cards-container .values-review-card-contents .values-review-card-text p {
+  font-size: 1.5rem;
+}
+
 .d3-values {
   display: flex;
   flex-direction: column;
@@ -84,7 +128,7 @@
   position: relative;
   z-index: 2;
   font-size: 3rem;
-  color: white;
+  color: var(--text-color);
 }
 
 .d3-values-contents>a:hover {
@@ -122,6 +166,12 @@
     /* Set anchor tags to full width */
     margin-bottom: 1rem;
     /* Add spacing between stacked items */
+  }
+
+  .values-review-cards-container .values-review-card-contents {
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
   }
 }
 </style>

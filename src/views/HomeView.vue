@@ -56,9 +56,24 @@
   <section class="services" id="services">
     <h2 class="heading">Consulting <span>Services</span></h2>
     <div class="services-intro">
-      Our services are designed to deliver directly to your business's bottom line. Click the links to explore our suite
+      Our services are designed to deliver directly to your business's bottom line. Please see our ideal customer
+      qualifications. Click the links to explore our suite
       of services.
     </div>
+    <ul>
+      <li>Financial Strategy Development: Craft and execute financial strategies that align with your
+        business objectives, driving sustainable growth and profitability.</li>
+      <li>Budgeting and Forecasting: Develop accurate budgets and financial forecasts to provide a
+        roadmap for informed decision-making and resource allocation.</li>
+      <li>Financial Analysis and Reporting: Analyze financial data to derive actionable insights and
+        prepare comprehensive reports for key stakeholders, facilitating informed decision-making
+        and strategic planning.</li>
+      <li>Cash Flow Management: Monitor cash flow dynamics and optimize liquidity management
+        strategies to ensure smooth business operations and financial stability.</li>
+      <li>Financial Modeling: Construct robust financial models to evaluate various business scenarios
+        and investment opportunities, enabling informed strategic decision-making and risk
+        assessment.</li>
+    </ul>
     <div class="services-container">
       <router-link :to="{ path: '/consulting', hash: '#consulting-fractional-cfo' }" scroll="{ behavior: 'smooth' }"
         class="services-box">

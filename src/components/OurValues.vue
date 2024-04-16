@@ -2,7 +2,7 @@
   <!-- 'portfolio' section design and elements -->
   <section class="d3-values" id="d3-difference">
     <div class="d3-values-contents">
-      <h2 class="heading">The D3 <span>Values</span></h2>
+      <h2 class="heading">Our <span>Values</span></h2>
       <p>I believe that culture is set by the tone at the top. A leader without the willingness to give more than they
         ask is just a fan. D3 is a leader. Within our culture, we encourage discussions of character (i.e. ‘character
         matters’) and emphasize why ‘character matters’ so much. We hold these values to be foundational to success in
@@ -46,6 +46,7 @@
 .values-review-cards-container .values-review-card-contents {
   display: flex;
   align-items: center;
+  justify-content: center;
   flex-grow: 1;
   background-color: var(--second-bg-color);
   padding: 2rem;
@@ -55,7 +56,7 @@
   gap: 2rem;
   border: var(--dk-blue) solid 1.5px;
   box-shadow: 0 6px 8px rgba(0, 0, 0, 0.1);
-  width: 100%;
+  width: 70%;
 }
 
 .values-review-cards-container .values-review-card-contents .values-review-card-text h3 {
@@ -172,6 +173,8 @@
     flex-direction: column;
     text-align: center;
     padding: 20px;
+    width: 100%;
   }
+
 }
 </style>

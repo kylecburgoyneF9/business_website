@@ -2,28 +2,29 @@
   <!-- 'portfolio' section design and elements -->
   <section class="my-promise" id="portfolio">
     <div class="my-promise-header">
-      <h2 class="heading">My <span>Promise</span></h2>
+      <h2 class="heading">Promise & <span>Guarantees</span></h2>
       <p>I don’t promise things that I can’t deliver. I don’t pretend to know things that I don’t. The one thing you can
         count on is my word. I will give you my opinion, regardless of what might alternatively ‘sound good’ or ‘sound
         convenient’. If there is one thing I’ve learned about life and business, it’s that success and convenience do
         not have a close relationship. And I am here to cultivate success. </p>
-      <p><strong>We back all our business-partnerships with these three guarantees:</strong></p>
+      <p><strong>We back all our engagements with these three guarantees:</strong></p>
     </div>
     <div class="services-container">
       <a href="javascript:void(0)" class="services-box" @click.prevent>
         <SvgLineChart class="svg-icon" />
         <h3>Month-to-month Services</h3>
-        <p>If at any point you feel that we’re not delivering to bottom-line, you can walk away.</p>
+        <p>If at any point you feel that we’re not delivering to your bottom-line, you can walk away.</p>
       </a>
       <a href="javascript:void(0)" class="services-box" @click.prevent>
         <SvgIntersect class="svg-icon" />
         <h3>Money-back Guarantee</h3>
-        <p>We offer a full money back guarantee for the first two months of service.</p>
+        <p>We offer a full money-back guarantee for the first two months of service.</p>
       </a>
       <a href="javascript:void(0)" class="services-box" @click.prevent>
         <SvgIntersect class="svg-icon" />
         <h3>Free Upgrades</h3>
-        <p>We will upgrade any pre-existing D3 solution with the latest technology and best practice principles as they
+        <p>We will upgrade any pre-existing D3 Finance solution with the latest technology and best practice principles
+          as they
           emerge. </p>
       </a>
     </div>

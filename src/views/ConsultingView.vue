@@ -84,7 +84,8 @@
                         <li>Data Accessibility: We enhance data accessibility through user-friendly platforms and
                             streamlined protocols, ensuring stakeholders have seamless access to pertinent information
                             whenever and wherever needed.</li>
-                        <li>Entry Automation: Utilizing advanced automation technologies, we streamline data entry
+                        <li>Manual Workflow Automation: Utilizing advanced automation technologies, we streamline data
+                            entry
                             processes, minimizing manual errors and expediting workflow efficiency, allowing your team
                             to focus on high-value tasks.</li>
                         <li>Data Reporting: Our comprehensive reporting solutions encompass dynamic visualizations and
@@ -92,6 +93,7 @@
                             and facilitate data-driven decision-making across your organization.</li>
                     </ul>
                     <a href="#contact" class="universal-btn">Work Together</a>
+
                 </div>
             </div>
         </div>

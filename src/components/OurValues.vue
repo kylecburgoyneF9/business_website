@@ -3,29 +3,30 @@
   <section class="d3-values" id="d3-difference">
     <div class="d3-values-contents">
       <h2 class="heading">Our <span>Values</span></h2>
-      <p>I believe that culture is set by the tone at the top. A leader without the willingness to give more than they
-        ask is just a fan. D3 is a leader. Within our culture, we encourage discussions of character (i.e. ‘character
-        matters’) and emphasize why ‘character matters’ so much. We hold these values to be foundational to success in
-        both life and business. </p>
+      <p>I believe that culture is set by the tone at the top and that ‘leading by example’ is the ONLY way to lead. D3
+        is here to be a leader. Within our culture, we hold these values to be foundational to success in both life and
+        business. As a business owner myself, I know what it’s like to have to go through the trials and tribulations of
+        starting and operating a business. </p>
+      <p><strong>Veteran owned or operated businesses will receive discounted services from D3.</strong></p>
       <div class="values-review-cards-container">
         <div class="values-review-card-contents">
           <div class="values-review-card-text">
             <h3>Gratitude</h3>
-            <p>Life is gift, honor it. Work hard.</p>
+            <p>‘Gratitude is the mother of virtue.’ Be thankful for what you've been given and own it. </p>
           </div>
         </div>
         <div class="values-review-card-contents">
           <div class="values-review-card-text">
             <h3>Accountability</h3>
-            <p>Believe in the fruition and freedom of the truth. Find the fine line separating what you can and cannot
-              control. Seek the truth, where it may lead. Seek strong character, wherever it may lead. </p>
+            <p>Believe in the fruition and freedom of the truth. See the fine line separating what you can and cannot
+              control. Seek truth, where it may lead. Seek strong character, wherever it may lead. </p>
           </div>
         </div>
         <div class="values-review-card-contents">
           <div class="values-review-card-text">
             <h3>Infatigueability</h3>
-            <p>Thrive on feedback. ‘Life is not about how hard you can hit, its about how hard you can get it, and keep
-              going.’ Keep going.</p>
+            <p>‘Life is not about how hard you can hit, its about how hard you can get it, and keep going.’ Learn to
+              thrive on adversity. Failure is just feedback. </p>
           </div>
         </div>
       </div>

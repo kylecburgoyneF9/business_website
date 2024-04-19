@@ -28,7 +28,7 @@
           emerge. </p>
       </a>
     </div>
-    <a href="#contact" class="universal-btn">Contact Us</a>
+    <a href="#contact" class="universal-btn">Work Together</a>
   </section>
 </template>
 

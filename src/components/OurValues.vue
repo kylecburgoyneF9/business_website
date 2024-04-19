@@ -3,7 +3,8 @@
   <section class="d3-values" id="d3-difference">
     <div class="d3-values-contents">
       <h2 class="heading">Our <span>Values</span></h2>
-      <p>I believe that culture is set by the tone at the top and that ‘leading by example’ is the ONLY way to lead. D3
+      <p>I believe that culture is set by the tone at the top and that ‘leading by example’ is the <strong>ONLY</strong>
+        way to lead. D3
         is here to be a leader. Within our culture, we hold these values to be foundational to success in both life and
         business. As a business owner myself, I know what it’s like to have to go through the trials and tribulations of
         starting and operating a business. </p>
@@ -19,7 +20,7 @@
           <div class="values-review-card-text">
             <h3>Accountability</h3>
             <p>Believe in the fruition and freedom of the truth. See the fine line separating what you can and cannot
-              control. Seek truth, where it may lead. Seek strong character, wherever it may lead. </p>
+              control. Seek truth, wherever it may lead. Seek strong character, wherever it may lead. </p>
           </div>
         </div>
         <div class="values-review-card-contents">

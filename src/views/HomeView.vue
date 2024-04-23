@@ -5,9 +5,9 @@
       <BackgroundVideo fileName="0226.mp4" />
       <h1>D3 Finance</h1>
       <div class="">
-        <h3>Fractional CFO & Technical Advisory Services</h3>
+        <h3>Fractional CFO & Tech Advisory Services</h3>
       </div>
-      <p>My team delivers fractional CFO and technical advisory services designed to directly impact the bottom line
+      <p>My team delivers fractional CFO and tech advisory services designed to directly impact the bottom line
         with <strong> high ROI opportunities</strong>. We do this by combining specialized finance and accounting
         expertise
         with today’s

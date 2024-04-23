@@ -10,10 +10,6 @@
     position: relative;
 }
 
-.services-split-text-image:nth-child(odd) .services-split-text-image-content {
-    margin-left: auto;
-}
-
 .services-split-text-image>div {
     /* Make each div take equal space */
     min-height: 50vh;
@@ -26,6 +22,15 @@
     top: 0;
     left: 0;
     position: absolute;
+}
+
+/* Alternating layouts */
+.services-split-text-image:nth-child(even) .services-split-text-image-img {
+    left: unset;
+    right: 0;
+}
+.services-split-text-image:nth-child(odd) .services-split-text-image-content {
+    margin-left: auto;
 }
 
 
@@ -66,6 +71,10 @@
     /* Adjust line height as needed */
     margin-bottom: 30px;
     /* Add spacing between paragraphs */ 
+}
+
+.services-split-text-image .universal-btn {
+    margin-top: 20px;
 }
 
 

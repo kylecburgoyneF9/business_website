@@ -601,3 +601,25 @@ span {
   position: relative;
   overflow: hidden;
 }
+
+.styled-list  {
+  list-style: none;
+  padding: 10px 15px 10px 10px;
+}
+.styled-list li {
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+  position: relative; 
+  padding-left: 1.5em;  
+}
+.styled-list li::before {
+  position: absolute;
+  content:"";
+  display: inline-block;
+  left: 0;
+  top: .55em;
+  width: .4em;
+  height: .4em;
+  background-color: var(--main-color);
+  border-radius: 100%;
+}

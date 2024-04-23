@@ -11,7 +11,7 @@
             <div class="interior-hero-content-btns">
                 <router-link to="#consulting-fractional-cfo" class="btn" scroll="{ behavior: 'smooth' }">Fractional CFO
                     Services</router-link>
-                <router-link to="#consulting-integration-services" class="btn" scroll="{ behavior: 'smooth' }">
+                <router-link to="#consulting-integration-solutions" class="btn" scroll="{ behavior: 'smooth' }">
                     FP&A Automation and Integration</router-link>
             </div>
         </div>
@@ -68,6 +68,9 @@
                 </div>
             </div>
             <div class="services-split-text-image">
+                <div class="services-split-text-image-img" id="consulting-fractional-cfo">
+                    <img src="../assets/Home/Computer2.jpg" alt="">
+                </div>
                 <div class="services-split-text-image-content" id="consulting-integration-solutions">
                     <h3>FP&A Automation and Integration</h3>
                     <p>CFOs and Controllers, if your FP&A function is spending too much time manually manipulating data,

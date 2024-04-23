@@ -25,7 +25,6 @@
                     Trauma</router-link>
             </div>
         </div>
-
         <SocialLinks />
     </section>
 

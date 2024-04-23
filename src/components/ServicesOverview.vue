@@ -48,6 +48,13 @@
   </section>
 </template>
 
+<script setup>
+  import SvgCog from '../components/svgs/Cog.vue'
+  import SvgLineChart from '../components/svgs/LineChart.vue'
+  import SvgIntersect from '../components/svgs/Intersect.vue'
+  import Tagtag from '@/components/svgs/Tagtag.vue';
+</script>
+
 <style scoped>
 
 </style>

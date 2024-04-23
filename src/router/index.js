@@ -11,17 +11,21 @@ const router = createRouter({
       path: "/",
       name: "home",
       component: HomeView,
+      meta: { title: 'D3 Finance' }
     },
     {
       path: "/consulting",
       name: "consulting",
       component: ConsultingView,
+      meta: { title: 'Consulting' }
     },
     {
       path: "/coaching",
       name: "coaching",
       component: CoachingView,
+      meta: { title: 'Coaching' }
     },
+    
     /*{
       path: "/partners",
       name: "partners",
@@ -36,7 +40,7 @@ const router = createRouter({
       const nav = document.getElementById('nav')
       return new Promise((resolve, reject) => {
         setTimeout(() => {
-          resolve({ el: to.hash, behavior: 'smooth', top: nav.offsetHeight })
+          resolve({ el: to.hash, behavior: 'smooth', top: nav.offsetHeight - 10 })
         }, 100)
       })
 
@@ -47,5 +51,9 @@ const router = createRouter({
     }
   },
 });
+
+router.beforeEach((to, from) => {
+  document.title = to.meta.title;
+ })
 
 export default router;

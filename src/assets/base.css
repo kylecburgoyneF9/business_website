@@ -30,3 +30,25 @@ html {
     --lt-brown: #533F33;
     --off-white: #D9D9DC;
 }*/
+
+.styled-list  {
+  list-style: none;
+  padding: 0;
+}
+.styled-list li {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  position: relative; 
+  padding-left: 1.5em;  
+}
+.styled-list li::before {
+  position: absolute;
+  content:"";
+  display: inline-block;
+  left: 0;
+  top: .55em;
+  width: .4em;
+  height: .4em;
+  background-color: var(--main-color);
+  border-radius: 100%;
+}

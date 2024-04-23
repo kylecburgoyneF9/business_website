@@ -43,7 +43,7 @@
                         expert and allow yourself to focus on steering your business toward success. As a data-driven
                         tactician, I provide tailored recommendations to empower your decision-making process. Here are
                         the services we offer:</p>
-                    <ul>
+                    <ul class="styled-list">
                         <li>Bookkeeping: We will get your books where they need to be using the latest AI accounting tools.</li>
                         <li>Financial Strategy Development: Craft and execute financial strategies that align with your
                             business objectives, driving sustainable growth and profitability.</li>
@@ -75,7 +75,7 @@
                         reach out to me. These frictions are costing you in hard dollars, turnover, time, and
                         opportunity. Our cross-functional expertise places us in a niche position to deliver specialized
                         value to finance and accounting teams. Here are the services we offer:</p>
-                    <ul>
+                    <ul class="styled-list">
                         <li>Data Extraction: Leveraging automation and AI capabilities, we extract data from various
                             sources including PDFs, websites, web-based applications, and legacy systems, ensuring
                             comprehensive access to critical information.</li>

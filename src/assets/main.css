@@ -29,14 +29,14 @@ body {
 
 
 section {
-  min-height: 100vh;
-  padding: 10rem 9% 2rem;
+  padding: 100px 9% 0;
 }
 
 .home {
   display: flex;
   align-items: center;
   padding: 0 9%;
+  min-height: 100vh;
   background-color: var(--dk-blue);
   background-size: cover;
   background-position: center;
@@ -227,11 +227,6 @@ Animations not currently implemented
   flex-direction: column;
   gap: 2rem;
   background: white;
-  padding-bottom: 6rem;
-}
-
-.services {
-  background: white;
 }
 
 .home-about-btn {
@@ -304,50 +299,6 @@ span {
   margin: 2rem 0 4rem;
 }
 
-.services {
-  min-height: auto;
-  padding-bottom: 10rem;
-}
-
-.services h2 {
-  margin-bottom: 2rem;
-}
-
-.services-container {
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  /* Align items to the start of the flex container */
-  flex-wrap: wrap;
-  gap: 2rem;
-}
-
-.services-intro {
-  font-size: 1.6rem;
-  text-align: center;
-  margin-bottom: 4rem;
-}
-
-.services-container .services-box {
-  flex: 1 1 30rem;
-  background: var(--dk-blue);
-  padding: 3rem 2rem 3rem;
-  border-radius: 2rem;
-  text-align: center;
-  border: .25rem solid var(--main-color);
-  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.1);
-  transition: .5s ease;
-  cursor: pointer;
-  /* Change cursor to pointer */
-  margin-bottom: 2rem;
-}
-
-.services-container .services-box:hover {
-  border-color: var(--main-color);
-  transform: scale(1.02);
-  box-shadow: 0 0 1rem var(--main-color);
-}
-
 .svg-icon {
   width: 50px;
   /* Set width */
@@ -355,22 +306,6 @@ span {
   /* Set height */
   fill: var(--main-color);
   /* Set fill color */
-}
-
-.services-box i {
-  font-size: 7rem;
-  color: var(--main-color);
-}
-
-.services-box h3 {
-  font-size: 2.6rem;
-  color: white;
-}
-
-.services-box p {
-  font-size: 1.6rem;
-  margin: 1rem 0 3rem;
-  color: white;
 }
 
 .coaching {
@@ -462,6 +397,79 @@ span {
 }
 
 
+.services {
+  min-height: auto;
+  background: white;
+}
+
+.services h2 {
+  margin-bottom: 2rem;
+}
+
+.services-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  /* Align items to the start of the flex container */
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.services-intro {
+  font-size: 1.6rem;
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.services-container .services-box-container {
+    flex: 1 1 30rem;
+}
+
+.services-container .services-box {
+ display: block;
+  background: var(--dk-blue);
+  padding: 3rem 2rem 3rem;
+  border-radius: 2rem;
+  text-align: center;
+  border: .25rem solid var(--main-color);
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.1);
+  transition: .5s ease;
+  cursor: pointer;
+  /* Change cursor to pointer */
+  margin-bottom: 2rem;
+}
+
+.services-container .services-box:hover {
+  border-color: var(--main-color);
+  transform: scale(1.02);
+  box-shadow: 0 0 1rem var(--main-color);
+}
+
+.svg-icon {
+  width: 50px;
+  /* Set width */
+  height: 50px;
+  /* Set height */
+  fill: var(--main-color);
+  /* Set fill color */
+}
+
+.services-box i {
+  font-size: 7rem;
+  color: var(--main-color);
+}
+
+.services-box h3 {
+  font-size: 2.6rem;
+  color: white;
+}
+
+.services-box p {
+  font-size: 1.6rem;
+  margin: 1rem 0 3rem;
+  color: white;
+}
+
 /* ANIMATION RELOAD AND SCROLL */
 
 /* BREAKPOINTS */
@@ -481,7 +489,7 @@ span {
   }
 
   section {
-    padding: 10rem 4% 2rem;
+    padding: 60px 4% 0;
   }
 
   .home {
@@ -498,15 +506,18 @@ span {
   .services-lists {
     display: flex;
     margin-bottom: 2rem;
-    gap: 1rem;
+    gap: 1.5rem;
     flex-direction: column;
     padding: 0 1rem;
+  }
+
+  .services-box-container + .services-box-container {
+    margin-top: 20px;
   }
 
   .services-list ul {
     text-align: justify;
   }
-
 }
 
 @media (max-width: 768px) {
@@ -516,8 +527,8 @@ span {
     opacity: .6;
   }
 
-  section {
-    padding: 5rem 4% 5rem;
+  section:not(.home) {
+    padding: 60px 4% 0;
   }
 }
 

@@ -10,23 +10,29 @@
       <p><strong>We back all our engagements with these three guarantees:</strong></p>
     </div>
     <div class="services-container">
-      <a href="javascript:void(0)" class="services-box" @click.prevent>
-        <SvgLineChart class="svg-icon" />
-        <h3>Month-to-month Services</h3>
-        <p>If at any point you feel that we’re not delivering to your bottom-line, you can walk away.</p>
-      </a>
-      <a href="javascript:void(0)" class="services-box" @click.prevent>
-        <SvgIntersect class="svg-icon" />
-        <h3>Money-back Guarantee</h3>
-        <p>We offer a full money-back guarantee for the first two months of service.</p>
-      </a>
-      <a href="javascript:void(0)" class="services-box" @click.prevent>
-        <SvgIntersect class="svg-icon" />
-        <h3>Free Upgrades</h3>
-        <p>We will upgrade any pre-existing D3 Finance solution with the latest technology and best practice principles
-          as they
-          emerge. </p>
-      </a>
+      <div class="services-box-container">
+        <a href="javascript:void(0)" class="services-box" @click.prevent>
+          <SvgLineChart class="svg-icon" />
+          <h3>Month-to-month Services</h3>
+          <p>If at any point you feel that we’re not delivering to your bottom-line, you can walk away.</p>
+        </a>
+      </div>
+      <div class="services-box-container">
+        <a href="javascript:void(0)" class="services-box" @click.prevent>
+          <SvgIntersect class="svg-icon" />
+          <h3>Money-back Guarantee</h3>
+          <p>We offer a full money-back guarantee for the first two months of service.</p>
+        </a>
+      </div>
+      <div class="services-box-container">
+        <a href="javascript:void(0)" class="services-box" @click.prevent>
+          <SvgIntersect class="svg-icon" />
+          <h3>Free Upgrades</h3>
+          <p>We will upgrade any pre-existing D3 Finance solution with the latest technology and best practice principles
+            as they
+            emerge. </p>
+        </a>
+      </div>
     </div>
     <a href="#contact" class="universal-btn">Work Together</a>
   </section>
@@ -38,7 +44,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
   background: white;
 }
 
@@ -109,7 +114,6 @@
 
 .my-promise>.universal-btn {
   max-width: 250px;
-  margin-bottom: 5rem;
 }
 
 @media (max-width: 768px) {

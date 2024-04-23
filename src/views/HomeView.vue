@@ -52,47 +52,11 @@
     </div>
   </section>
 
-  <!-- 'services' section design and elements -->
-  <section class="services" id="services">
-    <h2 class="heading">Consulting <span>Services</span></h2>
-    <div class="services-intro">
-      Our services are designed to deliver directly to your business's bottom line. Please see our ideal customer
-      qualifications. Click the links to explore our suite
-      of services.
-    </div>
-    <ul>
-      <li>Financial Strategy Development: Craft and execute financial strategies that align with your
-        business objectives, driving sustainable growth and profitability.</li>
-      <li>Budgeting and Forecasting: Develop accurate budgets and financial forecasts to provide a
-        roadmap for informed decision-making and resource allocation.</li>
-      <li>Financial Analysis and Reporting: Analyze financial data to derive actionable insights and
-        prepare comprehensive reports for key stakeholders, facilitating informed decision-making
-        and strategic planning.</li>
-      <li>Cash Flow Management: Monitor cash flow dynamics and optimize liquidity management
-        strategies to ensure smooth business operations and financial stability.</li>
-      <li>Financial Modeling: Construct robust financial models to evaluate various business scenarios
-        and investment opportunities, enabling informed strategic decision-making and risk
-        assessment.</li>
-    </ul>
-    <div class="services-container">
-      <router-link :to="{ path: '/consulting', hash: '#consulting-fractional-cfo' }" scroll="{ behavior: 'smooth' }"
-        class="services-box">
-        <SvgLineChart class="svg-icon" />
-        <h3>Fractional CFO Services</h3>
-        <p>We help executive business operators make their best decisions by fulfilling their business’s key finance and
-          accounting leadership needs.
-        </p>
-      </router-link>
-      <router-link :to="{ path: '/consulting', hash: '#consulting-integration-solutions' }"
-        scroll="{ behavior: 'smooth' }" class="services-box">
-        <SvgIntersect class="svg-icon" />
-        <h3> FP&A Automation & Integration</h3>
-        <p>We support Controllers, CFOs, and other accounting managers in outfitting their FP&A departments with the
-          latest integration, automation, and AI tools to alleviate the challenges of manual and legacy systems.</p>
-      </router-link>
-    </div>
-  </section>
 
+   
+  <!-- The D3 Difference -->
+  <ServicesOverview />
+ 
   <!-- The D3 Difference -->
   <TheDifference />
 
@@ -113,72 +77,74 @@
 </template>
 
 <script setup>
-import { RouterLink } from 'vue-router';
-import { onMounted, onUnmounted, ref, nextTick } from 'vue';
+  import { RouterLink } from 'vue-router';
+  import { onMounted, onUnmounted, ref, nextTick } from 'vue';
 
-// import svgs
-import SocialLinks from '../components/SocialLinks.vue'
-import SvgCog from '../components/svgs/Cog.vue'
-import SvgLineChart from '../components/svgs/LineChart.vue'
-import SvgIntersect from '../components/svgs/Intersect.vue'
-import Tagtag from '@/components/svgs/Tagtag.vue';
+  // import svgs
+  import SocialLinks from '../components/SocialLinks.vue'
+  import SvgCog from '../components/svgs/Cog.vue'
+  import SvgLineChart from '../components/svgs/LineChart.vue'
+  import SvgIntersect from '../components/svgs/Intersect.vue'
+  import Tagtag from '@/components/svgs/Tagtag.vue';
 
-import TheDifference from '../components/D3Difference.vue'
-import MyPromise from '../components/MyPromise.vue'
-import Reviews from '../components/Reviews.vue'
-import DigitalPortfolio from '../components/DigitalPortfolio.vue'
-import OurValues from '../components/OurValues.vue'
+  import TheDifference from '../components/D3Difference.vue'
+  import MyPromise from '../components/MyPromise.vue'
+  import Reviews from '../components/Reviews.vue'
+  import DigitalPortfolio from '../components/DigitalPortfolio.vue'
+  import OurValues from '../components/OurValues.vue'
+  import ServicesOverview from '../components/ServicesOverview.vue'
 
-const setHeights = () => {
-  const servicesBoxes = document.querySelectorAll('.services-container .services-box');
 
-  // Initialize variables to keep track of the tallest heights for h3 and p tags
-  let tallestH3Height = 0;
-  let tallestPHeight = 0;
-  let maxHeight = 0;
+  const setHeights = () => {
+    const servicesBoxes = document.querySelectorAll('.services-container .services-box');
 
-  // Loop through each services box
-  servicesBoxes.forEach(box => {
-    // Get the height of the h3 and p elements within the current box
-    const h3Height = box.querySelector('h3').offsetHeight;
-    const pHeight = box.querySelector('p').offsetHeight;
-    const boxHeight = box.getBoundingClientRect().height;
+    // Initialize variables to keep track of the tallest heights for h3 and p tags
+    let tallestH3Height = 0;
+    let tallestPHeight = 0;
+    let maxHeight = 0;
 
-    // Update the tallest heights if the current heights are taller
-    if (h3Height > tallestH3Height) {
-      tallestH3Height = h3Height;
-    }
-    if (pHeight > tallestPHeight) {
-      tallestPHeight = pHeight;
-    }
-    if (boxHeight > maxHeight) {
-      maxHeight = boxHeight;
-    }
+    // Loop through each services box
+    servicesBoxes.forEach(box => {
+      // Get the height of the h3 and p elements within the current box
+      const h3Height = box.querySelector('h3').offsetHeight;
+      const pHeight = box.querySelector('p').offsetHeight;
+      const boxHeight = box.getBoundingClientRect().height;
+
+      // Update the tallest heights if the current heights are taller
+      if (h3Height > tallestH3Height) {
+        tallestH3Height = h3Height;
+      }
+      if (pHeight > tallestPHeight) {
+        tallestPHeight = pHeight;
+      }
+      if (boxHeight > maxHeight) {
+        maxHeight = boxHeight;
+      }
+    });
+
+    // Set the min-height of all h3 and p elements within each box to the tallest heights found
+    servicesBoxes.forEach(box => {
+      box.querySelector('h3').style.minHeight = tallestH3Height + 'px';
+      box.querySelector('p').style.minHeight = tallestPHeight + 'px';
+      box.style.minHeight = `${maxHeight}px`;
+    });
+  }
+
+  // detecting touch because some elements only expose copy on hover and touchscreens won't see it
+  import { useWindowStore } from '../stores/window.js'
+  const windowStore = useWindowStore()
+  const isTouch = windowStore.isTouch;
+
+  onMounted(() => {
+    nextTick(() => {
+      setHeights()
+      window.addEventListener('resize', setHeights)
+    })
   });
 
-  // Set the min-height of all h3 and p elements within each box to the tallest heights found
-  servicesBoxes.forEach(box => {
-    box.querySelector('h3').style.minHeight = tallestH3Height + 'px';
-    box.querySelector('p').style.minHeight = tallestPHeight + 'px';
-    box.style.minHeight = `${maxHeight}px`;
-  });
-}
-
-// detecting touch because some elements only expose copy on hover and touchscreens won't see it
-import { useWindowStore } from '../stores/window.js'
-const windowStore = useWindowStore()
-const isTouch = windowStore.isTouch;
-
-onMounted(() => {
-  nextTick(() => {
-    setHeights()
-    window.addEventListener('resize', setHeights)
+  onUnmounted(() => {
+    window.removeEventListener('resize', setHeights)
   })
-});
-
-onUnmounted(() => {
-  window.removeEventListener('resize', setHeights)
-})
 
 </script>
 

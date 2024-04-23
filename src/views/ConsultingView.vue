@@ -3,8 +3,8 @@
         <BackgroundVideo fileName="0226.mp4" />
         <div class="interior-hero-content">
             <h1>Consulting Services</h1>
-            <h3>Fractional CFO & Technical Advisory Services</h3>
-            <p>My team delivers fractional CFO and technical advisory services designed to directly impact the bottom
+            <h3>Fractional CFO & Tech Advisory Services</h3>
+            <p>My team delivers fractional CFO and tech advisory services designed to directly impact the bottom
                 line with <strong> high ROI opportunities</strong>. We do this by combining specialized finance and
                 accounting expertise with today’s array of automation, integration and AI technologies. Scroll for more
                 and connect with me today. </p>
@@ -44,6 +44,7 @@
                         tactician, I provide tailored recommendations to empower your decision-making process. Here are
                         the services we offer:</p>
                     <ul>
+                        <li>Bookkeeping: We will get your books where they need to be using the latest AI accounting tools.</li>
                         <li>Financial Strategy Development: Craft and execute financial strategies that align with your
                             business objectives, driving sustainable growth and profitability.</li>
                         <li>Budgeting and Forecasting: Develop accurate budgets and financial forecasts to provide a

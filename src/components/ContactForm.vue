@@ -1,54 +1,68 @@
 <template>
-      <!-- 'contact' section design and elements -->
-  <section class="contact" id="contact">
-    <h2 class="heading">Contact <span>Me!</span></h2>
-    <form ref="formRef" @submit.prevent="sendEmail">
-      <div class="input-box">
-        <div class="input-field">
-          <input type="text" placeholder="Full Name" name="name" required>
-        </div>
-        <div class="input-field">
-          <input type="email" placeholder="Email Address" name="email" required>
-        </div>
-      </div>
-      <div class="input-box">
-        <div class="input-field">
-          <input type="tel" placeholder="Mobile Number" name="phone" required>
-        </div>
-        <div class="input-field">
-          <input type="text" placeholder="Email Subject" name="subject" required>
-        </div>
-      </div>
-      <div class="textarea-field">
-        <textarea id="message" cols="30" rows="10" placeholder="Your Message" name="message" required></textarea>
-      </div>
-      <div class="btn-box btns">
-        <button type="submit" class="btn">Submit</button>
-      </div>
-    </form>
-  </section>
+
+  <!-- 'contact' section design and elements -->
+<section class="contact" id="contact">
+<h2 class="heading">Contact <span>Me!</span></h2>
+<form  @submit.prevent="sendEmail">
+  <div class="input-box">
+    <div class="input-field">
+      <input v-model="form.name"  type="text" placeholder="Full Name" name="name" required>
+    </div>
+    <div class="input-field">
+      <input v-model="form.email" type="email" placeholder="Email Address" name="email" required>
+    </div>
+  </div>
+  <div class="input-box">
+    <div class="input-field">
+      <input v-model="form.phone"  type="tel" placeholder="Mobile Number" name="phone" required>
+    </div>
+    <div class="input-field">
+      <input v-model="form.subject" type="text" placeholder="Email Subject" name="subject" required>
+    </div>
+  </div>
+  <div class="textarea-field">
+    <textarea v-model="form.message" id="message" cols="30" rows="10" placeholder="Your Message" name="message" required></textarea>
+  </div>
+  <div class="btn-box btns">
+    <button type="submit" class="btn">Submit</button>
+  </div>
+</form>
+<p v-if="success" class="status-msg success">Thanks for reaching out!</p>
+</section>
 </template>
 
 <script setup>
-import { ref } from 'vue'
-import emailjs from '@emailjs/browser'
+import { ref, watch } from 'vue'
 
-const formRef = ref(null)
+const success = ref(false)
+
+const form = ref({
+  name: '',
+  email: '',
+  phone: '',
+  subject: '',
+  message: ''
+})
 
 const sendEmail = () => {
-      emailjs
-        .sendForm(import.meta.env.VITE_EJS_ID, import.meta.env.VITE_EJS_TEMPLATE, formRef.value, {
-          publicKey: import.meta.env.VITE_EJS_KEY,
-        })
-        .then(
-          () => {
-            console.log('SUCCESS!');
-          },
-          (error) => {
-            console.log('FAILED...', error.text);
-          },
-        );
+  fetch('/api/contact', {
+    method: "POST",
+    body: JSON.stringify(form.value)
+  })
+  .then(() => {
+    for (const [key, value] of Object.entries(form.value)) {
+      form.value[key] = ''
     }
+    success.value = true;
+  })
+  .catch(error => error.value = true);
+}
+
+watch(
+  () => form,
+  () => { if (success.value) success.value = false },
+  { deep: true }
+);
 </script>
 
 <style scoped>
@@ -59,6 +73,12 @@ const sendEmail = () => {
 }
 
 .contact h2 {
+  text-align: center;
+}
+
+.contact .status-msg {
+  font-size: 2.6rem;
+  color: var(--main-color);
   text-align: center;
 }
 

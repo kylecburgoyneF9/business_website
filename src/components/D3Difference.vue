@@ -100,7 +100,6 @@
 
 .d3-difference>.universal-btn {
   max-width: 250px;
-  margin-bottom: 5rem;
 }
 
 @media (max-width: 768px) {

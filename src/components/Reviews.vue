@@ -39,7 +39,6 @@
 <style scoped>
 .reviews {
   background: white;
-  padding: 0 9%;
 }
 
 .review-cards-container {

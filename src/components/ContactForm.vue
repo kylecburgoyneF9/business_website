@@ -54,15 +54,13 @@ const sendEmail = () => {
       form.value[key] = ''
     }
     success.value = true;
+    setTimeout(() => {
+      success.value = false;
+    }, 1500)
   })
   .catch(error => error.value = true);
 }
 
-watch(
-  () => form,
-  () => { if (success.value) success.value = false },
-  { deep: true }
-);
 </script>
 
 <style scoped>

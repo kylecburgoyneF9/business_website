@@ -605,22 +605,27 @@ span {
 
 .styled-list  {
   list-style: none;
-  padding: 10px 15px 10px 10px;
+  padding: 1.5rem 8% 0 8%;
 }
 .styled-list li {
-  font-size: 1.4rem;
-  margin-bottom: 1rem;
-  position: relative; 
-  padding-left: 1.5em;  
+  font-size: 1.5rem;
+  margin-bottom: 1.5em;
+  position: relative;
+  line-height: 1.7em;
+  padding-left: 1.1em;
+}
+
+.styled-list li  + li {
+  margin-bottom: 1.5em;
 }
 .styled-list li::before {
   position: absolute;
   content:"";
   display: inline-block;
   left: 0;
-  top: .55em;
-  width: .4em;
-  height: .4em;
+  top: .6em;
+  width: .35em;
+  height: .35em;
   background-color: var(--main-color);
   border-radius: 100%;
 }

@@ -1,8 +1,8 @@
 <template>
   <!-- 'home' section design and elements -->
-  <section class="home" id="home">
+  <section class="home has-video-background" id="home">
+    <BackgroundVideo fileName="0226.mp4" />
     <div class="home-content">
-      <BackgroundVideo fileName="0226.mp4" />
       <h1>D3 Finance</h1>
       <div class="">
         <h3>Fractional CFO & Tech Advisory Services</h3>

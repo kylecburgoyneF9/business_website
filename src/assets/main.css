@@ -29,23 +29,28 @@ body {
 
 
 section {
-  padding: 100px 9% 0;
+  padding: 9rem 9% 9rem;
 }
 
 .home {
   display: flex;
   align-items: center;
-  padding: 0 9%;
+  padding: 8rem 9% 8rem;
   min-height: 100vh;
   background-color: var(--dk-blue);
   background-size: cover;
   background-position: center;
 }
 
+.home .background-video {
+  opacity: .15;
+}
+
 .home-content {
   width: 100%;
   max-width: 60rem;
   z-index: 99;
+  position: relative;
   padding-top: .9rem;
 }
 
@@ -488,8 +493,8 @@ span {
     padding: 2rem 4%;
   }
 
-  section {
-    padding: 60px 4% 0;
+  section:not(.home) {
+    padding: 5.5rem 4% 5.5rem;
   }
 
   .home {
@@ -499,6 +504,10 @@ span {
 }
 
 @media (max-width: 850px) {
+  .heading {
+    line-height: 1.2em;
+  }
+
   .animate.home-img {
     width: 55%;
   }
@@ -521,10 +530,6 @@ span {
     pointer-events: none;
     background: var(--bg-color);
     opacity: .6;
-  }
-
-  section:not(.home) {
-    padding: 60px 4% 0;
   }
 }
 

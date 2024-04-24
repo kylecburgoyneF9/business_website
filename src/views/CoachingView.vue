@@ -257,7 +257,6 @@ a.universal-btn.minnect-btn {
 
 .border-div {
     border: 3px solid var(--dk-blue);
-    padding: 0rem;
 }
 
 @media only screen and (max-width: 700px) {    

@@ -38,7 +38,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
   background: white;
 }
 
@@ -78,7 +77,7 @@
   /* Add transition for scaling and box shadow */
   cursor: pointer;
   max-width: 500px;
-  height: 350px;
+  min-height: 350px;
   min-width: 200px;
   border: 2px solid transparent;
 }
@@ -128,6 +127,8 @@
     width: 100%;
     /* Set anchor tags to full width */
     margin-bottom: 1rem;
+    min-height: 200px;
+
     /* Add spacing between stacked items */
   }
 }

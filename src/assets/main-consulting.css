@@ -33,7 +33,3 @@
     display: flex;
     /* Use flexbox layout */
 }
-
-.consulting-about {
-    min-height: 75vh;
-}

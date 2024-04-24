@@ -32,7 +32,7 @@
 
 
     <section class="services-split-text-image-section">
-        <div class="border-div" style="margin-bottom: 6rem;">
+        <div class="border-div">
             <div class="services-split-text-image">
                 <div class="services-split-text-image-img" id="consulting-fractional-cfo">
                     <img src="../assets/Home/Finance.jpg" alt="">
@@ -117,7 +117,6 @@ import SocialLinks from '../components/SocialLinks.vue'
     flex-direction: column;
     gap: 2rem;
     background: white;
-    padding-bottom: 6rem;
 }
 
 .consulting-about-content {
@@ -135,7 +134,4 @@ import SocialLinks from '../components/SocialLinks.vue'
     /* Use flexbox layout */
 }
 
-.consulting-about {
-    min-height: 75vh;
-}
 </style>

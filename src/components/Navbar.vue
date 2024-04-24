@@ -1,6 +1,6 @@
 <template>
   <header id="nav" class="header" :class="{ 'sticky': isSticky }">
-    <a href="/" class="logo">KB | <span>D3 Finance</span></a>
+    <router-link class="logo" to="/" scroll="{ behavior: 'smooth' }" @click="close">KB | <span>D3 Finance</span></router-link>
     <button class="menu-icon" @click="toggleMenu">
       <MenuIcon :class="{ open: isMenuOpen }" />
     </button>
@@ -29,6 +29,10 @@ const isMenuOpen = ref(false);
 const toggleMenu = () => {
   isMenuOpen.value = !isMenuOpen.value;
 };
+
+const close = () => {
+  if (isMenuOpen.value)  isMenuOpen.value = false;
+}
 
 const isSticky = ref(false);
 

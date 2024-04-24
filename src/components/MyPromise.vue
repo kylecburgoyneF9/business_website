@@ -9,34 +9,57 @@
         not have a close relationship. And I am here to cultivate success. </p>
       <p><strong>We back all our engagements with these three guarantees:</strong></p>
     </div>
-    <div class="services-container">
+    <EqualHeightsWrapper class="services-container">
       <div class="services-box-container">
         <a href="javascript:void(0)" class="services-box" @click.prevent>
           <SvgLineChart class="svg-icon" />
-          <h3>Month-to-month Services</h3>
-          <p>If at any point you feel that we’re not delivering to your bottom-line, you can walk away.</p>
+          <div class="content">
+            <div class="title">
+              <h3>Month-to-month Services</h3>
+            </div>
+            <div class="copy">
+              <p>If at any point you feel that we’re not delivering to your bottom-line, you can walk away.</p>
+            </div>
+          </div>
         </a>
       </div>
       <div class="services-box-container">
         <a href="javascript:void(0)" class="services-box" @click.prevent>
           <SvgIntersect class="svg-icon" />
-          <h3>Money-back Guarantee</h3>
-          <p>We offer a full money-back guarantee for the first two months of service.</p>
+          <div class="content">
+            <div class="title">
+              <h3>Money-back Guarantee</h3>
+            </div>
+            <div class="copy">
+              <p>We offer a full money-back guarantee for the first two months of service.</p>
+            </div>
+          </div>
         </a>
       </div>
       <div class="services-box-container">
         <a href="javascript:void(0)" class="services-box" @click.prevent>
           <SvgIntersect class="svg-icon" />
-          <h3>Free Upgrades</h3>
-          <p>We will upgrade any pre-existing D3 Finance solution with the latest technology and best practice principles
-            as they
-            emerge. </p>
+
+          <div class="content">
+            <div class="title">
+              <h3>Free Upgrades</h3>
+            </div>
+            <div class="copy">
+              <p>We will upgrade any pre-existing D3 Finance solution with the latest technology and best practice principles
+                hey emerge.
+              </p>
+            </div>
+          </div>
         </a>
       </div>
-    </div>
+    </EqualHeightsWrapper>
     <a href="#contact" class="universal-btn">Work Together</a>
   </section>
 </template>
+
+<script setup>
+  import EqualHeightsWrapper from '@/components/EqualHeightsWrapper.vue'
+</script>
 
 <style scoped>
 .my-promise {

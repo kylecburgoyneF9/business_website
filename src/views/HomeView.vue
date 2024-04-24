@@ -93,59 +93,6 @@
   import DigitalPortfolio from '../components/DigitalPortfolio.vue'
   import OurValues from '../components/OurValues.vue'
   import ServicesOverview from '../components/ServicesOverview.vue'
-
-
-  const setHeights = () => {
-    const servicesBoxes = document.querySelectorAll('.services-container .services-box');
-
-    // Initialize variables to keep track of the tallest heights for h3 and p tags
-    let tallestH3Height = 0;
-    let tallestPHeight = 0;
-    let maxHeight = 0;
-
-    // Loop through each services box
-    servicesBoxes.forEach(box => {
-      // Get the height of the h3 and p elements within the current box
-      const h3Height = box.querySelector('h3').offsetHeight;
-      const pHeight = box.querySelector('p').offsetHeight;
-      const boxHeight = box.getBoundingClientRect().height;
-
-      // Update the tallest heights if the current heights are taller
-      if (h3Height > tallestH3Height) {
-        tallestH3Height = h3Height;
-      }
-      if (pHeight > tallestPHeight) {
-        tallestPHeight = pHeight;
-      }
-      if (boxHeight > maxHeight) {
-        maxHeight = boxHeight;
-      }
-    });
-
-    // Set the min-height of all h3 and p elements within each box to the tallest heights found
-    servicesBoxes.forEach(box => {
-      box.querySelector('h3').style.minHeight = tallestH3Height + 'px';
-      box.querySelector('p').style.minHeight = tallestPHeight + 'px';
-      box.style.minHeight = `${maxHeight}px`;
-    });
-  }
-
-  // detecting touch because some elements only expose copy on hover and touchscreens won't see it
-  import { useWindowStore } from '../stores/window.js'
-  const windowStore = useWindowStore()
-  const isTouch = windowStore.isTouch;
-
-  onMounted(() => {
-    nextTick(() => {
-      setHeights()
-      window.addEventListener('resize', setHeights)
-    })
-  });
-
-  onUnmounted(() => {
-    window.removeEventListener('resize', setHeights)
-  })
-
 </script>
 
 <style scoped></style>

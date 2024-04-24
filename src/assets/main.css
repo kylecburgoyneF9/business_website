@@ -466,7 +466,7 @@ span {
 
 .services-box p {
   font-size: 1.6rem;
-  margin: 1rem 0 3rem;
+  padding: 1rem 0 3rem;
   color: white;
 }
 
@@ -509,10 +509,6 @@ span {
     gap: 1.5rem;
     flex-direction: column;
     padding: 0 1rem;
-  }
-
-  .services-box-container + .services-box-container {
-    margin-top: 20px;
   }
 
   .services-list ul {

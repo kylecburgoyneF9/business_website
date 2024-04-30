@@ -46,7 +46,7 @@
             <div class="copy">
               <p>We will upgrade pre-existing D3 Finance solutions with the latest technology and best practice
                 principles
-                that emerge within the first year of service.
+                that emerge within one year of service.
               </p>
             </div>
           </div>

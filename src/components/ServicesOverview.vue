@@ -25,9 +25,9 @@
           </div>
         </router-link>
         <ul class="styled-list">
-          <li><strong>Ideal Client Size:</strong> Revenue $200k - $20mil</li>
-          <li><strong>Ideal Client Attitude:</strong>'It's time to get strong finanial leadership on my team'</li>
-          <li>The ideal client relationship is being able to grow my business through helping you grow yours.</li>
+          <li><strong>Ideal Client Size:</strong> Revenue $200,000 - $20,000,000</li>
+          <li><strong>Ideal Client Attitude:</strong> 'It's time to get strong finanial leadership on my team'</li>
+          <li>The ideal client relationship is being able to grow your business alongside mine.</li>
         </ul>
       </div>
       <div class="services-box-container">
@@ -48,7 +48,7 @@
         </router-link>
         <ul class="styled-list">
           <li><strong>Ideal Client Size:</strong> Larger organizations will tend to benefit more from automation.</li>
-          <li><strong>Ideal Client Attitude:</strong>‘We really do need to make this change’.</li>
+          <li><strong>Ideal Client Attitude:</strong> ‘We really do need to make this change’.</li>
           <li>We only work with clients who we know we can actually deliver value to. Don’t over automate!</li>
         </ul>
       </div>

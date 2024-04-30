@@ -46,22 +46,29 @@
                     <ul class="styled-list">
                         <li><strong>Bookkeeping:</strong> We will get your books where they need to be using the latest
                             AI accounting tools.</li>
-                        <li>Financial Strategy Development: Craft and execute financial strategies that align with your
+                        <li><strong>Financial Strategy Development:</strong> Craft and execute financial strategies that
+                            align with your
                             business objectives, driving sustainable growth and profitability.</li>
-                        <li>Budgeting and Forecasting: Develop accurate budgets and financial forecasts to provide a
+                        <li><strong>Budgeting and Forecasting:</strong> Develop accurate budgets and financial forecasts
+                            to provide a
                             roadmap for informed decision-making and resource allocation.</li>
-                        <li>Financial Analysis and Reporting: Analyze financial data to derive actionable insights and
+                        <li><strong>Financial Analysis and Reporting:</strong> Analyze financial data to derive
+                            actionable insights and
                             prepare comprehensive reports for key stakeholders, facilitating informed decision-making
                             and strategic planning.</li>
-                        <li>Cash Flow Management: Monitor cash flow dynamics and optimize liquidity management
+                        <li><strong>Cash Flow Management:</strong> Monitor cash flow dynamics and optimize liquidity
+                            management
                             strategies to ensure smooth business operations and financial stability.</li>
-                        <li>Financial Modeling: Construct robust financial models to evaluate various business scenarios
+                        <li><strong>Financial Modeling:</strong> Construct robust financial models to evaluate various
+                            business scenarios
                             and investment opportunities, enabling informed strategic decision-making and risk
                             assessment.</li>
-                        <li>Data Analytics: Harness the power of data analytics to assess, capture, and analyze key
+                        <li><strong>Data Analytics:</strong> Harness the power of data analytics to assess, capture, and
+                            analyze key
                             business metrics, empowering executives with actionable insights for driving performance and
                             innovation.</li>
-                        <li>Department Buildout: Strategically structure and expand FP&A departments to enhance
+                        <li><strong>Department Buildout:</strong> Strategically structure and expand FP&A departments to
+                            enhance
                             organizational capabilities and support business growth, optimizing resources and fostering
                             a data-driven culture.</li>
                     </ul>
@@ -80,20 +87,25 @@
                         opportunity. Our cross-functional expertise places us in a niche position to deliver specialized
                         value to finance and accounting teams. Here are the services we offer:</p>
                     <ul class="styled-list">
-                        <li>Data Extraction: Leveraging automation and AI capabilities, we extract data from various
+                        <li><strong>Data Extraction:</strong> Leveraging automation and AI capabilities, we extract data
+                            from various
                             sources including PDFs, websites, web-based applications, and legacy systems, ensuring
                             comprehensive access to critical information.</li>
-                        <li>Data Collation: By consolidating data from disparate systems, we uncover valuable insights
+                        <li><strong>Data Collation:</strong> By consolidating data from disparate systems, we uncover
+                            valuable insights
                             that drive informed decision-making and business optimization, unlocking the full potential
                             of your organization's data assets.</li>
-                        <li>Data Accessibility: We enhance data accessibility through user-friendly platforms and
+                        <li><strong>Data Accessibility:</strong> We enhance data accessibility through user-friendly
+                            platforms and
                             streamlined protocols, ensuring stakeholders have seamless access to pertinent information
                             whenever and wherever needed.</li>
-                        <li>Manual Workflow Automation: Utilizing advanced automation technologies, we streamline data
+                        <li><strong>Manual Workflow Automation:</strong> Utilizing advanced automation technologies, we
+                            streamline data
                             entry
                             processes, minimizing manual errors and expediting workflow efficiency, allowing your team
                             to focus on high-value tasks.</li>
-                        <li>Data Reporting: Our comprehensive reporting solutions encompass dynamic visualizations and
+                        <li><strong>Data Reporting:</strong> Our comprehensive reporting solutions encompass dynamic
+                            visualizations and
                             interactive dashboards, providing actionable insights and trends to guide strategic planning
                             and facilitate data-driven decision-making across your organization.</li>
                     </ul>

@@ -44,7 +44,8 @@
                         tactician, I provide tailored recommendations to empower your decision-making process. Here are
                         the services we offer:</p>
                     <ul class="styled-list">
-                        <li>Bookkeeping: We will get your books where they need to be using the latest AI accounting tools.</li>
+                        <li><strong>Bookkeeping:</strong> We will get your books where they need to be using the latest
+                            AI accounting tools.</li>
                         <li>Financial Strategy Development: Craft and execute financial strategies that align with your
                             business objectives, driving sustainable growth and profitability.</li>
                         <li>Budgeting and Forecasting: Develop accurate budgets and financial forecasts to provide a
@@ -133,5 +134,4 @@ import SocialLinks from '../components/SocialLinks.vue'
     display: flex;
     /* Use flexbox layout */
 }
-
 </style>

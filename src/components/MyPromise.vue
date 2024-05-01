@@ -11,8 +11,7 @@
     </div>
     <EqualHeightsWrapper class="services-container">
       <div class="services-box-container">
-        <a href="javascript:void(0)" class="services-box" @click.prevent>
-          <SvgLineChart class="svg-icon" />
+        <div class="services-box-promise" @click.prevent>
           <div class="content">
             <div class="title">
               <h3>Month-to-month Services</h3>
@@ -21,11 +20,10 @@
               <p>If at any point you feel that we’re not delivering to your bottom-line, you can walk away.</p>
             </div>
           </div>
-        </a>
+        </div>
       </div>
       <div class="services-box-container">
-        <a href="javascript:void(0)" class="services-box" @click.prevent>
-          <SvgIntersect class="svg-icon" />
+        <div class="services-box-promise" @click.prevent>
           <div class="content">
             <div class="title">
               <h3>Money-back Guarantee</h3>
@@ -34,11 +32,10 @@
               <p>We offer a full money-back guarantee for the first two months of service.</p>
             </div>
           </div>
-        </a>
+        </div>
       </div>
       <div class="services-box-container">
-        <a href="javascript:void(0)" class="services-box" @click.prevent>
-          <SvgIntersect class="svg-icon" />
+        <div class="services-box-promise" @click.prevent>
           <div class="content">
             <div class="title">
               <h3>Service Guarantee</h3>
@@ -50,7 +47,7 @@
               </p>
             </div>
           </div>
-        </a>
+        </div>
       </div>
     </EqualHeightsWrapper>
     <a href="#contact" class="universal-btn">Work Together</a>
@@ -76,6 +73,30 @@ import EqualHeightsWrapper from '@/components/EqualHeightsWrapper.vue'
   text-align: center;
 }
 
+.services-box-promise h3 {
+  font-size: 2.6rem;
+  color: white;
+}
+
+.services-box-promise p {
+  font-size: 1.6rem;
+  padding: 1rem 0 3rem;
+  color: white;
+}
+
+.services-container .services-box-promise {
+  display: block;
+  background: var(--dk-blue);
+  padding: 3rem 2rem 3rem;
+  border-radius: 2rem;
+  text-align: center;
+  border: .25rem solid var(--main-color);
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.1);
+  transition: .5s ease;
+  /* Change cursor to pointer */
+  margin-bottom: 2rem;
+}
+
 .my-promise-contents {
   display: flex;
   width: 100%;
@@ -92,7 +113,7 @@ import EqualHeightsWrapper from '@/components/EqualHeightsWrapper.vue'
   font-size: 1.6rem;
 }
 
-.my-promise-contents>a {
+.my-promise-contents>div {
   flex: 1;
   display: flex;
   justify-content: center;
@@ -103,7 +124,6 @@ import EqualHeightsWrapper from '@/components/EqualHeightsWrapper.vue'
   /* Add a subtle box shadow */
   transition: transform 0.6s ease, box-shadow 0.3s ease, border-color 0.3s ease;
   /* Add transition for scaling and box shadow */
-  cursor: pointer;
   max-width: 500px;
   height: 350px;
   min-width: 200px;
@@ -115,18 +135,6 @@ import EqualHeightsWrapper from '@/components/EqualHeightsWrapper.vue'
   z-index: 2;
   font-size: 3rem;
   color: white;
-}
-
-.my-promise-contents>a:hover {
-  transform: scale(1.01);
-  /* Scale up slightly on hover */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  /* Increase box shadow on hover */
-}
-
-.my-promise-contents>a:hover {
-  border-color: var(--main-color);
-  /* Add a border on hover */
 }
 
 .my-promise-contents-consulting,
@@ -146,7 +154,7 @@ import EqualHeightsWrapper from '@/components/EqualHeightsWrapper.vue'
     /* Stack items vertically on smaller screens */
   }
 
-  .my-promise-contents>a {
+  .my-promise-contents>div {
     width: 100%;
     /* Set anchor tags to full width */
     margin-bottom: 1rem;

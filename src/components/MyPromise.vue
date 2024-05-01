@@ -39,14 +39,14 @@
       <div class="services-box-container">
         <a href="javascript:void(0)" class="services-box" @click.prevent>
           <SvgIntersect class="svg-icon" />
-
           <div class="content">
             <div class="title">
-              <h3>Free Upgrades</h3>
+              <h3>Service Guarantee</h3>
             </div>
             <div class="copy">
-              <p>We will upgrade any pre-existing D3 Finance solution with the latest technology and best practice principles
-                hey emerge.
+              <p>We will upgrade pre-existing D3 Finance solutions with the latest technology and best practice
+                principles
+                that emerge within one year of service.
               </p>
             </div>
           </div>
@@ -58,7 +58,7 @@
 </template>
 
 <script setup>
-  import EqualHeightsWrapper from '@/components/EqualHeightsWrapper.vue'
+import EqualHeightsWrapper from '@/components/EqualHeightsWrapper.vue'
 </script>
 
 <style scoped>

@@ -26,8 +26,10 @@
         </router-link>
         <ul class="styled-list">
           <li><strong>Ideal Client Size:</strong> Between $200,000 - $20,000,000 in topline revenue.</li>
-          <li><strong>Ideal Client Attitude:</strong> 'It's time to get strong finanial leadership on my team'</li>
-          <li>The ideal client relationship is being able to grow your business alongside mine.</li>
+          <li><strong>Ideal Client Attitude:</strong> 'It's time to get strong finanial leadership on my team'.</li>
+          <li><strong>Ideal Client Relationship:</strong> Sharing my talents and efforts with clients to grow your
+            business
+            alongside mine.</li>
         </ul>
       </div>
       <div class="services-box-container">
@@ -49,7 +51,8 @@
         <ul class="styled-list">
           <li><strong>Ideal Client Size:</strong> Larger organizations will tend to benefit more from automation.</li>
           <li><strong>Ideal Client Attitude:</strong> ‘We really do need to make this change’.</li>
-          <li>We only work with clients who we know we can deliver real value to. Don’t over automate!</li>
+          <li><strong>Ideal Client Relationship:</strong> We only work with clients who we know we can deliver real
+            value to. Don’t over automate!</li>
         </ul>
       </div>
     </EqualHeightsWrapper>

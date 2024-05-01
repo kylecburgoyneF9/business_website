@@ -41,7 +41,7 @@
           <SvgIntersect class="svg-icon" />
           <div class="content">
             <div class="title">
-              <h3>1Yr Service Guarantee</h3>
+              <h3>Service Guarantee</h3>
             </div>
             <div class="copy">
               <p>We will upgrade pre-existing D3 Finance solutions with the latest technology and best practice

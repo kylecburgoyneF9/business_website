@@ -41,7 +41,8 @@
       <p>My technical capability and diversity of experience, sets me apart from other CFOs. I've seen the inside of a
         diverse array of companies, spanning from burgeoning startups to industry giants. I’ve had the chance to see
         both great success and great failure. You simply will not find another CFO with the same technical or
-        operational abilities to bring to your team (case in point; coding this website myself - See YouTube). It could
+        operational abilities to bring to your team (case in point; coding this website myself - See YouTube below). It
+        could
         not be more
         rewarding to share these skills with my
         clients to grow their businesses alongside mine.

@@ -23,9 +23,42 @@
     <section class="consulting-about" id="my-career">
         <h2 class="heading">My <span>Career</span></h2>
         <div class="consulting-about-content">
-            <p>[placeholder]</p>
-            <p></p>
-            <p></p>
+            <p>I am very grateful to have started my career with KPMG in 2015. There are few better ‘primers’ for the
+                business world than a year or two with a Big 4 accounting firm. Writing this, it’s incredible thinking
+                back about the person I used to be at the time. In these early years, I started becoming more interested
+                in finance and financial modeling. I took a treasury role with a large mining company and I remember
+                myself enrolling in investment banking and a renewable energy financial modeling courses in my free
+                time.</p>
+            <p>My natural proclivity for challenge and learning took me to Silicon Valley (April 2018) as the second (of
+                7) employees for a burgeoning ‘fintech’ startup (DRV). I don’t think I’ve ever worked harder, slept
+                less, or learned more in any other part of my life. While the story doesn’t end with a multi-million
+                dollar exit, I am proud to say that there is a solar installation, presently, generating power for
+                Boulder communities in Colorado. By project end, I had prepared countless tax equity models and written
+                lengthy legal agreements to develop and paper the deal. My two most notable moments with DRV were (i)
+                the opportunity work with the best tax equity lawyers in the country and (ii) working directly with
+                Go-Fund-Me founder, Andy Ballaster.</p>
+            <p>COVID came around and I eventually had to let the DRV effort go as I no longer believed it was going
+                anywhere. I took 6-months away from full-time work and made my first initial heavily investment in
+                coding (Python). I was eventually picked up by a talented founder where I acted as his executive
+                chief-of-staff to handle anything that needed supervision or improvement throughout his waste management
+                business. This was my first taste of direct operations management. This experience was particularly
+                important in understanding ‘success’ as SRE was able to reach certain financial goals during and after
+                my tenure. I pull lessons from this experience and their founder’s methodology on a weekly basis.</p>
+            <p>Post SRE, I had a short stint with another fintech startup but ultimately, I decided to take another
+                break from full-time work, where I began, again, heavily investing in my technology prowess. At the
+                time, making money with automated trading was a fruitful pursuit. As such, I spent another 100+ hours
+                engineering trading scripts in MQL5. This second investment was the first time I really started ‘seeing
+                into the matrix’. I found myself on a higher (‘flatter’) part of the coding learning curve where the
+                learning accelerates and the fulfillment rapidly propagates. I began my current role, as senior
+                controller within Aramark Destinations, in June ’22 but maintained a strong learning regime. This
+                website, itself, is the byproduct of a learning exercise in which, the exercise was to literally just
+                write the html, css, and JavaScript (Vue3.js) for a real site (‘my 3rd push’). At present, Aramark’s
+                ecosystem provides a perfect environment for applying and sharpening my technology capabilities using
+                today’s latest AI and automation tools.</p>
+            <p>D3 Finance, itself, is the simple culmination of my deep cross-functional experience and technology
+                capabilities. The ‘D3 Difference’ is the unique intersection between operational, financial, and
+                technological expertise. Let me show you what the D3 Difference could mean for your business. </p>
+            <p>See my CV download below for more details. Contact me today!</p>
         </div>
         <a href="/Kyle_Burgoyne_CV_2024.pdf" class="universal-btn" download>Download CV</a>
     </section>

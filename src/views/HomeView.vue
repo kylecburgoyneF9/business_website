@@ -41,7 +41,9 @@
       <p>My technical capability and diversity of experience, sets me apart from other CFOs. I've seen the inside of a
         diverse array of companies, spanning from burgeoning startups to industry giants. I’ve had the chance to see
         both great success and great failure. You simply will not find another CFO with the same technical or
-        operational abilities to bring to your team. It could not be more rewarding to share these skills with my
+        operational abilities to bring to your team (case in point; coding this website myself - See YouTube). It could
+        not be more
+        rewarding to share these skills with my
         clients to grow their businesses alongside mine.
       </p>
       <div class="home-about-btn">
@@ -53,10 +55,10 @@
   </section>
 
 
-   
+
   <!-- The D3 Difference -->
   <ServicesOverview />
- 
+
   <!-- The D3 Difference -->
   <TheDifference />
 
@@ -77,22 +79,22 @@
 </template>
 
 <script setup>
-  import { RouterLink } from 'vue-router';
-  import { onMounted, onUnmounted, ref, nextTick } from 'vue';
+import { RouterLink } from 'vue-router';
+import { onMounted, onUnmounted, ref, nextTick } from 'vue';
 
-  // import svgs
-  import SocialLinks from '../components/SocialLinks.vue'
-  import SvgCog from '../components/svgs/Cog.vue'
-  import SvgLineChart from '../components/svgs/LineChart.vue'
-  import SvgIntersect from '../components/svgs/Intersect.vue'
-  import Tagtag from '@/components/svgs/Tagtag.vue';
+// import svgs
+import SocialLinks from '../components/SocialLinks.vue'
+import SvgCog from '../components/svgs/Cog.vue'
+import SvgLineChart from '../components/svgs/LineChart.vue'
+import SvgIntersect from '../components/svgs/Intersect.vue'
+import Tagtag from '@/components/svgs/Tagtag.vue';
 
-  import TheDifference from '../components/D3Difference.vue'
-  import MyPromise from '../components/MyPromise.vue'
-  import Reviews from '../components/Reviews.vue'
-  import DigitalPortfolio from '../components/DigitalPortfolio.vue'
-  import OurValues from '../components/OurValues.vue'
-  import ServicesOverview from '../components/ServicesOverview.vue'
+import TheDifference from '../components/D3Difference.vue'
+import MyPromise from '../components/MyPromise.vue'
+import Reviews from '../components/Reviews.vue'
+import DigitalPortfolio from '../components/DigitalPortfolio.vue'
+import OurValues from '../components/OurValues.vue'
+import ServicesOverview from '../components/ServicesOverview.vue'
 </script>
 
 <style scoped></style>

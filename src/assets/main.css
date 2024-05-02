@@ -43,7 +43,7 @@ section {
 }
 
 .home .background-video {
-  opacity: .15;
+  opacity: .28;
 }
 
 .home-content {
@@ -78,7 +78,7 @@ section {
 }
 
 .home-content .background-video {
-  opacity: .15;
+  opacity: .28;
 }
 
 /*
@@ -427,11 +427,11 @@ span {
 }
 
 .services-container .services-box-container {
-    flex: 1 1 30rem;
+  flex: 1 1 30rem;
 }
 
 .services-container .services-box {
- display: block;
+  display: block;
   background: var(--dk-blue);
   padding: 3rem 2rem 3rem;
   border-radius: 2rem;
@@ -603,10 +603,11 @@ span {
   overflow: hidden;
 }
 
-.styled-list  {
+.styled-list {
   list-style: none;
   padding: 1.5rem 8% 0 8%;
 }
+
 .styled-list li {
   font-size: 1.5rem;
   margin-bottom: 1.5em;
@@ -615,12 +616,13 @@ span {
   padding-left: 1.1em;
 }
 
-.styled-list li  + li {
+.styled-list li+li {
   margin-bottom: 1.5em;
 }
+
 .styled-list li::before {
   position: absolute;
-  content:"";
+  content: "";
   display: inline-block;
   left: 0;
   top: .6em;

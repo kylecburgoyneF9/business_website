@@ -54,8 +54,7 @@
                 curve where learning accelerates and fulfillment rapidly propagates. I began my current role, as a
                 senior controller within Aramark Destinations, in June ’22 but maintained a strong learning regime. This
                 website, itself, is the byproduct of a high-code html, css, and JavaScript (Vue3.js) learning exercise.
-                Over the last year, I’ve pushed to solidify capabilities using the latest AI automation and low-code
-                technologies available today. </p>
+            </p>
             <p>D3 Finance is the simple culmination of my deep cross-functional experience and technical capability. The
                 ‘D3 Difference’ is our rare intersectional expertise (operations, finance, and technology) for making
                 your business goals a reality. Let me show you what the D3 Difference could mean for your business

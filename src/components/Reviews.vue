@@ -21,7 +21,7 @@
           <img src="../assets/Home/Self.jpeg" alt="">
         </div>
         <div class="review-card-text">
-          <h3>Name and Title</h3>
+          <h3>[Placeholder]</h3>
           <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas commodi asperiores doloremque
             perspiciatis
             voluptatum sunt totam esse at repudiandae autem!"</p>
@@ -32,7 +32,7 @@
           <img src="../assets/Home/Self.jpeg" alt="">
         </div>
         <div class="review-card-text">
-          <h3>Name and Title</h3>
+          <h3>[Placeholder]</h3>
           <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas commodi asperiores doloremque
             perspiciatis
             voluptatum sunt totam esse at repudiandae autem!"</p>

@@ -18,24 +18,13 @@
       </div>
       <div class="review-card-contents">
         <div class="review-card-img">
-          <img src="../assets/Home/Self.jpeg" alt="">
+          <img src="../assets/Home/Jeff_Image.jpeg" alt="">
         </div>
         <div class="review-card-text">
-          <h3>[Placeholder]</h3>
-          <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas commodi asperiores doloremque
-            perspiciatis
-            voluptatum sunt totam esse at repudiandae autem!"</p>
-        </div>
-      </div>
-      <div class="review-card-contents">
-        <div class="review-card-img">
-          <img src="../assets/Home/Self.jpeg" alt="">
-        </div>
-        <div class="review-card-text">
-          <h3>[Placeholder]</h3>
-          <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas commodi asperiores doloremque
-            perspiciatis
-            voluptatum sunt totam esse at repudiandae autem!"</p>
+          <h3>Jeff Bunge - CEO</h3>
+          <p>"Kyle’s assistance was critical when we were stuck with a difficult financial modeling problem. He was able
+            to help us build a multi-faceted calculator for re-amortizing loans, which simplified our process
+            exponentially. I’d highly recommend Kyle as a fractional CFO."</p>
         </div>
       </div>
     </div>

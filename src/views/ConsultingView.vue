@@ -105,7 +105,7 @@
                         opportunity. Our cross-functional expertise places us in a niche position to deliver specialized
                         value to finance and accounting teams. Here are the services we offer:</p>
                     <ul class="styled-list">
-                        <li><strong>Manual Workflow Automation:</strong> Utilizing advanced automation technologies, we
+                        <li><strong>Manual Workflow Automation:</strong> Utilizing automation technologies, we
                             streamline data
                             entry
                             processes, minimizing manual errors and expediting workflow efficiency, allowing your team

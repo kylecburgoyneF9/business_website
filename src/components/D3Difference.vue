@@ -3,7 +3,7 @@
   <section class="d3-difference" id="d3-difference">
     <div class="d3-difference-contents">
       <h2 class="heading">The D3 <span>Difference</span></h2>
-      <p>The D3 Difference is “better DATA...better DECISIONS...better DOLLARS”. Our team's niche automation and AI
+      <p>The D3 Difference is “DATA, DECISIONS, DOLLARS”. Our team's niche automation and AI
         technical capabilities allow us to capture, collate, and deliver financial data to users and decision makers
         like few other firms can. We design all of our technology implementations to deliver maximum value while still
         maintaining an ‘easy-to-manage’ experience for our clients. </p>

@@ -26,7 +26,7 @@
         </router-link>
         <ul class="styled-list">
           <li><strong>Ideal Client Size:</strong> Between $200,000 - $20,000,000 in topline revenue.</li>
-          <li><strong>Ideal Client Attitude:</strong> 'It's time to get strong finanial leadership on my team'.</li>
+          <li><strong>Ideal Client Attitude:</strong> 'It’s time to start really seeing into my business'.</li>
           <li><strong>Ideal Client Relationship:</strong> Sharing my talents and efforts with clients to grow your
             business
             alongside mine.</li>

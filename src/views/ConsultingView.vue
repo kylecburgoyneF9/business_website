@@ -4,7 +4,7 @@
         <div class="interior-hero-content">
             <h1>Consulting Services</h1>
             <h3>Fractional CFO & Tech Advisory Services</h3>
-            <p>My team delivers fractional CFO and tech advisory services designed to directly impact the bottom
+            <p>My team delivers fractional CFO and AI Automation services designed to directly impact the bottom
                 line with <strong> high ROI opportunities</strong>. We do this by combining specialized finance and
                 accounting expertise with today’s array of automation, integration and AI technologies. Scroll for more
                 and connect with me today. </p>
@@ -80,31 +80,15 @@
                     <ul class="styled-list">
                         <li><strong>Bookkeeping:</strong> We will get your books where they need to be using the latest
                             AI accounting tools.</li>
-                        <li><strong>Financial Strategy Development:</strong> Craft and execute financial strategies that
-                            align with your
-                            business objectives, driving sustainable growth and profitability.</li>
-                        <li><strong>Budgeting and Forecasting:</strong> Develop accurate budgets and financial forecasts
-                            to provide a
-                            roadmap for informed decision-making and resource allocation.</li>
-                        <li><strong>Financial Analysis and Reporting:</strong> Analyze financial data to derive
-                            actionable insights and
-                            prepare comprehensive reports for key stakeholders, facilitating informed decision-making
-                            and strategic planning.</li>
-                        <li><strong>Cash Flow Management:</strong> Monitor cash flow dynamics and optimize liquidity
-                            management
-                            strategies to ensure smooth business operations and financial stability.</li>
+                        <li><strong>CFO Strategy Development:</strong>We will be your partner in creating a roadmap for
+                            your
+                            company’s financial future and support you in executing on that roadmap. </li>
+                        <li><strong>Cash Flow and Profitability Management:</strong>Our team will do the heavy lifting
+                            to improve your visibility into your business’s spending and overall profitability. </li>
                         <li><strong>Financial Modeling:</strong> Construct robust financial models to evaluate various
                             business scenarios
                             and investment opportunities, enabling informed strategic decision-making and risk
                             assessment.</li>
-                        <li><strong>Data Analytics:</strong> Harness the power of data analytics to assess, capture, and
-                            analyze key
-                            business metrics, empowering executives with actionable insights for driving performance and
-                            innovation.</li>
-                        <li><strong>Department Buildout:</strong> Strategically structure and expand FP&A departments to
-                            enhance
-                            organizational capabilities and support business growth, optimizing resources and fostering
-                            a data-driven culture.</li>
                     </ul>
                     <a href="#contact" class="universal-btn">Work Together</a>
                 </div>
@@ -121,27 +105,17 @@
                         opportunity. Our cross-functional expertise places us in a niche position to deliver specialized
                         value to finance and accounting teams. Here are the services we offer:</p>
                     <ul class="styled-list">
-                        <li><strong>Data Extraction:</strong> Leveraging automation and AI capabilities, we extract data
-                            from various
-                            sources including PDFs, websites, web-based applications, and legacy systems, ensuring
-                            comprehensive access to critical information.</li>
-                        <li><strong>Data Collation:</strong> By consolidating data from disparate systems, we uncover
-                            valuable insights
-                            that drive informed decision-making and business optimization, unlocking the full potential
-                            of your organization's data assets.</li>
-                        <li><strong>Data Accessibility:</strong> We enhance data accessibility through user-friendly
-                            platforms and
-                            streamlined protocols, ensuring stakeholders have seamless access to pertinent information
-                            whenever and wherever needed.</li>
                         <li><strong>Manual Workflow Automation:</strong> Utilizing advanced automation technologies, we
                             streamline data
                             entry
                             processes, minimizing manual errors and expediting workflow efficiency, allowing your team
                             to focus on high-value tasks.</li>
-                        <li><strong>Data Reporting:</strong> Our comprehensive reporting solutions encompass dynamic
-                            visualizations and
-                            interactive dashboards, providing actionable insights and trends to guide strategic planning
-                            and facilitate data-driven decision-making across your organization.</li>
+                        <li><strong>Excel + AI Integrations:</strong> The integration of excel and OpenAI can unlock
+                            tremendous value within a multitude of accounting and finance workflows. </li>
+                        <li><strong>PDF Data Extraction:</strong> We implement data extraction processes to convert PDFs
+                            into useable data outputs. </li>
+                        <li><strong>Data Pipelines:</strong> We provide solutions that extract, organize, collate, and
+                            analyze data within siloed systems; saving you time and unlocking new insights. </li>
                     </ul>
                     <a href="#contact" class="universal-btn">Work Together</a>
 

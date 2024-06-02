@@ -7,7 +7,7 @@
       <div class="">
         <h3>Fractional CFO & Tech Advisory Services</h3>
       </div>
-      <p>My team delivers fractional CFO and tech advisory services designed to directly impact the bottom line
+      <p>My team delivers fractional CFO and AI Automation services designed to directly impact the bottom line
         with <strong> high ROI opportunities</strong>. We do this by combining specialized finance and accounting
         expertise
         with today’s

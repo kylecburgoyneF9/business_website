@@ -1,18 +1,18 @@
 <template>
-	<div class="social-links">
-		<a href="https://github.com/kylecburgoyneF9" target="_blank">
-			<SvgGithub />
-		</a>
-		<a href="https://www.youtube.com/channel/UCKlKCP8OuQVRArpZrzTd-xA" target="_blank">
-			<SvgYoutube />
-		</a>
-		<a href="https://www.instagram.com/kylecburgoyne/" target="_blank">
-			<SvgInstagram />
-		</a>
-		<a href="https://www.linkedin.com/in/kyle-burgoyne-4824927b/" target="_blank">
-			<SvgLinkedin />
-		</a>
-	</div>
+    <div class="social-links">
+        <a href="https://github.com/kylecburgoyneF9" target="_blank">
+            <SvgGithub />
+        </a>
+        <a href="https://www.youtube.com/channel/UCKlKCP8OuQVRArpZrzTd-xA" target="_blank">
+            <SvgYoutube />
+        </a>
+        <a href="https://www.instagram.com/d3.finance/" target="_blank">
+            <SvgInstagram />
+        </a>
+        <a href="https://www.linkedin.com/in/kyle-burgoyne-4824927b/" target="_blank">
+            <SvgLinkedin />
+        </a>
+    </div>
 </template>
 
 <script setup>
@@ -60,4 +60,5 @@ import SvgLinkedin from "./svgs/Linkedin.vue";
 
 .social-links a:hover::before {
     width: 100%;
-}</style>
+}
+</style>

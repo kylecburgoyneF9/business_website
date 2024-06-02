@@ -80,10 +80,10 @@
                     <ul class="styled-list">
                         <li><strong>Bookkeeping:</strong> We will get your books where they need to be using the latest
                             AI accounting tools.</li>
-                        <li><strong>CFO Strategy Development:</strong>We will be your partner in creating a roadmap for
+                        <li><strong>CFO Strategy Development:</strong> We will be your partner in creating a roadmap for
                             your
                             company’s financial future and support you in executing on that roadmap. </li>
-                        <li><strong>Cash Flow and Profitability Management:</strong>Our team will do the heavy lifting
+                        <li><strong>Cash Flow and Profitability Management:</strong> Our team will do the heavy lifting
                             to improve your visibility into your business’s spending and overall profitability. </li>
                         <li><strong>Financial Modeling:</strong> Construct robust financial models to evaluate various
                             business scenarios
@@ -113,7 +113,7 @@
                         <li><strong>Excel + AI Integrations:</strong> The integration of excel and OpenAI can unlock
                             tremendous value within a multitude of accounting and finance workflows. </li>
                         <li><strong>PDF Data Extraction:</strong> We implement data extraction processes to convert PDFs
-                            into useable data outputs. </li>
+                            into usable data outputs. </li>
                         <li><strong>Data Pipelines:</strong> We provide solutions that extract, organize, collate, and
                             analyze data within siloed systems; saving you time and unlocking new insights. </li>
                     </ul>

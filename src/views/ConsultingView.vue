@@ -134,12 +134,12 @@
                         <li>
                             <strong>Advanced Systems Improvement:</strong>
                             <ul>
-                                <li><b>AI Integrations:</b> Implement two AI technologies to enhance your business’s
-                                    overall
-                                    accounting function, driving efficiency and accuracy.</li>
                                 <li><b>Best Practice Recommendations:</b> Receive ongoing recommendations and
                                     implementation of
                                     accounting best practices as your business grows.</li>
+                                <li><b>AI & Technology Solutions:</b> Assuming limited scope, D3 can borrow expertise
+                                    from its technology arm to implement powerful AI tools throughout your business.
+                                </li>
                             </ul>
                         </li>
                     </ul>

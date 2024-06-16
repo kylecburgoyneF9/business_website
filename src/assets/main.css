@@ -603,52 +603,12 @@ span {
   overflow: hidden;
 }
 
-.styled-list {
+.styled-list, .styled-list-alt {
   list-style: none;
   padding: 1.5rem 8% 0 8%;
 }
 
-.styled-list>li {
-  font-size: 1.5rem;
-  margin-bottom: 1.5em;
-  position: relative;
-  line-height: 1.7em;
-  padding-left: 1.1em;
-}
-
-.styled-list>li>strong {
-  display: block;
-  font-size: 1.7rem;
-  margin-bottom: 0.5em;
-}
-
-.styled-list ul {
-  list-style-type: disc;
-  padding-left: 1.5em;
-  margin-top: 0.5em;
-}
-
-.styled-list ul li {
-  font-size: 1.2rem;
-  margin-bottom: 0.5em;
-  position: relative;
-  line-height: 1.5em;
-  padding-left: 1.1em;
-}
-
-.styled-list ul li::before {
-  position: absolute;
-  content: "";
-  display: inline-block;
-  left: -1.1em;
-  top: 0.3em;
-  width: .35em;
-  height: .35em;
-  background-color: var(--main-color);
-  border-radius: 100%;
-}
-
-.styled-list>li::before {
+.styled-list>li::before, .styled-list-alt>li>ul>li::before {
   position: absolute;
   content: "";
   display: inline-block;
@@ -658,4 +618,27 @@ span {
   height: .35em;
   background-color: var(--main-color);
   border-radius: 100%;
+}
+
+.styled-list li strong, .styled-list-alt li strong {
+  display: block;
+  font-size: 1.7rem;
+  margin-bottom: 0.5em;
+}
+
+.styled-list li, .styled-list-alt ul li {
+  font-size: 1.5rem;
+  margin-bottom: 1.5em;
+  position: relative;
+  line-height: 1.7em;
+  padding-left: 1.1em;
+}
+
+.styled-list-alt {
+  list-style: none;
+}
+
+.styled-list-alt ul {
+  list-style: none;
+  padding: .5rem 0 0;
 }

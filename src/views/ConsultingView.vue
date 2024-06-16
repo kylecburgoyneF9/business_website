@@ -84,7 +84,7 @@
                         accounting processes. That said, we are more than happy to provide ad hoc services to specialty
                         clients.</p>
                     <p>The below services constitute our comprehensive monthly service package. Pricing: $2,500 </p>
-                    <ul class="styled-list">
+                    <ul class="styled-list-alt">
                         <li>
                             <strong>Comprehensive Bookkeeping:</strong>
                             <ul>

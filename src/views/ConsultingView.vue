@@ -72,24 +72,67 @@
                     <img src="../assets/Home/Finance.jpg" alt="">
                 </div>
                 <div class="services-split-text-image-content">
-                    <h3>Fractional CFO Services</h3>
-                    <p>CEOs and founders carry immense responsibility. Entrust your financial strategy to a seasoned
-                        expert and allow yourself to focus on steering your business toward success. As a data-driven
-                        tactician, I provide tailored recommendations to empower your decision-making process. Here are
-                        the services we offer:</p>
+                    <h3>Fractional CFO Service Package</h3>
+                    <p>As a small business owner, you bear immense responsibility. Let D3 handle the tedious accounting
+                        work so you can focus on being the best operator you can be. Imagine having a clear view of your
+                        business’s financial health, enabling you to make confident operational decisions without the
+                        guesswork. Whether you're aiming to grow your business or simply want the peace of mind that
+                        comes from knowing exactly how your business is performing, D3 is here to help. Explore our
+                        comprehensive service package and discover how we can drive your business forward.</p>
+                    <p>We primary offer the following serves as a package as we find that our strategic leadership and
+                        profitability management are at their best when overseeing the entirety of the bookkeeping &
+                        accounting processes. That said, we are more than happy to provide ad hoc services to specialty
+                        clients.</p>
+                    <p>The below services constitute our comprehensive monthly service package. Pricing: $2,500 </p>
                     <ul class="styled-list">
-                        <li><strong>Bookkeeping:</strong> We will get your books where they need to be using the latest
-                            AI accounting tools.</li>
-                        <li><strong>CFO Strategy Development:</strong> We will be your partner in creating a roadmap for
-                            your
-                            company’s financial future and support you in executing on that roadmap. </li>
-                        <li><strong>Cash Flow and Profitability Management:</strong> Our team will do the heavy lifting
-                            to improve your visibility into your business’s spending and overall profitability. </li>
-                        <li><strong>Financial Modeling:</strong> Construct robust financial models to evaluate various
-                            business scenarios
-                            and investment opportunities, enabling informed strategic decision-making and risk
-                            assessment.</li>
+                        <li>
+                            <strong>Comprehensive Bookkeeping:</strong>
+                            <ul>
+                                <li>Accurate Transaction Coding: Monthly coding of all bank and credit card
+                                    transactions.</li>
+                                <li>Detailed Financial Reports: Receive precise month-end financial reports, including
+                                    Accounts Receivable (A/R), Accounts Payable (A/P), Profit & Loss, Balance Sheet, and
+                                    Statement of Cash Flows.</li>
+                                <li>Adjustments and Reconciliations: Up to 5 month-end adjustments, with accounts
+                                    reconciled by the 15th of each month.</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <strong>Strategic Leadership:</strong>
+                            <ul>
+                                <li>Business Roadmap: Collaborate with us to document your business’s financial and
+                                    operational goals, paving the way for strategic growth.</li>
+                                <li>12-Month Budget: Our team will craft an annualized budget, serving as your
+                                    business’s financial roadmap.</li>
+                                <li>12-Month Budget: Our team will craft an annualized budget, serving as your
+                                    business’s financial roadmap.</li>
+                                <li>Variance Analysis: Receive in-depth month-end reports analyzing variances between
+                                    your budget and actual financial performance.</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <strong>Cash Flow & Profitability Management:</strong>
+                            <ul>
+                                <li>Profit-First Implementation: Adopt the Profit-First methodology (Mike Michalowicz)
+                                    tailored to your business, enhance profitability from the start.</li>
+                                <li>Monthly Expense Audits: We’ll perform monthly expense audits and provide cost-saving
+                                    recommendations.</li>
+                                <li>Profitability Assessment: [placeholder]</li>
+                                <li>Monthly Reviews: Connect with us monthly to review the success of your Profit-First
+                                    strategy and make necessary adjustments.</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <strong>Advanced Systems Improvement:</strong>
+                            <ul>
+                                <li>AI Integrations: Implement two AI technologies to enhance your business’s overall
+                                    accounting function, driving efficiency and accuracy.</li>
+                                <li>Best Practice Recommendations: Receive ongoing recommendations and implementation of
+                                    accounting best practices as your business grows.</li>
+                            </ul>
+                        </li>
                     </ul>
+
                     <a href="#contact" class="universal-btn">Work Together</a>
                 </div>
             </div>

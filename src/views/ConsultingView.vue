@@ -83,51 +83,62 @@
                         profitability management are at their best when overseeing the entirety of the bookkeeping &
                         accounting processes. That said, we are more than happy to provide ad hoc services to specialty
                         clients.</p>
-                    <p>The below services constitute our comprehensive monthly service package. Pricing: $2,500 </p>
+                    <p><b>Package Pricing: $2,500 / month</b></p>
                     <ul class="styled-list-alt">
                         <li>
                             <strong>Comprehensive Bookkeeping:</strong>
                             <ul>
-                                <li>Accurate Transaction Coding: Monthly coding of all bank and credit card
+                                <li><b>Accurate Transaction Coding:</b> Monthly coding of all bank and credit card
                                     transactions.</li>
-                                <li>Detailed Financial Reports: Receive precise month-end financial reports, including
+                                <li><b>Detailed Financial Reports:</b> Receive precise month-end financial reports,
+                                    including
                                     Accounts Receivable (A/R), Accounts Payable (A/P), Profit & Loss, Balance Sheet, and
                                     Statement of Cash Flows.</li>
-                                <li>Adjustments and Reconciliations: Up to 5 month-end adjustments, with accounts
+                                <li><b>Adjustments and Reconciliations:</b> Up to 5 month-end adjustments, with accounts
                                     reconciled by the 15th of each month.</li>
                             </ul>
                         </li>
                         <li>
                             <strong>Strategic Leadership:</strong>
                             <ul>
-                                <li>Business Roadmap: Collaborate with us to document your business’s financial and
+                                <li><b>Business Roadmap:</b> Collaborate with us to document your business’s financial
+                                    and
                                     operational goals, paving the way for strategic growth.</li>
-                                <li>12-Month Budget: Our team will craft an annualized budget, serving as your
+                                <li><b>12-Month Budget:</b> Our team will craft an annualized budget, serving as your
                                     business’s financial roadmap.</li>
-                                <li>12-Month Budget: Our team will craft an annualized budget, serving as your
-                                    business’s financial roadmap.</li>
-                                <li>Variance Analysis: Receive in-depth month-end reports analyzing variances between
+                                <li><b>Operating Model:</b> D3 will develop a financial model for operators to
+                                    explore different future business scenarios, ventures, and growth opportunities.
+                                </li>
+                                <li><b>Variance Analysis:</b> Receive in-depth month-end reports analyzing variances
+                                    between
                                     your budget and actual financial performance.</li>
                             </ul>
                         </li>
                         <li>
                             <strong>Cash Flow & Profitability Management:</strong>
                             <ul>
-                                <li>Profit-First Implementation: Adopt the Profit-First methodology (Mike Michalowicz)
+                                <li><b>Profit-First Implementation:</b> Adopt the Profit-First methodology (Mike
+                                    Michalowicz)
                                     tailored to your business, enhance profitability from the start.</li>
-                                <li>Monthly Expense Audits: We’ll perform monthly expense audits and provide cost-saving
+                                <li><b>Monthly Expense Audits:</b> We’ll perform monthly expense audits and provide
+                                    cost-saving
                                     recommendations.</li>
-                                <li>Profitability Assessment: [placeholder]</li>
-                                <li>Monthly Reviews: Connect with us monthly to review the success of your Profit-First
+                                <li><b>Profitability Assessment:</b> D3 will analyze your business's primary product or
+                                    service
+                                    to measure profitability and identify enhancement opportunties.</li>
+                                <li><b>Monthly Reviews:</b> Connect with us monthly to review the success of your
+                                    Profit-First
                                     strategy and make necessary adjustments.</li>
                             </ul>
                         </li>
                         <li>
                             <strong>Advanced Systems Improvement:</strong>
                             <ul>
-                                <li>AI Integrations: Implement two AI technologies to enhance your business’s overall
+                                <li><b>AI Integrations:</b> Implement two AI technologies to enhance your business’s
+                                    overall
                                     accounting function, driving efficiency and accuracy.</li>
-                                <li>Best Practice Recommendations: Receive ongoing recommendations and implementation of
+                                <li><b>Best Practice Recommendations:</b> Receive ongoing recommendations and
+                                    implementation of
                                     accounting best practices as your business grows.</li>
                             </ul>
                         </li>

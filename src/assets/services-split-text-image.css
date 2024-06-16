@@ -29,6 +29,7 @@
     left: unset;
     right: 0;
 }
+
 .services-split-text-image:nth-child(odd) .services-split-text-image-content {
     margin-left: auto;
 }
@@ -70,7 +71,8 @@
     line-height: 1.5;
     /* Adjust line height as needed */
     margin-bottom: 30px;
-    /* Add spacing between paragraphs */ 
+    /* Add spacing between paragraphs */
+    align-self: flex-start;
 }
 
 .services-split-text-image .universal-btn {

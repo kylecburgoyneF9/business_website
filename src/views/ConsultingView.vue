@@ -83,7 +83,6 @@
                         profitability management are at their best when overseeing the entirety of the bookkeeping &
                         accounting processes. That said, we are more than happy to provide ad hoc services to specialty
                         clients.</p>
-                    <p><b>Package Pricing: $2,500 / month</b></p>
                     <ul class="styled-list-alt">
                         <li>
                             <strong>Comprehensive Bookkeeping:</strong>

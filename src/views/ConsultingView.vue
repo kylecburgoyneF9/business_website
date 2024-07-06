@@ -89,12 +89,14 @@
                             <ul>
                                 <li><b>Accurate Transaction Coding:</b> Monthly coding of all bank and credit card
                                     transactions.</li>
-                                <li><b>Detailed Financial Reports:</b> Receive precise month-end financial reports,
-                                    including
-                                    Accounts Receivable (A/R), Accounts Payable (A/P), Profit & Loss, Balance Sheet, and
-                                    Statement of Cash Flows.</li>
                                 <li><b>Adjustments and Reconciliations:</b> Up to 5 month-end adjustments, with accounts
                                     reconciled by the 15th of each month.</li>
+                                <li><b>Detailed Financial Reports:</b> Receive precise month-end financial reports,
+                                    including Accounts Receivable (A/R), Accounts Payable (A/P), Profit & Loss, Balance
+                                    Sheet, and Statement of Cash Flows.</li>
+                                <li><b>Cleanup / Restoration:</b> Comprehensive cleanup and restoration of your
+                                    financial records, ensuring all past discrepancies are resolved, outdated entries
+                                    corrected, and your books brought up to date.</li>
                             </ul>
                         </li>
                         <li>

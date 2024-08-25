@@ -96,7 +96,8 @@
                                     Sheet, and Statement of Cash Flows.</li>
                                 <li><b>Cleanup / Restoration:</b> Comprehensive cleanup and restoration of your
                                     financial records, ensuring all past discrepancies are resolved, outdated entries
-                                    corrected, and your books brought up to date.</li>
+                                    are
+                                    corrected, and your books are brought up to date.</li>
                             </ul>
                         </li>
                         <li>

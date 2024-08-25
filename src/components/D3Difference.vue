@@ -3,13 +3,11 @@
   <section class="d3-difference" id="d3-difference">
     <div class="d3-difference-contents">
       <h2 class="heading">The D3 <span>Difference</span></h2>
-      <p>The D3 Difference is “DATA, DECISIONS, DOLLARS”. Our team's niche automation and AI
-        technical capabilities allow us to capture, collate, and deliver financial data to users and decision makers
-        like few other firms can. We design all of our technology implementations to deliver maximum value while still
-        maintaining an ‘easy-to-manage’ experience for our clients. </p>
-      <p><strong>By combining these technology capabilities with our tenured finance expertise, we uniquely enable
-          business operators and FP&A professionals, alike, to make the most informed, data-driven financial decisions
-          they can today. </strong></p>
+      <p>The D3 Difference is “DATA, DECISIONS, DOLLARS”. Our team's niche knowledge base positions us to be the best
+        fit for delivering accounting services to SaaS businesses today.</p>
+      <p><strong>By combining our deep accounting capability,
+          startup managerial experience, and hard technology skills, D3 enables SaaS business owners make the most
+          informed, data-driven financial decisions they can today. </strong></p>
     </div>
     <a href="#contact" class="universal-btn">Work Together</a>
   </section>

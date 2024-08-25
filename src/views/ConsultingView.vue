@@ -3,13 +3,13 @@
         <BackgroundVideo fileName="0226.mp4" />
         <div class="interior-hero-content">
             <h1>Consulting Services</h1>
-            <h3>Fractional CFO & Tech Advisory Services</h3>
-            <p>My team delivers fractional CFO and AI Automation services designed to directly impact the bottom
-                line with <strong> high ROI opportunities</strong>. We do this by combining specialized finance and
-                accounting expertise with today’s array of automation, integration and AI technologies. Scroll for more
-                and connect with me today. </p>
+            <h3>SaaS Accounting & Technology Services</h3>
+            <p>Our team specializes in providing fractional CFO and accounting services to <strong>SaaS
+                    businesses</strong>.
+                Our deep accounting capability, startup managerial experience, and hard technology skills make us a
+                one-of-a-kind fit for enhancing the cash flow and profitability of SaaS businesses.</p>
             <div class="interior-hero-content-btns">
-                <router-link to="#consulting-fractional-cfo" class="btn" scroll="{ behavior: 'smooth' }">Fractional CFO
+                <router-link to="#consulting-fractional-cfo" class="btn" scroll="{ behavior: 'smooth' }">Accounting
                     Services</router-link>
                 <router-link to="#consulting-integration-solutions" class="btn" scroll="{ behavior: 'smooth' }">
                     FP&A Automation and Integration</router-link>
@@ -72,8 +72,8 @@
                     <img src="../assets/Home/Finance.jpg" alt="">
                 </div>
                 <div class="services-split-text-image-content">
-                    <h3>Fractional CFO Service Package</h3>
-                    <p>As a small business owner, you bear immense responsibility. Let D3 handle the tedious accounting
+                    <h3>Accounting Services Packages</h3>
+                    <p>As a SaaS business owner, you bear immense responsibility. Let D3 handle the tedious accounting
                         work so you can focus on being the best operator you can be. Imagine having a clear view of your
                         business’s financial health, enabling you to make confident operational decisions without the
                         guesswork. Whether you're aiming to grow your business or simply want the peace of mind that
@@ -101,49 +101,39 @@
                             </ul>
                         </li>
                         <li>
-                            <strong>Strategic Leadership:</strong>
+                            <strong>Fractional Controllership:</strong> This package best serves SaaS owners who are
+                            starting to handle meaningful decisions about spend which require insight into the
+                            business’s true SaaS and financial metrics.
                             <ul>
-                                <li><b>Business Roadmap:</b> Collaborate with us to document your business’s financial
-                                    and
-                                    operational goals, paving the way for strategic growth.</li>
-                                <li><b>12-Month Budget:</b> Our team will craft an annualized budget, serving as your
-                                    business’s financial roadmap.</li>
-                                <li><b>Operating Model:</b> D3 will develop a financial model for operators to
-                                    explore different future business scenarios, ventures, and growth opportunities.
+                                <li><b>Current ARR:</b> $1m - $3m</li>
+                                <li><b>Decision Making:</b> SaaS visibility and info turn-around times are starting to
+                                    really matter for making meaningful decisions. Executive level support is starting
+                                    to become more meaningful.</li>
+                                <li><b>Technology:</b> The operation is in need of proper technology infrastructure
+                                    implementations or upgrades to scaling effectively. </li>
+                                <li><b>Growth Status:</b> You and your team are engaged in meaningful growth activities.
                                 </li>
-                                <li><b>Variance Analysis:</b> Receive in-depth month-end reports analyzing variances
-                                    between
-                                    your budget and actual financial performance.</li>
+                                <li><b>Fundraising:</b> Forward looking planning for fund raising is starting to come
+                                    into the picture.</li>
                             </ul>
                         </li>
                         <li>
-                            <strong>Cash Flow & Profitability Management:</strong>
+                            <strong>Bookkeeper:</strong> This package best serves owners who
+                            are pre-revenue and simply need peace of mind that their books are taken care of and enough
+                            visibility to make standard day-to-day business decisions (payroll, Opex, tech, etc).
                             <ul>
-                                <li><b>Profit-First Implementation:</b> Adopt the Profit-First methodology (Mike
-                                    Michalowicz)
-                                    tailored to your business, enhance profitability from the start.</li>
-                                <li><b>Monthly Expense Audits:</b> We’ll perform monthly expense audits and provide
-                                    cost-saving
-                                    recommendations.</li>
-                                <li><b>Profitability Assessment:</b> D3 will analyze your business's primary product or
-                                    service
-                                    to measure profitability and identify enhancement opportunties.</li>
-                                <li><b>Monthly Reviews:</b> Connect with us monthly to review the success of your
-                                    Profit-First
-                                    strategy and make necessary adjustments.</li>
+                                <li><b>Current ARR:</b> Pre-revenue - $1m</li>
+                                <li><b>Decision Making:</b> You only need enough visibility to make standard day-to-day
+                                    decisions for the business.</li>
+                                <li><b>Technology:</b> Your overall technology ecosystem is still being configured as
+                                    you begin approaching the market.</li>
+                                <li><b>Growth Status:</b> You may still be executing your go-to-market motion or you
+                                    have recently entered the market.</li>
+                                <li><b>Fundraising:</b> You may be far from fundraising needs for the foreseeable
+                                    future. </li>
                             </ul>
                         </li>
-                        <li>
-                            <strong>Advanced Systems Improvement:</strong>
-                            <ul>
-                                <li><b>Best Practice Recommendations:</b> Receive ongoing recommendations and
-                                    implementation of
-                                    accounting best practices as your business grows.</li>
-                                <li><b>AI & Technology Solutions:</b> Assuming limited scope, D3 can borrow expertise
-                                    from its technology arm to implement powerful AI tools throughout your business.
-                                </li>
-                            </ul>
-                        </li>
+
                     </ul>
 
                     <a href="#contact" class="universal-btn">Work Together</a>

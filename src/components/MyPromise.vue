@@ -17,7 +17,8 @@
               <h3>Month-to-month Services</h3>
             </div>
             <div class="copy">
-              <p>If at any point you feel that we’re not delivering to your bottom-line, you can walk away.</p>
+              <p>With certain packages, we do offer month-to-month contract terms so that you can walk away at any time.
+              </p>
             </div>
           </div>
         </div>
@@ -29,7 +30,7 @@
               <h3>Money-back Guarantee</h3>
             </div>
             <div class="copy">
-              <p>We offer a full money-back guarantee for the first two months of service.</p>
+              <p>With certain packages, we offer a full money back guarantees for the most recent month of service.</p>
             </div>
           </div>
         </div>

@@ -79,32 +79,30 @@
                         guesswork. Whether you're aiming to grow your business or simply want the peace of mind that
                         comes from knowing exactly how your business is performing, D3 is here to help. Explore our
                         comprehensive service package and discover how we can drive your business forward.</p>
-                    <p>We primary offer the following serves as a package as we find that our strategic leadership and
-                        profitability management are at their best when overseeing the entirety of the bookkeeping &
-                        accounting processes. That said, we are more than happy to provide ad hoc services to specialty
-                        clients.</p>
+                    <p>Each engagement is unique to the business we are working with. That said, generally speaking the
+                        below is a breakdown of our services packages and our recommendation for which might fit your
+                        business. </p>
                     <ul class="styled-list-alt">
                         <li>
-                            <strong>Comprehensive Bookkeeping:</strong>
+                            <strong>Fractional CFO: This package best serves SaaS owners who need to an executive
+                                level financial partner who can deliver strategic and forward looking insight to your
+                                team’s decision making process. </strong>
                             <ul>
-                                <li><b>Accurate Transaction Coding:</b> Monthly coding of all bank and credit card
-                                    transactions.</li>
-                                <li><b>Adjustments and Reconciliations:</b> Up to 5 month-end adjustments, with accounts
-                                    reconciled by the 15th of each month.</li>
-                                <li><b>Detailed Financial Reports:</b> Receive precise month-end financial reports,
-                                    including Accounts Receivable (A/R), Accounts Payable (A/P), Profit & Loss, Balance
-                                    Sheet, and Statement of Cash Flows.</li>
-                                <li><b>Cleanup / Restoration:</b> Comprehensive cleanup and restoration of your
-                                    financial records, ensuring all past discrepancies are resolved, outdated entries
-                                    are
-                                    corrected, and your books are brought up to date.</li>
+                                <li><b>Current ARR:</b> $3m - $10m</li>
+                                <li><b>Decision Making:</b> SaaS metric visibility and timeliness are an absolute
+                                    necessity. </li>
+                                <li><b>Technology:</b> Highly efficient and well-fit technology are vital to the
+                                    business’s current operation.</li>
+                                <li><b>Growth Status:</b> You and your team are engaged in meaningful growth activities.
+                                </li>
+                                <li><b>Fundraising:</b> You preparing for a fund raising event or actively seeking
+                                    financing partnerships. </li>
                             </ul>
                         </li>
                         <li>
-                            <strong>Fractional Controllership:</strong>
-                            <p>This package best serves SaaS owners who are
+                            <strong>Fractional Controllership: This package best serves SaaS owners who are
                                 starting to handle meaningful decisions about spend which require insight into the
-                                business’s true SaaS and financial metrics.</p>
+                                business’s proper SaaS and financial metrics.</strong>
                             <ul>
                                 <li><b>Current ARR:</b> $1m - $3m</li>
                                 <li><b>Decision Making:</b> SaaS visibility and info turn-around times are starting to
@@ -119,12 +117,11 @@
                             </ul>
                         </li>
                         <li>
-                            <strong>Bookkeeper:</strong>
-                            <p>This package best serves owners who
+                            <strong>Bookkeeper: This package best serves owners who
                                 are pre-revenue and simply need peace of mind that their books are taken care of and
                                 enough
-                                visibility to make standard day-to-day business decisions (payroll, Opex, tech, etc).
-                            </p>
+                                visibility to make standard day-to-day business decisions (payroll, Opex, tech,
+                                etc).</strong>
                             <ul>
                                 <li><b>Current ARR:</b> Pre-revenue - $1m</li>
                                 <li><b>Decision Making:</b> You only need enough visibility to make standard day-to-day

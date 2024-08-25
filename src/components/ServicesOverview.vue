@@ -2,9 +2,8 @@
   <section class="services" id="services">
     <h2 class="heading">Consulting <span>Services</span></h2>
     <div class="services-intro">
-      Our services are designed to deliver directly to your business's bottom line. Please see our ideal customer
-      qualifications. Click the links to explore our suite
-      of services.
+      Our services are designed to deliver directly to your SaaS business's bottom line. Click the links to explore our
+      suite of services.
     </div>
     <EqualHeightsWrapper class="services-container">
       <div class="services-box-container">
@@ -14,18 +13,17 @@
 
           <div class="content">
             <div class="title">
-              <h3>Fractional CFO Services</h3>
+              <h3>SaaS Accounting Services</h3>
             </div>
             <div class="copy">
-              <p>We help executive business operators make their best decisions by fulfilling their business’s key
-                finance
-                and accounting leadership needs.
+              <p>We partner directly with SaaS business owners to deliver fractional finance and accounting services to
+                help them reach their goals.
               </p>
             </div>
           </div>
         </router-link>
         <ul class="styled-list">
-          <li><strong>Ideal Client Size:</strong> Between $200,000 - $20,000,000 in topline revenue.</li>
+          <li><strong>Ideal Client Revenue:</strong> Pre-revenue to $10,000,000</li>
           <li><strong>Ideal Client Attitude:</strong> 'It’s time to start really seeing into my business'.</li>
           <li><strong>Ideal Client Relationship:</strong> Sharing my talents and efforts with clients to grow your
             business

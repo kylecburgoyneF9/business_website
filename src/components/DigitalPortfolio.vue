@@ -3,13 +3,12 @@
   <section class="portfolio" id="portfolio">
     <div class="portfolio-header">
       <h2 class="heading">Digital <span>Portfolio</span></h2>
-      <p>We take pride in sharing our expertise across various social media platforms to educate CFOs and
-        executive-level business operators on how our services can add value to their organizations. This outreach is
-        not merely a marketing endeavor for us; it's our way of giving back to the broader business community. I owe
-        much of my professional and personal growth to the countless creators whose work has inspired me, and I'm
-        excited to be a contributor to this community.</p>
-      <p><strong>Our content is teeming with emerging opportunities that every operator and FP&A professional should be
-          considering today. Like and subscribe if you want more.</strong></p>
+      <p>We take pride in sharing our expertise across various social media platforms to educate SaaS business owners on
+        how our services can add value to their businesses. This outreach is not merely a marketing endeavor for us;
+        it's our way of giving back to the broader business community. I owe much of my professional and personal growth
+        to the countless creators whose work has inspired me, and I'm excited to be a contributor to this community.</p>
+      <p><strong>Our content is teeming with emerging opportunities that any SaaS owner or FP&A professional should be
+          considering today. Like and subscribe if you want more. </strong></p>
     </div>
     <div class="portfolio-contents">
       <a href="https://www.youtube.com/channel/UCKlKCP8OuQVRArpZrzTd-xA" target="_blank"

@@ -5,13 +5,12 @@
     <div class="home-content">
       <h1>D3 Finance</h1>
       <div class="">
-        <h3>Fractional CFO & Tech Advisory Services</h3>
+        <h3>SaaS CFO and Accounting Services</h3>
       </div>
-      <p>My team delivers fractional CFO and AI Automation services designed to directly impact the bottom line
-        with <strong> high ROI opportunities</strong>. We do this by combining specialized finance and accounting
-        expertise
-        with today’s
-        array of automation, integration and AI technologies. Scroll for more and connect with me today. </p>
+      <p>Our team specializes in providing fractional CFO and accounting services to SaaS businesses. We focus on
+        enhancing your cash flow and profitability by leveraging unique mix of accounting, operations, and technology
+        expertise. By evaluating key financial metrics and translating them into actionable strategies, we help SaaS
+        owners make more informed management decisions. Scroll for more and connect with me today. </p>
 
       <div class="btn-box">
         <a href="#contact" class="btn">Let's Talk</a>
@@ -33,16 +32,13 @@
 
     <div class="about-content">
       <h3>Kyle Burgoyne</h3>
-      <p>I started D3 Finance to deliver powerful financial leadership to business operators, who need it, and to
-        capture the emerging automation and AI opportunities found within most businesses today. </p>
+      <p>I started D3 Finance to deliver powerful financial leadership to SaaS business owners, who need it, and to
+        capture the emerging automation and AI opportunities found within most SaaS businesses today. </p>
       <p>My technical capability and diversity of experience, sets me apart from other CFOs. I've seen the inside of a
         diverse array of companies, spanning from burgeoning startups to industry giants. I’ve had the chance to see
         both great success and great failure. You simply will not find another CFO with the same technical or
-        operational abilities to bring to your team (case in point; coding this website myself - See YouTube below). It
-        could
-        not be more
-        rewarding to share these skills with my
-        clients to grow their businesses alongside mine.
+        operational abilities to bring to your SaaS business. It could not be more rewarding to share these skills with
+        my clients to grow their businesses alongside mine.
       </p>
       <div class="home-about-btn">
         <router-link :to="{ path: '/consulting', hash: '#my-career' }" scroll="{ behavior: 'smooth' }"

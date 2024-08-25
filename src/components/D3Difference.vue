@@ -4,10 +4,11 @@
     <div class="d3-difference-contents">
       <h2 class="heading">The D3 <span>Difference</span></h2>
       <p>The D3 Difference is “DATA, DECISIONS, DOLLARS”. Our team's niche knowledge base positions us to be the best
-        fit for delivering accounting services to SaaS businesses today.</p>
-      <p><strong>By combining our deep accounting capability,
+        fit for delivering accounting services to SaaS businesses today. <strong>By combining our deep accounting
+          capability,
           startup managerial experience, and hard technology skills, D3 enables SaaS business owners make the most
-          informed, data-driven financial decisions they can today. </strong></p>
+          informed, data-driven financial decisions they can today. </strong>
+      </p>
     </div>
     <a href="#contact" class="universal-btn">Work Together</a>
   </section>

@@ -101,9 +101,10 @@
                             </ul>
                         </li>
                         <li>
-                            <strong>Fractional Controllership:</strong> This package best serves SaaS owners who are
-                            starting to handle meaningful decisions about spend which require insight into the
-                            business’s true SaaS and financial metrics.
+                            <strong>Fractional Controllership:</strong>
+                            <p>This package best serves SaaS owners who are
+                                starting to handle meaningful decisions about spend which require insight into the
+                                business’s true SaaS and financial metrics.</p>
                             <ul>
                                 <li><b>Current ARR:</b> $1m - $3m</li>
                                 <li><b>Decision Making:</b> SaaS visibility and info turn-around times are starting to
@@ -118,9 +119,12 @@
                             </ul>
                         </li>
                         <li>
-                            <strong>Bookkeeper:</strong> This package best serves owners who
-                            are pre-revenue and simply need peace of mind that their books are taken care of and enough
-                            visibility to make standard day-to-day business decisions (payroll, Opex, tech, etc).
+                            <strong>Bookkeeper:</strong>
+                            <p>This package best serves owners who
+                                are pre-revenue and simply need peace of mind that their books are taken care of and
+                                enough
+                                visibility to make standard day-to-day business decisions (payroll, Opex, tech, etc).
+                            </p>
                             <ul>
                                 <li><b>Current ARR:</b> Pre-revenue - $1m</li>
                                 <li><b>Decision Making:</b> You only need enough visibility to make standard day-to-day

@@ -7,10 +7,9 @@
       <div class="">
         <h3>SaaS CFO and Accounting Services</h3>
       </div>
-      <p>Our team specializes in providing fractional CFO and accounting services to SaaS businesses. We focus on
-        enhancing your cash flow and profitability by leveraging unique mix of accounting, operations, and technology
-        expertise. By evaluating key financial metrics and translating them into actionable strategies, we help SaaS
-        owners make more informed management decisions. Scroll for more and connect with me today. </p>
+      <p>Our team specializes in providing fractional CFO and accounting services to <strong>SaaS businesses</strong>.
+        Our deep accounting capability, startup managerial experience, and hard technology skills make us a
+        one-of-a-kind fit for enhancing the cash flow and profitability of SaaS businesses.</p>
 
       <div class="btn-box">
         <a href="#contact" class="btn">Let's Talk</a>

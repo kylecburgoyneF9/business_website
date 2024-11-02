@@ -37,7 +37,7 @@
                 models through the due diligence and capital raising processes. I had ‘drafted, re-drafted, and
                 re-re-drafted’ numerous legal agreements to properly paper the deal. My two most notable moments with
                 DRV were (i) getting through the Boulder project, having worked alongside the best tax equity attorneys
-                in the country and (ii) working directly with Go-Fund-Me founder, Andy Ballaster. </p>
+                in the country and (ii) working directly with Go-Fund-Me founder, Andy Ballester. </p>
             <p>Shortly after the pandemic began, I decided to relieve myself of my responsibilities with DRV and take a
                 short break from full-time work. During this time, I made my initial heavily investment into coding
                 (Python). After 6-months, I was picked up by a talented founder where I acted as his executive

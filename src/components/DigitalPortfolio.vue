@@ -11,13 +11,13 @@
           considering today. Like and subscribe if you want more. </strong></p>
     </div>
     <div class="portfolio-contents">
-      <a href="https://www.youtube.com/channel/UCKlKCP8OuQVRArpZrzTd-xA" target="_blank"
-        class="portfolio-contents-consulting has-background-video">
+      <a href="https://youtu.be/ENu_ohG0cCw?si=-kMyr2rmIbZv4dso" target="_blank"
+        class="portfolio-contents-consulting">
         <BackgroundVideo fileName="0226.mp4" />
         <h3>CFO Services</h3>
       </a>
-      <a href="https://www.youtube.com/channel/UCKlKCP8OuQVRArpZrzTd-xA" target="_blank"
-        class="portfolio-contents-consulting has-background-video">
+      <a href="https://youtu.be/-RTQPmxo-sg?si=lHFR4HX0TVwBHTLX" target="_blank"
+        class="portfolio-contents-consulting">
         <BackgroundVideo fileName="0226.mp4" />
         <h3>Automation Services</h3>
       </a>

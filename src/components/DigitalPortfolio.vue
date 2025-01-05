@@ -21,8 +21,7 @@
         <BackgroundVideo fileName="0002.mp4" />
         <h3>P&L Case Study</h3>
       </a>
-      <a href="https://www.youtube.com/channel/UCKlKCP8OuQVRArpZrzTd-xA" target="_blank"
-        class="portfolio-contents-consulting has-background-video">
+      <a href="https://youtu.be/aDi8aoIRdLw" target="_blank" class="portfolio-contents-consulting has-background-video">
         <BackgroundVideo fileName="Short5.mp4" />
         <h3>SaaS Cash Flow</h3>
       </a>

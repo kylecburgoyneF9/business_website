@@ -13,7 +13,7 @@
 
       <div class="btn-box">
         <a href="#contact" class="btn">Let's Talk</a>
-        <a href="https://minnect.com/become-an-expert/#download" target="_blank" class="btn">Minnect</a>
+        <a href="https://app.minnect.com/expert/KyleBurgoyne?utm_source=expert-profile&utm_medium=external&utm_campaign=expert-profile-share" target="_blank" class="btn">Minnect</a>
       </div>
     </div>
 

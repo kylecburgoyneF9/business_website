@@ -2,7 +2,7 @@
   <section class="services" id="services">
     <h2 class="heading">Consulting <span>Services</span></h2>
     <div class="services-intro">
-      Our services are designed to deliver directly to your SaaS business's bottom line. Click the links to explore our
+      Our services are designed to deliver directly to your business's bottom line. Click the links to explore our
       suite of services.
     </div>
     <EqualHeightsWrapper class="services-container">
@@ -13,10 +13,10 @@
 
           <div class="content">
             <div class="title">
-              <h3>SaaS Accounting Services</h3>
+              <h3>Accounting Services</h3>
             </div>
             <div class="copy">
-              <p>We partner directly with SaaS business owners to deliver fractional finance and accounting services to
+              <p>We partner directly with waste, construction, and recycling business owners to deliver fractional accounting services to
                 help them reach their goals.
               </p>
             </div>
@@ -36,7 +36,7 @@
           <SvgIntersect class="svg-icon" />
           <div class="content">
             <div class="title">
-              <h3> FP&A Automation & Integration</h3>
+              <h3> FP&A Automation Solutions</h3>
             </div>
             <div class="copy">
               <p>We support Controllers, CFOs, and other accounting managers in outfitting their FP&A departments with

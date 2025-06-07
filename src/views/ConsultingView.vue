@@ -3,16 +3,15 @@
         <BackgroundVideo fileName="0226.mp4" />
         <div class="interior-hero-content">
             <h1>Consulting Services</h1>
-            <h3>SaaS Accounting & Technology Services</h3>
-            <p>Our team specializes in providing fractional CFO and accounting services to <strong>SaaS
-                    businesses</strong>.
-                Our deep accounting capability, startup managerial experience, and hard technology skills make us a
-                one-of-a-kind fit for enhancing the cash flow and profitability of SaaS businesses.</p>
+            <h3>Accounting & Automation Services</h3>
+            <p>Our team provides accounting and automation services to <strong>waste, construction, and recycling</strong> businesses.  
+            Our deep accounting expertise, startup managerial experience, and hard technology skills make us a  
+            one-of-a-kind service provider for businesses looking to enhance their cash flow, profitability, and operational insight.</p>
             <div class="interior-hero-content-btns">
                 <router-link to="#consulting-fractional-cfo" class="btn" scroll="{ behavior: 'smooth' }">Accounting
                     Services</router-link>
                 <router-link to="#consulting-integration-solutions" class="btn" scroll="{ behavior: 'smooth' }">
-                    FP&A Automation and Integration</router-link>
+                    FP&A Automation Solutions</router-link>
             </div>
         </div>
 
@@ -84,12 +83,12 @@
                         business. </p>
                     <ul class="styled-list-alt">
                         <li>
-                            <strong>Fractional CFO: This package best serves SaaS owners who need to an executive
+                            <strong>Fractional CFO: This package best serves owners who need to an executive
                                 level financial partner who can deliver strategic and forward looking insight to your
                                 team’s decision making process. </strong>
                             <ul>
-                                <li><b>Current ARR:</b> $3m - $10m</li>
-                                <li><b>Decision Making:</b> SaaS metric visibility and timeliness are an absolute
+                                <li><b>Current Revenue:</b> $3m - $10m</li>
+                                <li><b>Decision Making:</b> Operational metric visibility and timeliness are an absolute
                                     necessity. </li>
                                 <li><b>Technology:</b> Highly efficient and well-fit technology are vital to the
                                     business’s current operation.</li>
@@ -100,12 +99,12 @@
                             </ul>
                         </li>
                         <li>
-                            <strong>Fractional Controllership: This package best serves SaaS owners who are
+                            <strong>Fractional Controllership: This package best serves owners who are
                                 starting to handle meaningful decisions about spend which require insight into the
-                                business’s proper SaaS and financial metrics.</strong>
+                                business’s proper operational and financial metrics.</strong>
                             <ul>
-                                <li><b>Current ARR:</b> $1m - $3m</li>
-                                <li><b>Decision Making:</b> SaaS visibility and info turn-around times are starting to
+                                <li><b>Current Revenue:</b> $1m - $3m</li>
+                                <li><b>Decision Making:</b> Operational visibility and info turn-around times are starting to
                                     really matter for making meaningful decisions. Executive level support is starting
                                     to become more meaningful.</li>
                                 <li><b>Technology:</b> The operation is in need of proper technology infrastructure
@@ -123,7 +122,7 @@
                                 visibility to make standard day-to-day business decisions (payroll, Opex, tech,
                                 etc).</strong>
                             <ul>
-                                <li><b>Current ARR:</b> Pre-revenue - $1m</li>
+                                <li><b>Current Revenue:</b> Pre-revenue - $1m</li>
                                 <li><b>Decision Making:</b> You only need enough visibility to make standard day-to-day
                                     decisions for the business.</li>
                                 <li><b>Technology:</b> Your overall technology ecosystem is still being configured as

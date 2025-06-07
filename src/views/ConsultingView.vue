@@ -4,9 +4,11 @@
         <div class="interior-hero-content">
             <h1>Consulting Services</h1>
             <h3>Accounting & Automation Services</h3>
-            <p>Our team provides accounting and automation services to <strong>waste, construction, and recycling</strong> businesses.  
-            Our deep accounting expertise, startup managerial experience, and hard technology skills make us a  
-            one-of-a-kind service provider for businesses looking to enhance their cash flow, profitability, and operational insight.</p>
+            <p>Our team provides accounting and automation services to <strong>waste, construction, and
+                    recycling</strong> businesses.
+                Our deep accounting expertise, startup managerial experience, and hard technology skills make us a
+                one-of-a-kind service provider for businesses looking to enhance their cash flow, profitability, and
+                operational insight.</p>
             <div class="interior-hero-content-btns">
                 <router-link to="#consulting-fractional-cfo" class="btn" scroll="{ behavior: 'smooth' }">Accounting
                     Services</router-link>
@@ -72,7 +74,7 @@
                 </div>
                 <div class="services-split-text-image-content">
                     <h3>Accounting Services Packages</h3>
-                    <p>As a SaaS business owner, you bear immense responsibility. Let D3 handle the tedious accounting
+                    <p>As a business owner, you bear immense responsibility. Let D3 handle the tedious accounting
                         work so you can focus on being the best operator you can be. Imagine having a clear view of your
                         business’s financial health, enabling you to make confident operational decisions without the
                         guesswork. Whether you're aiming to grow your business or simply want the peace of mind that
@@ -104,7 +106,8 @@
                                 business’s proper operational and financial metrics.</strong>
                             <ul>
                                 <li><b>Current Revenue:</b> $1m - $3m</li>
-                                <li><b>Decision Making:</b> Operational visibility and info turn-around times are starting to
+                                <li><b>Decision Making:</b> Operational visibility and info turn-around times are
+                                    starting to
                                     really matter for making meaningful decisions. Executive level support is starting
                                     to become more meaningful.</li>
                                 <li><b>Technology:</b> The operation is in need of proper technology infrastructure

@@ -5,7 +5,7 @@
     <div class="home-content">
       <h1>D3 Finance</h1>
       <div class="">
-        <h3>SaaS Accounting & Technology Services</h3>
+        <h3>Accounting & Technology Services</h3>
       </div>
       <p>Our team specializes in providing fractional CFO and accounting services to <strong>SaaS businesses</strong>.
         Our deep accounting capability, startup managerial experience, and hard technology skills make us a

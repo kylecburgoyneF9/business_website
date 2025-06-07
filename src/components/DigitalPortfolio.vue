@@ -7,7 +7,7 @@
         how our services can add value to their businesses. This outreach is not merely a marketing endeavor for us;
         it's our way of giving back to the broader business community. I owe much of my professional and personal growth
         to the countless creators whose work has inspired me, and I'm excited to be a contributor to this community.</p>
-      <p><strong>Our content is teeming with emerging opportunities that any SaaS owner or FP&A professional should be
+      <p><strong>Our content is teeming with emerging opportunities that any owner or FP&A professional should be
           considering today. Like and subscribe if you want more. </strong></p>
     </div>
     <div class="portfolio-contents">
@@ -16,8 +16,7 @@
         <BackgroundVideo fileName="0001.mp4" />
         <h3>CFO Services Introduction</h3>
       </a>
-      <a href="https://youtu.be/V_olO-8uj9Y" target="_blank"
-        class="portfolio-contents-consulting has-background-video">
+      <a href="https://youtu.be/V_olO-8uj9Y" target="_blank" class="portfolio-contents-consulting has-background-video">
         <BackgroundVideo fileName="0002.mp4" />
         <h3>Accounting Services Series</h3>
       </a>

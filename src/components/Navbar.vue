@@ -10,6 +10,7 @@
         @click="toggleMenu">Portfolio</router-link>
       <router-link :to="{ path: '/', hash: '#reviews' }" scroll="{ behavior: 'smooth' }"
         @click="toggleMenu">Reviews</router-link>
+      <router-link to="/blog" @click="toggleMenu">Blog</router-link>
       <router-link to="#contact" @click="toggleMenu">Contact</router-link>
       <a href="https://calendly.com/kylecburgoyne/15min" class="calendly-link" target="_blank">Calendly</a>
     </nav>
@@ -50,8 +51,6 @@ watch(windowWidth, (newWindowWidth) => {
 const trackWidth = () => {
   windowWidth.value = window.innerWidth;
 }
-
-
 
 onMounted(() => {
   window.addEventListener('scroll', handleScroll);

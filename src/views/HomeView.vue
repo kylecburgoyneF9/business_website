@@ -30,7 +30,7 @@
 
     <div class="about-content">
       <h3>Kyle Burgoyne</h3>
-      <p>I Started D3 Finance to deliver powerful financial leadership to business owners, who need it, and to
+      <p>I started D3 Finance to deliver powerful financial leadership to business owners, who need it, and to
         capture the emerging automation and AI opportunities found within most businesses today. </p>
       <p>My technical capability and diversity of experience, sets me apart from other CFOs. I've seen the inside of a
         diverse array of companies, spanning from burgeoning startups to industry giants. I’ve had the chance to see
